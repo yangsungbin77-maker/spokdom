@@ -16,7 +16,7 @@ with recurring (monthly) affiliate commissions.
 ## Keywords (by winnability)
 
 ### Alternatives cluster
-- [ ] best notion alternatives for small teams
+- [x] best notion alternatives for small teams
 - [ ] free zapier alternatives for automation
 - [ ] calendly alternatives without branding
 - [ ] mailchimp alternatives for small business
