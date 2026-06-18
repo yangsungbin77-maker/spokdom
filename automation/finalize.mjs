@@ -64,10 +64,14 @@ if (!state.usedImages.includes(assignment.imageFile)) state.usedImages.push(assi
 state.lastSlug = slug;
 writeFileSync(statePath, JSON.stringify(state, null, 2) + '\n');
 
-// 4) 커밋·푸시 → Cloudflare 자동 배포.
+// 4) 커밋·푸시(소스 백업용 — 배포는 git이 아니라 wrangler 직접 업로드로 한다).
 console.log('▶ 커밋·푸시...');
 run('git add -A');
 run(`git commit -m "자동 발행: ${assignment.topic}"`);
 run('git push');
+
+// 5) Cloudflare Pages 직접 업로드 배포(Git 연동을 쓰지 않으므로 여기서 명시적으로 배포).
+console.log('▶ Cloudflare Pages 배포...');
+run('npx wrangler pages deploy dist --project-name=spokdom --branch=main --commit-dirty=true');
 
 console.log(`\n✅ 발행 완료: /${slug}/`);

@@ -1,7 +1,5 @@
 {
   "name": "spokdom",
   "compatibility_date": "2025-06-01",
-  "assets": {
-    "directory": "./dist"
-  }
+  "pages_build_output_dir": "./dist"
 }
