@@ -17,7 +17,7 @@ with recurring (monthly) affiliate commissions.
 
 ### Alternatives cluster
 - [x] best notion alternatives for small teams
-- [ ] free zapier alternatives for automation
+- [x] free zapier alternatives for automation
 - [ ] calendly alternatives without branding
 - [ ] mailchimp alternatives for small business
 - [ ] loom alternatives free
