@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<Layout
+	title="Privacy Policy"
+	description={`The privacy policy for ${SITE_TITLE}, covering cookies, Google AdSense and other third-party advertising, affiliate links, and external links.`}
+	pubDate={new Date('June 18 2026')}
+>
+	<p>{SITE_TITLE} ("we", "us", or "this site") respects your privacy. This page explains what
+		information is collected when you visit and how it is used.</p>
+
+	<h2>1. Information we collect</h2>
+	<p>You can read everything on this site without creating an account, and we do not actively collect
+		personally identifying information such as your name or contact details. However, cookies and
+		standard access logs (browser type, pages visited, etc.) may be collected automatically for
+		analytics and advertising purposes.</p>
+
+	<h2>2. Cookies</h2>
+	<p>This site uses cookies to improve your experience and to serve advertising. You can refuse or
+		delete cookies in your browser settings, though some features may not work correctly if you do.</p>
+
+	<h2>3. Google AdSense and third-party advertising</h2>
+	<p>This site may display advertising from Google AdSense and other third-party vendors. These
+		vendors, including Google, use cookies (such as the DoubleClick cookie) to serve ads based on
+		your prior visits to this and other websites.</p>
+	<ul>
+		<li>Google's use of advertising cookies enables it and its partners to serve ads based on your
+			visits to this site and other sites on the internet.</li>
+		<li>You can opt out of personalized advertising via <a href="https://adssettings.google.com/" target="_blank" rel="noopener">Google Ads Settings</a>.</li>
+		<li>For how third-party vendors use cookies, see <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google's advertising policies</a>.</li>
+	</ul>
+
+	<h2>4. Affiliate links</h2>
+	<p>Some links on this site are affiliate links. If you click one and sign up for or purchase a
+		product, we may earn a commission at no additional cost to you. This does not influence our
+		reviews or recommendations.</p>
+
+	<h2>5. External links</h2>
+	<p>This site contains links to external websites for reference. We are not responsible for the
+		privacy practices of those sites — please review their own policies.</p>
+
+	<h2>6. Data protection</h2>
+	<p>We take reasonable steps to keep automatically collected information from being improperly
+		disclosed, and use it only for analytics and advertising purposes.</p>
+
+	<h2>7. Changes to this policy</h2>
+	<p>This privacy policy may be updated to reflect changes in law or in the service. Any changes will
+		be posted on this page.</p>
+
+	<p>If you have any questions, please get in touch through the site.</p>
+</Layout>

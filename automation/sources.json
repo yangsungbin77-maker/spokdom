@@ -1,0 +1,16 @@
+[
+  { "label": "Notion official pricing", "url": "https://www.notion.so/pricing", "tags": ["notion", "pricing", "plans", "alternatives", "vs", "productivity", "notes"] },
+  { "label": "Zapier official pricing", "url": "https://zapier.com/pricing", "tags": ["zapier", "automation", "pricing", "tasks", "vs", "make", "nocode"] },
+  { "label": "Make (Integromat) official", "url": "https://www.make.com/en/pricing", "tags": ["make", "integromat", "automation", "zapier", "vs", "nocode", "pricing"] },
+  { "label": "Airtable official pricing", "url": "https://airtable.com/pricing", "tags": ["airtable", "database", "alternatives", "pricing", "nocode", "plans"] },
+  { "label": "ClickUp official pricing", "url": "https://clickup.com/pricing", "tags": ["clickup", "project", "management", "asana", "vs", "pricing", "teams"] },
+  { "label": "Asana official pricing", "url": "https://asana.com/pricing", "tags": ["asana", "project", "management", "clickup", "vs", "pricing", "teams"] },
+  { "label": "OpenAI ChatGPT pricing", "url": "https://openai.com/chatgpt/pricing/", "tags": ["chatgpt", "openai", "ai", "writing", "pricing", "plus", "worth"] },
+  { "label": "Canva official pricing", "url": "https://www.canva.com/pricing/", "tags": ["canva", "design", "pro", "pricing", "alternatives", "image"] },
+  { "label": "Substack official", "url": "https://substack.com/", "tags": ["substack", "newsletter", "beehiiv", "vs", "email", "blogging"] },
+  { "label": "beehiiv official pricing", "url": "https://www.beehiiv.com/pricing", "tags": ["beehiiv", "newsletter", "substack", "vs", "email", "pricing"] },
+  { "label": "Webflow official pricing", "url": "https://webflow.com/pricing", "tags": ["webflow", "framer", "vs", "landing", "nocode", "pricing", "website"] },
+  { "label": "Descript official", "url": "https://www.descript.com/", "tags": ["descript", "video", "editing", "transcription", "capcut", "vs", "ai"] },
+  { "label": "G2 software reviews", "url": "https://www.g2.com/", "tags": ["reviews", "comparison", "alternatives", "saas", "best", "vs", "tools"] },
+  { "label": "Capterra software directory", "url": "https://www.capterra.com/", "tags": ["reviews", "comparison", "alternatives", "saas", "best", "tools", "directory"] }
+]
