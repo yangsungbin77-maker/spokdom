@@ -19,7 +19,7 @@ with recurring (monthly) affiliate commissions.
 - [x] best notion alternatives for small teams
 - [x] free zapier alternatives for automation
 - [x] calendly alternatives without branding
-- [ ] mailchimp alternatives for small business
+- [x] mailchimp alternatives for small business
 - [ ] loom alternatives free
 - [ ] airtable alternatives for solo founders
 - [ ] typeform alternatives cheaper
