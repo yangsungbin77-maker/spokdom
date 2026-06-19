@@ -7,7 +7,7 @@ export const SITE_DESCRIPTION =
 
 // Paste only the `content` value from Google Search Console's "HTML tag" verification.
 // Leave empty to omit the meta tag.
-export const GSC_VERIFICATION = '';
+export const GSC_VERIFICATION = 'uBWcEDugcVJKywuVG9uorBBvD7x-cvsfsl6mUZawy3w';
 
 // Google AdSense publisher id (e.g. 'ca-pub-XXXXXXXXXXXXXXXX').
 // Leave empty until THIS domain is approved — never reuse another site's id.
