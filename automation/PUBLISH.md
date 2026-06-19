@@ -162,7 +162,7 @@ If prepare stops with "no topics", don't publish — just exit (no empty posts).
 ## Extra rules — keyword frequency · CTA buttons · TOC (added 2026-06)
 
 - **Keyword frequency**: place the main keyword once each in the title, first paragraph, and conclusion, plus 5-7 times naturally in the body. Never repeat any single word/phrase more than ~20 times (anti-stuffing) — spread with synonyms and related terms.
-- **CTA buttons (recommended)**: on affiliate/recommendation posts, add 1-2 prominent buttons mid-body and/or at the end. Write them as raw HTML in Markdown using the `.btn` class (the layout styles it).
+- **CTA buttons**: ⚠️ **only after the affiliate program is approved/active**. Until then, do NOT add affiliate CTA buttons or links (no dead/placeholder links). Once active, add 1-2 `.btn` buttons on recommendation posts.
   - Format: `<a class="btn" href="AFFILIATE/EXTERNAL URL" target="_blank" rel="nofollow sponsored noopener">→ Check the price</a>`
   - Affiliate links must use `rel="nofollow sponsored"`.
 - **Table of contents (automatic)**: if a post has 3+ `##` H2 headings, the layout auto-generates a TOC — no need to write one. Make H2 titles clear enough that the TOC alone shows the flow.
