@@ -21,7 +21,7 @@
 	--radius: 14px;
 	--radius-sm: 10px;
 	--maxw: 1120px;
-	--font-heading: var(--font-atkinson), "Pretendard", system-ui, sans-serif;
+	--font-heading: "Space Grotesk", var(--font-atkinson), "Pretendard", system-ui, sans-serif;
 	--font-body: var(--font-atkinson), "Pretendard", system-ui, sans-serif;
 }
 
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	line-height: 1.15;
 	font-family: var(--font-heading);
-	font-weight: 800;
+	font-weight: 700;
 	letter-spacing: -0.02em;
 }
 h1 { font-size: 2.6rem; }
