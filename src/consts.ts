@@ -9,6 +9,10 @@ export const SITE_DESCRIPTION =
 // Leave empty to omit the meta tag.
 export const GSC_VERIFICATION = 'uBWcEDugcVJKywuVG9uorBBvD7x-cvsfsl6mUZawy3w';
 
+// Paste only the `content` value from Naver Search Advisor's "HTML tag" verification.
+// Leave empty to omit the meta tag.
+export const NAVER_VERIFICATION = '55febe818c1178cf6959718aae0968ef070d09bf';
+
 // Google AdSense publisher id (e.g. 'ca-pub-XXXXXXXXXXXXXXXX').
 // Leave empty until THIS domain is approved — never reuse another site's id.
 export const ADSENSE_CLIENT = '';
