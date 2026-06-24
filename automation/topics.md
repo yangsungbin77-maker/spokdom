@@ -39,6 +39,7 @@ with recurring (monthly) affiliate commissions.
 - [ ] is chatgpt plus worth it for work
 
 ### Best-tool-for / solo cluster
+- [x] best ai tools for graduate students
 - [ ] best ai writing tools for bloggers
 - [ ] best ai tools for solo founders
 - [ ] best no code tools to build a saas

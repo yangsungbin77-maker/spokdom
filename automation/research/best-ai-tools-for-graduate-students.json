@@ -1,0 +1,31 @@
+{
+  "type": "review",
+  "keyword": "best ai tools for graduate students",
+  "serp": [
+    { "url": "https://spsp.org/news/newsletter-articles/grad-student-academic-ai-guide-part-1", "opened": true, "note": "10 tools, organized by Benefits/Features/Limitations/Costs; strong on faculty-approval + hallucination cautions. Gap: not stage-based, no quick stack." },
+    { "url": "https://www.thesify.ai/blog/best-ai-tools-academic-research", "opened": true, "note": "~3500w, stage-based (discovery/mapping/analysis/writing), pricing table, ethics H2, 6-Q FAQ. Strong baseline to beat." },
+    { "url": "https://storyflow.so/blog/best-ai-tools-for-students-2026", "opened": true, "note": "~5400w, 12 tools, persona recs, integrity FAQ. Generic 'students', not grad-specific." },
+    { "url": "https://www.applykite.com/blog/tools-guide-postgraduate-research", "opened": true, "note": "5 categories, postgrad-focused, but NO pricing and shallow — our differentiation: pricing realism + depth." },
+    { "url": "https://blog.aibusted.com/best-ai-tools-for-students-2026/", "opened": true, "note": "10 tools, comparison table w/ pricing+limits, FAQ on scanners/cheating. Gap: not grad-tailored, no free-only stack." },
+    { "url": "https://edtechmagazine.com/higher/article/2026/02/best-ai-tools-college-students-guide-higher-ed-perfcon", "opened": true, "note": "Authoritative integrity guidance (UT Austin honor code), Gemini/Copilot/NotebookLM. Institutional angle." },
+    { "url": "https://www.timtis.com/blog/10-best-ai-study-tools-for-students-in-2026-ranked-tested-and-reviewed-notes-research-citations-writing-exam-prep/", "opened": false, "note": "study-tool ranking, not opened (sufficient sample reached)" },
+    { "url": "https://answerthis.io/blog/best-ai-research-assistant-tools", "opened": false, "note": "vendor blog (AnswerThis), self-promotional, not opened" },
+    { "url": "https://www.vertechacademy.com/blog/best-free-ai-tools-for-students-2026", "opened": false, "note": "free-tools angle, covered by our free-stack section" },
+    { "url": "https://www.shakiledu.com/articles/blog/general/top-10-best-free-ai-tools-for-students", "opened": false, "note": "free-tools listicle, redundant with opened sources" }
+  ],
+  "factcheck": [
+    { "claim": "Perplexity Pro is ~$20/mo; verified-student Education plan is ~$10/mo", "sources": ["https://felloai.com/perplexity-pricing/", "https://go.lightnode.com/tech/perplexity-pro-for-students-free"] },
+    { "claim": "Elicit has a free tier (100M+ papers) with Pro around $49/mo for high volume", "sources": ["https://aiproductivity.ai/pricing/elicit/", "https://www.thesify.ai/blog/best-ai-tools-academic-research"] },
+    { "claim": "NotebookLM is free and answers only from user-uploaded sources with page citations; Otter.ai free tier caps monthly minutes", "sources": ["https://edtechmagazine.com/higher/article/2026/02/best-ai-tools-college-students-guide-higher-ed-perfcon", "https://storyflow.so/blog/best-ai-tools-for-students-2026"] },
+    { "claim": "Claude and ChatGPT Pro/Plus are ~$20/mo each", "sources": ["https://blog.aibusted.com/best-ai-tools-for-students-2026/"] },
+    { "claim": "Consensus has free searches with a paid plan in the low-teens/mo (sources differ $10-$15, so hedged)", "sources": ["https://www.thesify.ai/blog/best-ai-tools-academic-research", "https://info.library.okstate.edu/AI/tools"] }
+  ],
+  "variables": {
+    "keyword": "best ai tools for graduate students",
+    "headline_finding": "Competitors target generic 'students'; few are tailored to grad-specific jobs (thesis, quals, multi-year lit review) — our differentiation angle.",
+    "differentiator_1": "Stage-based grad workflow (read/notes/write/analyze) + free-only stack on a stipend budget",
+    "differentiator_2": "Pricing realism + student discounts (Perplexity Education ~$10) where competitors omit pricing",
+    "internal_cluster_link": "/best-ai-tools-for-review-paper-writing/"
+  },
+  "hermes_score": 91
+}
