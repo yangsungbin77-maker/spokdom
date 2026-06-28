@@ -1,0 +1,31 @@
+{
+  "type": "comparison",
+  "serp": [
+    { "url": "https://www.zerve.ai/blog/ai-data-analysis-tools", "opened": true, "note": "12 tools by category(BI/ML/spreadsheet). Power BI $14/user Copilot $30, Tableau $75-115, Zerve Pro $25, Polymer $25-125, Coefficient from $49. Vendor(Zerve) blog." },
+    { "url": "https://www.findanomaly.ai/ai-data-analysis-tools-2026", "opened": true, "note": "'Honest review' 10 tools 5 categories. ChatGPT $20(100MB limit), Julius, Copilot $30, Gemini, ThoughtSpot Sage, Tableau $75, Databricks, Snowflake Cortex, Amazon Q $25. Transparency=핵심기준. 자사 Anomaly AI 미는 톤." },
+    { "url": "https://camelai.com/blog/10-best-free-ai-data-analytics-tools-for-businesse", "opened": true, "note": "Free tools: camelAI(10q/wk), Power BI Desktop, Looker Studio, Apache Superset, KNIME, Metabase, Grafana, Streamlit, Orange, H2O.ai. 오픈소스 무료 강조. FAQ 있음." },
+    { "url": "https://databox.com/best-ai-tools-for-data-analysis", "opened": true, "note": "criteria 중심 H2(NL query/insight/predictive/anomaly/integrations/time-to-value). 8 tools: Databox $64, Power BI $14-44, Tableau $75, ChatGPT $20, Domo, ThoughtSpot $95, Polymer free-$20, Julius free-$25. PAA 5개 명시." },
+    { "url": "https://www.tellius.com/resources/blog/best-ai-analytics-platforms-in-2026-12-tools-compared", "opened": true, "note": "12 platforms 8 dimensions(governance/agentic/TCO). ThoughtSpot $25-50, Tableau Next $115, Power BI $10-20, Julius free-$45, ChatGPT $20-200, Claude $20-100. 자사 Tellius 미는 톤. FAQ 있음." },
+    { "url": "https://querio.ai/articles/best-ai-data-analysis-tools-every-use-case", "opened": true, "note": "'Tested 53 tools' 10 by skill level. Querio $680(자사 1위), Power BI $14, Tableau, ThoughtSpot, Domo, Zerve $18.75, Databricks, DataRobot, Excel Copilot, Sheets+Gemini $19.99. FAQ 있음." },
+    { "url": "https://www.findanomaly.ai/best-ai-tools-data-analysis-visualization-2026", "opened": true, "note": "10 by use case. ChatGPT free-$200, Claude 1M context, Gemini, Power BI Pro $10/Premium $20, Tableau, Looker, Anomaly AI free/$16/$25/$45seat, ThoughtSpot, Databricks, Domo. FAQ 없음." },
+    { "url": "https://querio.ai/articles/best-ai-tools-data-analysis-overview", "opened": true, "note": "12 tools 6 criteria(connectivity/UX/AI/embedding/security/scale). Querio $680, Power BI $14, Domo $24, IBM Cognos $11.25, QuickSight $24, Zoho $30, ChatGPT free." },
+    { "url": "https://www.domo.com/learn/article/ai-data-analysis-tools", "opened": false, "note": "Top 12 — WebFetch 빈 응답(JS 렌더). 검색 스니펫으로 Power BI/Tableau/DataRobot/Julius 확인." },
+    { "url": "https://querio.ai/articles/best-ai-data-analysis-tools-overview", "opened": false, "note": "중복 변형 — 위 querio 2개로 대체 분석." }
+  ],
+  "factcheck": [
+    { "claim": "ChatGPT Plus ~$20/mo, Advanced Data Analysis, 업로드 파일 약 100MB 제한", "sources": ["https://www.findanomaly.ai/ai-data-analysis-tools-2026", "https://databox.com/best-ai-tools-for-data-analysis"] },
+    { "claim": "Microsoft Power BI Pro 약 $14/user/mo, Copilot은 추가 비용(M365 Copilot ~$30/user 또는 Fabric capacity)", "sources": ["https://www.zerve.ai/blog/ai-data-analysis-tools", "https://querio.ai/articles/best-ai-data-analysis-tools-every-use-case"] },
+    { "claim": "Tableau Creator 시트 약 $75/user/mo(뷰어 시트는 더 저렴해 'from $15' 혼동 발생)", "sources": ["https://www.zerve.ai/blog/ai-data-analysis-tools", "https://databox.com/best-ai-tools-for-data-analysis"] },
+    { "claim": "Julius AI 무료 티어 + Pro 약 $25/mo, 코드 노출형 chat-with-data", "sources": ["https://querio.ai/articles/best-ai-data-analysis-tools-every-use-case", "https://databox.com/best-ai-tools-for-data-analysis"] },
+    { "claim": "Anomaly AI 무료 티어, Starter ~$16, Pro $25, Team $45/seat", "sources": ["https://www.findanomaly.ai/best-ai-tools-data-analysis-visualization-2026", "https://www.findanomaly.ai/ai-data-analysis-tools-2026"] },
+    { "claim": "무료/오픈소스 BI: Metabase, Apache Superset, Looker Studio 실사용 무료 대시보드 가능", "sources": ["https://camelai.com/blog/10-best-free-ai-data-analytics-tools-for-businesse", "https://www.findanomaly.ai/best-ai-tools-data-analysis-visualization-2026"] }
+  ],
+  "variables": {
+    "keyword": "best ai tools for data analysis",
+    "headline_finding": "경쟁글 대부분이 자사 툴(querio $680/Zerve/Tellius/Anomaly)을 1위로 미는 벤더 블로그 — 우리는 벤더 중립 + $20 LLM부터",
+    "budget_tiers": "무료 LLM/오픈소스 → $20 LLM(ChatGPT/Claude) → chat-with-data $16-45(Julius/Anomaly) → BI 시트 $14-75(Power BI/Tableau) → 엔터프라이즈 quote",
+    "per_seat_trap": "BI 'from $15' 헤드라인은 뷰어 시트, 빌더(Creator)는 $75+ — 실제 쓸 시트로 가격 계산",
+    "what_to_skip": "엔터프라이즈 quote 플랫폼·블랙박스(SQL 미노출)·1일차 연간결제 스킵"
+  },
+  "hermes_score": 92
+}

@@ -135,6 +135,7 @@ This is the step LLMs skip most often after "run tests". They guess from error k
 
 ## 프로젝트 정보 (Spokdom)
 
+- **⭐ 운영 플레이북(먼저 읽기)**: 글 작업을 시작하기 전에 `automation/AGENT.md`(자기갱신 운영 매뉴얼 — 현장 함정 변경이력)를 반드시 먼저 읽는다. **글을 발행한 뒤** 새로 배운 함정·개선점이 있으면 그 파일 §3 변경이력에 날짜별로 추가하고 맨 위 `updated_at`을 갱신한다(없으면 건드리지 않음). 절차 정본은 `automation/PUBLISH.md`.
 - **무엇**: 영어권 AI 툴·SaaS 리뷰/비교 블로그(`spokdom.com`). gameworld7 정적 사이트 틀을 복제해 수익형(어필리에이트) 영어 사이트로 구축.
 - **니치 선정 근거**: 비(非)YMYL이라 신규 도메인 진입이 쉽고, SaaS 어필리에이트는 recurring(월 반복) 수수료라 방문자당 누적 수익이 높음. 금융·건강(YMYL)은 신규 도메인 + AI 자동발행에 부적합이라 제외. (deep-research 결론)
 - **도메인**: `spokdom.com` — 1년 이상 묵힌 도메인이라 신규 샌드박스 우회, 과거 색인·아카이브 흔적 0(브랜드형 무의미 이름이라 주제 잠금 없음).
