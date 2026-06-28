@@ -1,0 +1,18 @@
+# Spokdom
+
+> Spokdom reviews and compares AI tools and SaaS — covering best AI tools for research, data analysis, founders, and alternatives to popular software (Notion, Zapier, Calendly, Mailchimp).
+
+## Key pages
+- [Home](https://spokdom.com/)
+- [Blog](https://spokdom.com/blog/)
+- [About](https://spokdom.com/about/)
+
+## Articles
+- [Best AI Tools for Review Paper Writing in 2026](https://spokdom.com/best-ai-tools-for-review-paper-writing/): The best AI tools for review paper writing, compared for literature search, citation checking, and drafting — plus a safe workflow to use them.
+- [Calendly Alternatives Without Branding (2026, Free Picks)](https://spokdom.com/calendly-alternatives-without-branding/): The best Calendly alternatives without branding in 2026 — which scheduling tools let you drop the 'Powered by' badge for free, and which still paywall it.
+- [Best Mailchimp Alternatives for Small Business (2026)](https://spokdom.com/mailchimp-alternatives-small-business/): The best Mailchimp alternatives for small business in 2026, compared by free plan, real pricing model, and who each fits — plus the billing trap that quietly inflates your Mailchimp bill.
+- [Best Notion Alternatives for Small Teams (2026, Tested)](https://spokdom.com/best-notion-alternatives-small-teams/): The best Notion alternatives for small teams in 2026, compared by real per-seat cost, free-tier limits, and onboarding time — with a simple framework to pick yours.
+- [Best AI Tools for Solo Founders 2026 — Compared on Price & Features](https://spokdom.com/best-ai-tools-for-solo-founders/): The best AI tools for solo founders in 2026, compared on real pricing and features — what each replaces, exact monthly cost, and top picks per job.
+- [Free Zapier Alternatives for Automation (2026, Tested)](https://spokdom.com/free-zapier-alternatives-for-automation/): The best free Zapier alternatives for automation in 2026, compared by real free-tier limits and the catch behind each — plus when a free tool is worth upgrading.
+- [Best AI Tools for Data Analysis 2026 — Ranked by Budget & Use Case](https://spokdom.com/best-ai-tools-for-data-analysis/): The best AI tools for data analysis in 2026, compared on real pricing and what each replaces — from $20 LLMs to enterprise BI. Honest picks for solo founders and small teams.
+- [Best AI Tools for Graduate Students in 2026](https://spokdom.com/best-ai-tools-for-graduate-students/): The best AI tools for graduate students in 2026, picked by workflow stage — literature review, notes, writing, and analysis — with free options and a safe study workflow.
