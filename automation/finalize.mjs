@@ -74,4 +74,19 @@ run('git push');
 console.log('▶ Cloudflare Pages 배포...');
 run('npx wrangler pages deploy dist --project-name=spokdom --branch=main --commit-dirty=true');
 
+// 6) 대시보드(블로그자동발행-full)의 발행 큐 자동 동기화. 실패해도 발행엔 영향 없음.
+try {
+  const dashDir = process.env.BLOG_DASHBOARD_DIR
+    || 'C:\\Users\\use\\클로드 코드\\블로그자동발행-full';
+  const syncScript = join(dashDir, 'sync_done.py');
+  if (existsSync(syncScript)) {
+    console.log('▶ 대시보드 발행 큐 동기화...');
+    const kwArg = process.env.QUEUE_KW ? ` --kw "${process.env.QUEUE_KW}"` : '';
+    execSync(`py "${syncScript}" --site "spokdom" --title "${assignment.topic}"${kwArg}`,
+      { stdio: 'inherit' });
+  }
+} catch (e) {
+  console.warn('⚠️ 대시보드 큐 동기화 실패(발행은 정상 완료됨):', e.message);
+}
+
 console.log(`\n✅ 발행 완료: /${slug}/`);
