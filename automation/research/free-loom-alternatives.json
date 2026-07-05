@@ -1,0 +1,109 @@
+{
+ "type": "comparison",
+ "keyword": "loom alternatives free",
+ "serp": [
+  {
+   "url": "https://www.loom.com/pricing",
+   "opened": true,
+   "note": "공식 확정치(2026-07): Free 25 videos/5min/720p, Business $18/mo, +AI $24, annual -17%"
+  },
+  {
+   "url": "https://www.screensnap.pro/blog/best-free-loom-alternatives",
+   "opened": true,
+   "note": "3버킷(진짜무료/캡무료/일회구매) 프레임 참고, ScreenPal 15분·워터마크, Tella 워터마크"
+  },
+  {
+   "url": "https://yorecord.com/blog/free-loom-alternatives",
+   "opened": true,
+   "note": "2026-02 무료 팀시트 폐지 보도, Business $15(연간)/$18(월간), Screenity·ShareX 커버"
+  },
+  {
+   "url": "https://supademo.com/blog/loom-alternatives",
+   "opened": true,
+   "note": "Atlassian 인수 후 문제(로그인·가격·정전), Vidyard free 5/mo, Cap $8.16/mo, Screen Studio $9/mo"
+  },
+  {
+   "url": "https://www.tella.com/blog/loom-alternatives",
+   "opened": true,
+   "note": "Tella 7-day trial(자사 홍보 편향), ScreenApp free 3/45min, Cap early $58 one-time"
+  },
+  {
+   "url": "https://www.screencapture.com/blog/loom-alternatives/",
+   "opened": true,
+   "note": "Movavi·Clueso 등 12종 — 유료 위주, free 의도 커버 약함"
+  },
+  {
+   "url": "https://www.smoothcapture.app/blog/loom-alternatives",
+   "opened": true,
+   "note": "OBS/QuickTime/Cap 무료 3종 + 유료 5종, Loom free 25/5min 재확인"
+  },
+  {
+   "url": "https://adilo.com/blog/best-loom-alternatives-the-best-screen-recorder/",
+   "opened": true,
+   "note": "자사 1위 편향, ScreenPal $3/mo, free tier 한계 총평"
+  },
+  {
+   "url": "https://dubb.com/blog/loom-alternative",
+   "opened": false,
+   "note": "미열람(시도 안함 — 상위 8개로 충분 판단)"
+  },
+  {
+   "url": "https://tldv.io/blog/loom-alternatives/",
+   "opened": false,
+   "note": "미열람(AI meeting 중심으로 의도 이탈)"
+  }
+ ],
+ "factcheck": [
+  {
+   "claim": "Loom Free = 25 videos, 5 min/video, 720p / Business $18/user/mo / +AI $24 / annual ~17% off (as of July 2026)",
+   "sources": [
+    "https://www.loom.com/pricing (직접 열람)",
+    "https://www.smoothcapture.app/... (25/5min 교차)"
+   ]
+  },
+  {
+   "claim": "2026년 초 무료 팀 시트 폐지·자동 유료 전환 — 'vendors reported'로 귀속 표기",
+   "sources": [
+    "https://yorecord.com/... (Feb 2026 서술)",
+    "https://supademo.com/... (Creator Lite 폐지 서술)"
+   ]
+  },
+  {
+   "claim": "ScreenPal free 15분 캡 + 워터마크, 유료 ~$3/mo부터",
+   "sources": [
+    "https://www.screensnap.pro/...",
+    "https://yorecord.com/... (15min 교차)",
+    "https://adilo.com/... ($3/mo)"
+   ]
+  },
+  {
+   "claim": "Cap = 오픈소스·셀프호스트 옵션·Pro ~$8/mo(연간)",
+   "sources": [
+    "https://supademo.com/... ($8.16/mo yearly)",
+    "https://www.tella.com/... (Pro $8.16/mo 교차)"
+   ]
+  },
+  {
+   "claim": "Vidyard free ~5 videos/mo",
+   "sources": [
+    "https://supademo.com/... (표)",
+    "본문에 'reported at around'로 유보 표기"
+   ]
+  },
+  {
+   "claim": "Tella = 7일 트라이얼, $13~15/mo (진짜 무료 아님)",
+   "sources": [
+    "https://www.tella.com/... (7-day trial 자사 명시)",
+    "https://supademo.com/($13)·adilo($15) 범위 교차"
+   ]
+  }
+ ],
+ "variables": {
+  "keyword": "loom alternatives free",
+  "headline_finding": "경쟁 SERP 전원이 벤더 자사 홍보 글 — '3 kinds of free'(진짜무료/캡무료/트라이얼 위장) 프레임 + 공식 pricing 직접 검증이 정보게인",
+  "pricing_snapshot": "Loom 공식 2026-07 직접 열람 수치 사용, 타 툴은 as-of 표기+official page 확인 권고",
+  "honesty_disclosure": "도입에 'I didn't lab-test every tier' 명시 — Dom 가드레일 준수",
+  "series_consistency": "free-zapier-alternatives 시리즈와 동일 구조(Quick take→왜 이탈→기준→버킷→상황별 표→FAQ)"
+ },
+ "hermes_score": 96
+}

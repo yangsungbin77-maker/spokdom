@@ -20,7 +20,7 @@ with recurring (monthly) affiliate commissions.
 - [x] free zapier alternatives for automation
 - [x] calendly alternatives without branding
 - [x] mailchimp alternatives for small business
-- [ ] loom alternatives free
+- [x] loom alternatives free
 - [ ] airtable alternatives for solo founders
 - [ ] typeform alternatives cheaper
 
