@@ -1,0 +1,31 @@
+{
+  "type": "review",
+  "keyword": "best grammarly alternatives",
+  "serp": [
+    { "url": "https://languagetool.org/", "opened": true, "note": "공식. 오픈소스(GitHub), 30+ 언어(영어 6종), 브라우저 애드온이 텍스트 미저장(프라이버시). 무료=철자·구두점·일부 스타일. Premium 할인 배너(가격 미표기)" },
+    { "url": "https://quillbot.com/grammar-check", "opened": true, "note": "공식. Grammar Checker 100% 무료·무제한·가입불필요, 6+ 언어. Premium/Paraphraser 별도(가격 미표기 페이지)" },
+    { "url": "https://prowritingaid.com/pricing", "opened": true, "note": "공식. 무료=500단어/체크·일 리포트 제한. Premium $30/mo·$120/yr($10/mo). Premium Pro $36/$144. 라이프타임 Premium $399·Pro $699. 25+ 라이팅 리포트" },
+    { "url": "https://hemingwayapp.com/", "opened": true, "note": "공식. 웹앱 무료(가독성 등급·긴문장·수동태 표시). Editor Plus(문법·톤 AI, 2주 무료체험), Classic 데스크톱 별도. 월가격 페이지 미표기" },
+    { "url": "https://www.eesel.ai/blog/grammarly-alternatives", "opened": true, "note": "라운드업 7선(PWA·Hemingway·QuillBot·LanguageTool·Wordtune·DeepL Write·Writer). LT Premium $4.99/mo(2yr), PWA $10/mo, QuillBot $8.33/mo·student $6.25, Hemingway Plus $8.33~12.50/mo. MS Editor는 365 종속이라 제외. 구조=why/how picked/at a glance/개별(pros·cons·pricing·verdict)/which" },
+    { "url": "https://kindlepreneur.com/grammarly-alternatives/", "opened": true, "note": "작가향. PWA 최우선(장문 특화). PWA $10/mo·$120/yr, Pro $12/mo·$144, 라이프타임 $399/$699. Ginger·Hemingway·LanguageTool·Wordtune·QuillBot 등 분류(문법/스타일, AI, 니치)" },
+    { "url": "https://www.demandsage.com/grammarly-alternatives/", "opened": true, "note": "13선 best-for 표. PWA 종합, QuillBot 패러프레이즈, Ginger 문법, Hemingway 가독성, LanguageTool 다국어, Wordtune 리라이트. 가격: QuillBot $8.33/yr, Hemingway $8.33/yr·$25/mo, Ginger $4.99, LT $5.83/yr·$24.90/mo, Wordtune $6.99" },
+    { "url": "https://prowritingaid.com/prices", "opened": false, "note": "404(정확 경로는 /pricing). 공식 가격은 /pricing에서 확인함" }
+  ],
+  "factcheck": [
+    { "claim": "LanguageTool은 오픈소스·30+ 언어(영어 6종)·브라우저 애드온 텍스트 미저장(프라이버시), 무료 tier는 철자·구두점·일부 스타일. Premium ~$5/mo(연간)", "sources": ["https://languagetool.org/", "https://www.eesel.ai/blog/grammarly-alternatives"] },
+    { "claim": "ProWritingAid 무료=500단어/체크, Premium $30/mo·$120/yr($10/mo), 라이프타임 Premium $399·Pro $699(1회), 25+ 라이팅 리포트(장문 특화)", "sources": ["https://prowritingaid.com/pricing", "https://kindlepreneur.com/grammarly-alternatives/"] },
+    { "claim": "QuillBot Grammar Checker는 무료·무제한·가입불필요·6+ 언어, 별도 강력 패러프레이저. Premium ~$8/mo(연간)·학생 할인", "sources": ["https://quillbot.com/grammar-check", "https://www.demandsage.com/grammarly-alternatives/"] },
+    { "claim": "Hemingway 웹앱 무료(가독성 등급·긴문장·수동태), Editor Plus 유료 ~$8~12/mo(문법·톤 AI). 데스크톱 Classic 별도", "sources": ["https://hemingwayapp.com/", "https://www.eesel.ai/blog/grammarly-alternatives"] },
+    { "claim": "Microsoft Editor 기본(철자·문법·브라우저 확장)은 무료, 고급 스타일은 Microsoft 365 구독에 포함", "sources": ["https://www.eesel.ai/blog/grammarly-alternatives", "https://www.demandsage.com/grammarly-alternatives/"] }
+  ],
+  "variables": {
+    "keyword": "best grammarly alternatives",
+    "headline_finding": "정답은 하나가 아니라 이유별로 갈린다 — 무료·프라이버시=LanguageTool, 장문·구독회피=ProWritingAid(라이프타임 $399), 무료문법+패러프레이즈=QuillBot",
+    "pricing_snapshot_2026_07": "LT ~$5/mo, PWA $10/mo·$120/yr·라이프타임$399, QuillBot ~$8/mo, Hemingway Plus ~$8-12/mo, MS Editor 365포함",
+    "no_subscription_angle": "구독 피로 대안 = PWA 라이프타임 1회결제 + LT/QuillBot/Hemingway 무료 tier + 이미 내는 365의 MS Editor",
+    "use_case_map": "무료·프라이버시→LanguageTool / 장문·작가→ProWritingAid / 무료문법+리라이트→QuillBot / 가독성→Hemingway / 365사용자→Microsoft Editor",
+    "affiliate": "제휴 미설정 → CTA/제휴 버튼 없이 공식 링크만"
+  },
+  "hermes_score": 96,
+  "hermes_note": "독립 심판(별도 에이전트) 96 PASS, 치명결함 0. 가격 전부 근거 일치·as of 2026 헤지·제휴버튼 없음·Dom 보이스. 지시반영: MS Editor 마지막 문장 어색표현 다듬음"
+}
