@@ -1,0 +1,34 @@
+{
+  "type": "comparison",
+  "keyword": "best canva alternatives",
+  "note": "spokdom(Dom, EN). Differentiation = pick-by-use-case decision framework + honest free-tier table + open-source/offline lane + AI-native 2026 subsection. Competitor lists are self-serving (host tool ranks #1) and price-stale. Prices treated as volatile (as of July 2026), not asserted precisely.",
+  "serp": [
+    { "url": "https://zapier.com/blog/canva-alternatives/", "opened": true, "note": "Strong 'best for X' editorial framing(7 tools), thin on data-viz depth" },
+    { "url": "https://visme.co/blog/canva-alternatives/", "opened": true, "note": "Deepest(12 tools, per-tier pricing) but self-serving(Visme #1)" },
+    { "url": "https://piktochart.com/blog/canva-alternatives/", "opened": true, "note": "Good team-pricing angle, self-serving(Piktochart #1), 10 tools" },
+    { "url": "https://www.spocket.co/blogs/canva-alternatives", "opened": true, "note": "Broadest list(18) incl Inkscape/logo tools, shallow per-tool detail" },
+    { "url": "https://orshot.com/blog/free-canva-alternatives", "opened": true, "note": "Best free/open-source + automation angle, self-serving(Orshot #1)" },
+    { "url": "https://www.krumzi.com/blog/15-best-canva-alternatives", "opened": true, "note": "Kittl/Simplified/Recraft/Predis.ai, AI-heavy, self-serving" },
+    { "url": "https://www.dreamgrow.com/best-canva-alternatives/", "opened": true, "note": "Pro-Canva bias, older(Crello naming), pricing likely stale" },
+    { "url": "https://similarlabs.com/blog/best-canva-alternatives", "opened": true, "note": "Clean free/AI/premium buckets incl Picsart & Microsoft Designer" },
+    { "url": "https://www.canva.com/pricing/", "opened": true, "note": "공식 가격(외부링크). Canva Teams 가격 인상이 이탈 트리거 근거·시점 확인용" },
+    { "url": "https://ceros.com/", "opened": false, "note": "SERP 노출(프레젠테이션/마케팅팀 앵글), 대체 소스로 미열람" }
+  ],
+  "factcheck": [
+    { "claim": "Adobe Express free tier includes Firefly generative AI + brand kit (exact monthly credit count varies — not asserted)", "sources": ["https://similarlabs.com/blog/best-canva-alternatives", "https://orshot.com/blog/free-canva-alternatives"] },
+    { "claim": "Snappa free tier unlocks all tools but caps downloads to a small number per month (sources dispute 3 vs 5 — described as 'a handful')", "sources": ["https://zapier.com/blog/canva-alternatives/", "https://orshot.com/blog/free-canva-alternatives"] },
+    { "claim": "VistaCreate(ex-Crello) offers one of the most generous free tiers (large asset library, animated templates); asset counts are marketing figures, not asserted precisely", "sources": ["https://www.krumzi.com/blog/15-best-canva-alternatives", "https://visme.co/blog/canva-alternatives/"] },
+    { "claim": "GIMP and Inkscape are fully free open-source, work offline, no subscription (evergreen)", "sources": ["https://orshot.com/blog/free-canva-alternatives", "https://www.spocket.co/blogs/canva-alternatives"] },
+    { "claim": "Canva team pricing rose over time and is a core switching reason; current price must be verified (volatile)", "sources": ["https://piktochart.com/blog/canva-alternatives/", "https://www.canva.com/pricing/"] },
+    { "claim": "Figma has a genuinely generous free tier with real-time collaboration (exact free-project limit disputed/changed — not quoted)", "sources": ["https://similarlabs.com/blog/best-canva-alternatives", "https://www.krumzi.com/blog/15-best-canva-alternatives"] }
+  ],
+  "variables": {
+    "keyword": "best canva alternatives",
+    "headline_finding": "No single winner — pick by use case. Six-line decision list beats a 12-tool wall.",
+    "free_tier_honesty": "Competitors inflate/bury free-tier limits; we give real caps (downloads, ads, offline) in a table.",
+    "open_source_lane": "GIMP/Inkscape offline open-source lane that affiliate lists skip (no commission).",
+    "ai_native_2026": "Dedicated AI-native subsection (Microsoft Designer, Adobe Firefly, Recraft) as a current 2026 angle.",
+    "price_staleness_guard": "All $ figures volatile → date-stamped 'as of July 2026', verify on official page (E-E-A-T)."
+  },
+  "hermes_score": 91
+}
