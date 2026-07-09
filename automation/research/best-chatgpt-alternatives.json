@@ -1,0 +1,48 @@
+{
+  "type": "comparison",
+  "keyword": "best chatgpt alternatives",
+  "note": "spokdom(Dom, EN). Differentiation = use-case decision tree + honest free-tier caveats + privacy/open-source self-host lane + reasoning-vs-speed-vs-citations axis. Competitors self-serving + cite speculative model version numbers → we use family names + hedge prices (as of July 2026, verify official page).",
+  "serp": [
+    { "url": "https://zapier.com/blog/chatgpt-alternatives/", "opened": true, "note": "Tight 'best for X' framing(4 tools), high authority, thin" },
+    { "url": "https://clickup.com/blog/chatgpt-alternatives/", "opened": true, "note": "Broad 20-tool table, own product #1(bias)" },
+    { "url": "https://www.lindy.ai/blog/chatgpt-alternative", "opened": true, "note": "Use-case table + NotebookLM/Pi, own product #1" },
+    { "url": "https://arahi.ai/blog/chatgpt-alternatives", "opened": true, "note": "Best 15-row table w/ open-source+context columns, own tool mid-list" },
+    { "url": "https://bit-flows.com/blog/best-chatgpt-alternatives/", "opened": true, "note": "Only concrete context/API figures, narrow(5 tools)" },
+    { "url": "https://wotnot.io/blog/chatgpt-alternatives", "opened": true, "note": "Clean 8-tool consumer table, shallow detail" },
+    { "url": "https://www.trysight.ai/blog/chat-gpt-alternative-free-online", "opened": true, "note": "Strong free angle, Duck.ai/Phind/You.com privacy+dev picks" },
+    { "url": "https://tosea.ai/blog/top-10-chatgpt-alternatives-2026", "opened": true, "note": "Remio/NotebookLM, heavy self-promo + speculative versions" },
+    { "url": "https://dev.to/lightningdev123/best-open-source-chatgpt-alternatives-in-2026-53el", "opened": true, "note": "Excellent open-source/self-host lane(Open WebUI/LibreChat/Jan/GPT4All)" },
+    { "url": "https://openai.com/chatgpt/pricing/", "opened": false, "note": "ChatGPT 공식 가격(외부링크·비교 기준), 본문 열람은 대체" }
+  ],
+  "factcheck": [
+    { "claim": "Claude = top-rated for coding/long documents, very long context + Artifacts canvas, free tier w/ daily limits", "sources": ["https://arahi.ai/blog/chatgpt-alternatives", "https://bit-flows.com/blog/best-chatgpt-alternatives/"] },
+    { "claim": "Perplexity's differentiator = cited, source-controlled answers (research/fact-check)", "sources": ["https://zapier.com/blog/chatgpt-alternatives/", "https://bit-flows.com/blog/best-chatgpt-alternatives/"] },
+    { "claim": "Gemini is free with a Google account and grounds answers in live Google Search", "sources": ["https://www.trysight.ai/blog/chat-gpt-alternative-free-online", "https://wotnot.io/blog/chatgpt-alternatives"] },
+    { "claim": "DeepSeek ships open-weight models w/ near-frontier reasoning, free generous web chat (privacy scrutiny noted)", "sources": ["https://arahi.ai/blog/chatgpt-alternatives", "https://bit-flows.com/blog/best-chatgpt-alternatives/"] },
+    { "claim": "Copilot's edge = deep Microsoft 365 embedding; free consumer Copilot exists but full M365 features paid (sources conflict on free tier)", "sources": ["https://www.lindy.ai/blog/chatgpt-alternative", "https://wotnot.io/blog/chatgpt-alternatives"] },
+    { "claim": "Privacy/open-source self-host lane (Open WebUI, LibreChat, Jan, GPT4All) runs local models, no data leaves device", "sources": ["https://dev.to/lightningdev123/best-open-source-chatgpt-alternatives-in-2026-53el", "https://arahi.ai/blog/chatgpt-alternatives"] }
+  ],
+  "variables": {
+    "keyword": "best chatgpt alternatives",
+    "headline_finding": "No single winner — pick by the job. Six-line decision tree up top.",
+    "free_honesty": "Explicit free-tier caveats (Poe daily caps, Perplexity deep-research gated, Claude short daily window) competitors bury.",
+    "privacy_open_source_lane": "Self-host lane(Open WebUI/LibreChat/Jan/GPT4All)+Duck.ai that consumer lists skip.",
+    "anti_hallucination": "Refuse to quote shaky model version numbers/stale prices competitors contradict each other on — family names + 'verify official page'.",
+    "answer_axis": "Reframed on reasoning vs speed vs citations instead of identical feature grids."
+  },
+  "hermes_score": 92,
+  "judge": {
+    "real": true,
+    "by": "independent judge agent (adversarial re-judge)",
+    "date": "2026-07-09",
+    "prior_score": 88,
+    "score": 92,
+    "verdict": "pass",
+    "fixed": [
+      "벤더 공식 링크 추가(Claude·DeepSeek·Perplexity·You.com·Gemini·Copilot·Mistral) — '공식 페이지 확인' 조언을 실제 링크로 뒷받침",
+      "NotebookLM 추가(자기 문서 기반 리서치 픽), Grok/xAI 추가(X 실시간·프라이버시 주의)",
+      "Poe·HuggingChat 링크 + 요약표에 NotebookLM·Grok 행 추가(재심판 nitpick 반영)"
+    ],
+    "remaining_nitpicks": ["'$20/month'는 헷지됐으나 구체 숫자"]
+  }
+}
