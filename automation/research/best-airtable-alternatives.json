@@ -1,0 +1,40 @@
+{
+  "type": "review",
+  "keyword": "best airtable alternatives",
+  "serp": [
+    { "url": "https://airtable.com/pricing", "opened": true, "note": "OFFICIAL baseline: Free / Team $20/user/mo annual / Business $45 / Enterprise custom. Per-seat = every editor in any base; read-only & form submissions free. Over-limit = data safe but adds blocked. External link 채택" },
+    { "url": "https://www.softr.io/blog/airtable-alternatives", "opened": true, "note": "9 tools app-builder 관점(Softr·SmartSuite $15-32·Baserow $10-18·NocoDB $12-24·Supabase·Xano·Zapier Tables·Notion $10-20·Coda $10-30). Why-switch: record/automation limits·permissions·per-seat cost. 자사(Softr) 1위 편향" },
+    { "url": "https://www.projectmanager.com/blog/best-airtable-alternatives", "opened": true, "note": "14 tools이지만 대부분 태스크 매니저(Asana·Trello·Jira·Wrike·Basecamp) — 'PM 툴을 대안으로 끼워파는' 갭의 표본. Notion $10-20·Coda Doc Maker $12-36 가격 교차" },
+    { "url": "https://productive.io/blog/airtable-alternatives/", "opened": true, "note": "10 tools. Stackby(free·저가·모바일 약점)·SeaTable(플러그인·self-host)·Baserow(open-source clean)·NocoDB(data ownership·기술 셋업) 특성 교차. 자사 1위 편향" },
+    { "url": "https://www.goodday.work/blog/best-airtable-alternatives", "opened": true, "note": "15 tools. Grist(relational spreadsheet)·Stackby $5-10·SmartSuite ~$12-15·MS Lists(M365 포함)·Google Sheets 무료 축. 자사 1위 편향" },
+    { "url": "https://tadabase.io/blog/best-airtable-alternatives", "opened": true, "note": "'migrations go better when you name the exact reason you are switching' — 결정 프레임 인용 원문. SmartSuite=Airtable feel, Grist=formula 유연, monday=DB 깊이 가변" },
+    { "url": "https://www.zite.com/blog/airtable-alternatives", "opened": true, "note": "8 tools. NocoDB $12/seat cloud·Notion $10·monday $12·ClickUp $7 교차. monday.com='not suited for relational data modeling' 인용 원문 — skip 섹션 근거" },
+    { "url": "https://www.capterra.com/p/146652/Airtable/alternatives/", "opened": false, "note": "403 차단" },
+    { "url": "https://www.zapier.com/blog/(관련 roundup)", "opened": false, "note": "미시도 — 이번 키워드 상위 아님" }
+  ],
+  "serp_summary": {
+    "intent": "구매 결정(리뷰형). 상위=벤더 블로그 roundup(자사 1위 편향 공통)·PM툴 끼워팔기 다수",
+    "common_items": ["SmartSuite/Stackby/Grist/SeaTable(DB형)", "Baserow/NocoDB(오픈소스)", "Notion/Coda(독스형)", "why-switch(가격·한도·권한)", "가격 비교"],
+    "gap": "①'태스크 매니저는 Airtable 대안이 아니다'를 정면으로 말하는 글 없음(전부 Asana·Trello 끼워팔기) ②관계형 DB 기준 3분류(진짜 대체재/독스형/오픈소스) 프레임 없음 ③Airtable 공식 per-seat 구조를 스위칭 트리거로 해부한 글 부족 ④벤더 중립(우리는 팔 게 없음)",
+    "cluster_keywords": ["airtable alternatives free", "airtable alternatives open source", "smartsuite vs airtable", "baserow", "nocodb", "grist", "notion vs airtable", "coda vs airtable", "airtable pricing", "self-hosted airtable"],
+    "google_self_check": "①고유 분석=DB 기준 3분류+skip 섹션 ②새 관점=벤더 편향 걷어낸 중립 분류 ③제목-본문 일치(real database replacements 이행) ④충분성=why→기준→3분류→가격표→결정 가이드→FAQ ⑤유용성=가격표+결정 shortcut"
+  },
+  "factcheck": [
+    { "claim": "Airtable 공식: Free/Team $20(연간)/Business $45, editor당 과금(read-only·폼 무료), 한도 초과 시 추가 차단", "sources": ["https://airtable.com/pricing (공식 직접 열람)", "roundup들의 why-switch 서술 교차(per-seat cost·limits)"] },
+    { "claim": "SmartSuite=가장 Airtable스러운 UX·템플릿 강점·통합 수 열세, 가격 출처별 상이(~$12-15+ vs $15-32)로 본문 'sources vary' 헤지", "sources": ["https://www.softr.io/... ($15-32)", "https://www.goodday.work/... (~$12-15+)", "https://tadabase.io/... (Airtable feel 교차)"] },
+    { "claim": "Baserow=오픈소스·셀프호스트 무료·클라우드 ~$10-18, NocoDB=셀프호스트 무료·클라우드 ~$12·기존 SQL DB 위 스프레드시트+API, 공통 트레이드오프=기술 셋업·작은 생태계", "sources": ["https://www.softr.io/...", "https://www.zite.com/... (NocoDB $12)", "https://productive.io/... (특성 교차)"] },
+    { "claim": "Notion $10-20/user·대규모 데이터셋 성능 저하 지적, Coda ~$10-30 'Doc Maker' 과금 방식·대형 테이블 성능 가변", "sources": ["https://www.projectmanager.com/...", "https://www.softr.io/...", "https://tadabase.io/... (Coda 성능)"] },
+    { "claim": "Stackby free+~$5-10 저가·모바일/성능 약점, Grist=수식 중심 관계형 스프레드시트·무료 셀프호스트, SeaTable=플러그인·셀프호스트 옵션", "sources": ["https://productive.io/...", "https://www.goodday.work/...", "구글 검색 결과 요약(Grist 포지셔닝)"] },
+    { "claim": "monday.com 'not suited for relational data modeling' — 태스크 매니저는 관계형 대체재 아님(skip 섹션 근거)", "sources": ["https://www.zite.com/... (인용 원문)", "https://www.projectmanager.com/... (Asana·Trello 등 PM툴 약점 서술 교차)"] }
+  ],
+  "variables": {
+    "keyword": "best airtable alternatives",
+    "headline_finding": "상위 roundup 전부 벤더 자사 1위+태스크 매니저 끼워팔기 — 'DB를 대체해야 대안'이라는 기준으로 3분류한 중립 가이드 부재",
+    "pricing_table": "9개 도구 무료 티어/시작가 표(as of July 2026, 공식 확인 권고 병기)",
+    "airtable_baseline": "공식 페이지 직접 열람 — Team $20 연간·per-editor 과금 구조를 스위칭 트리거로 해부",
+    "honesty_disclosure": "장기 랩테스트 아님·공개 가격/기능/리뷰 비교임을 본문 명시, 가격 상이 출처는 'sources vary' 헤지",
+    "skip_section": "Asana·Trello·monday·Jira를 '좋은 툴이지만 다른 카테고리'로 정면 배제 — Dom 시그니처"
+  },
+  "post_judge_fixes": "심판 권고 반영 — description 243자→155자 이내 축약, 도입에 'I didn't lab-test every tier' 정직 고지 추가",
+  "hermes_score": 94
+}
