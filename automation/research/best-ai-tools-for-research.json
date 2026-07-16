@@ -1,0 +1,44 @@
+{
+  "type": "review",
+  "keyword": "best ai tools for research",
+  "serp": [
+    { "url": "https://paperguide.ai/blog/academic-research-ai/", "opened": true, "note": "9 tools w/ pricing: Elicit free+$12, Consensus free+$11.99, Semantic Scholar free, ResearchRabbit free, Connected Papers free/$6, NotebookLM free, Scite $20, Perplexity $20. Best-for + limitation each. Core pricing source" },
+    { "url": "https://theairankings.com/best-ai-for-research/", "opened": true, "note": "Deep-research agents compared: Perplexity 2-4min $20 (Tow Center 37% lowest citation failure), ChatGPT DR 5-30min GPT-5.5, Claude Opus 4.8 5-10min best writer, Gemini 3-8min editable plan weaker citations. 'all still fabricate citations'" },
+    { "url": "https://www.useluminix.com/resources/research-tools", "opened": true, "note": "Honest field guide: hallucination/verify warnings, what-to-skip (pure aggregators), per-project pricing, workflow (match tool to output, verify citations, Elicit+Zotero)" },
+    { "url": "https://www.iatrox.com/blog/best-ai-tools-medical-research-2026-elicit-consensus-semantic-scholar-perplexity", "opened": true, "note": "Elicit 138M+545K trials free 5000cr/$12, Consensus meter can oversimplify, Semantic Scholar 200M free, Perplexity open-web low-quality risk, Scite 1.2B citation statements. Strength/weakness each" },
+    { "url": "https://paperguide.ai/blog/elicit-vs-notebooklm/", "opened": true, "note": "Elicit finds research, NotebookLM transforms your own sources. NotebookLM free generous (100 notebooks/50 sources), Elicit Pro $49. 'different ends of research timeline'" },
+    { "url": "https://www.atlasworkspace.ai/blog/ai-tools-for-academic-research", "opened": true, "note": "8 tools w/ hallucination ratios: Atlas 0.05, Elicit 0.07, Consensus 0.09, Scite 0.11, Semantic Scholar 0.18, Perplexity 0.42. Elicit Pro $49, Consensus Deep $65/$540yr, Scite ~$20. Ratio data source" },
+    { "url": "https://papersflow.ai/blog/best-ai-research-tools-2026", "opened": true, "note": "12 tools table + 'most researchers need 2-3 tools not all'. Workflow: discovery(Semantic Scholar)+Zotero+AI analysis. 'generic AI frequently hallucinate citations'" },
+    { "url": "https://guptadeepak.com/tools/top-5-ai-research-tools-2026/", "opened": true, "note": "Top5: Perplexity $20 30+ sources, ChatGPT DR $20 15-30min ~10 queries (omits contradictory evidence), Claude 200K context no web, Elicit $10 basic, Consensus $8.99. 'never cite unverified'" },
+    { "url": "https://paperguide.ai/blog/ai-tools-for-literature-review/", "opened": false, "note": "7 lit-review tools (WebSearch surfaced). Elicit 5000 papers Pro, layered workflow" },
+    { "url": "https://motif.bio/blog/ai-research-tools-researchers-2026", "opened": false, "note": "Scientists/researchers roundup (WebSearch surfaced). Not opened directly" }
+  ],
+  "serp_analysis": {
+    "intent": "Commercial/informational best-of roundup (best ai tools for research). Top results = flat 12-17 logo listicles, deep-research comparisons, academic tool roundups",
+    "common_items": ["Elicit", "Consensus", "Semantic Scholar", "ResearchRabbit", "NotebookLM", "SciSpace", "Scite", "Perplexity", "ChatGPT/Claude/Gemini deep research", "pricing", "free vs paid"],
+    "gaps_our_edge": [
+      "Most are flat interchangeable lists — we sort by WORKFLOW STAGE (discover/read/structured-review/deep-research/cite) so reader picks by bottleneck, not by logo",
+      "Citation-fabrication risk is underplayed — we lead with Columbia Tow Center 37% + hallucination-ratio spread (0.05-0.42) as Dom's honest signature",
+      "Free $0 stack (Semantic Scholar + ResearchRabbit + NotebookLM) rarely assembled explicitly",
+      "'What to skip' + 'if I had to pick one' decision guidance (spokdom differentiator)",
+      "Honest pricing spread flagged (Elicit $12 vs $49; Consensus $8.99 vs $65) with 'confirm official page'"
+    ]
+  },
+  "factcheck": [
+    { "claim": "Semantic Scholar is fully free (200M+ papers), ResearchRabbit free, both discovery-only", "sources": ["https://paperguide.ai/blog/academic-research-ai/", "https://www.iatrox.com/blog/best-ai-tools-medical-research-2026-elicit-consensus-semantic-scholar-perplexity"] },
+    { "claim": "Elicit: free tier + paid from ~$12/mo, higher Pro tier ~$49/mo, 138M+ paper index, structured extraction", "sources": ["https://paperguide.ai/blog/academic-research-ai/", "https://paperguide.ai/blog/elicit-vs-notebooklm/"] },
+    { "claim": "Perplexity Pro $20/mo ($200/yr), deep research 2-4 min; lowest citation failure but still 37% in Columbia Tow Center audit", "sources": ["https://theairankings.com/best-ai-for-research/", "https://guptadeepak.com/tools/top-5-ai-research-tools-2026/"] },
+    { "claim": "All AI research tools still fabricate citations; database-grounded tools hallucinate less (ratios ~0.05-0.42) than open-web chatbots", "sources": ["https://www.atlasworkspace.ai/blog/ai-tools-for-academic-research", "https://theairankings.com/best-ai-for-research/"] },
+    { "claim": "NotebookLM free tier generous (100 notebooks, 50 sources each), synthesis of your own sources, no discovery", "sources": ["https://paperguide.ai/blog/elicit-vs-notebooklm/", "https://paperguide.ai/blog/academic-research-ai/"] },
+    { "claim": "ChatGPT Deep Research $20/mo Plus, 5-30 min, longest/most structured, asks clarifying questions", "sources": ["https://theairankings.com/best-ai-for-research/", "https://guptadeepak.com/tools/top-5-ai-research-tools-2026/"] }
+  ],
+  "variables": {
+    "keyword": "best ai tools for research",
+    "headline_finding": "No single winner — sort tools by workflow stage (bottleneck), not by logo list",
+    "unique_angle": "Workflow-stage structure + citation-fabrication honesty (Tow Center 37%, ratios)",
+    "free_stack": "$0 stack = Semantic Scholar + ResearchRabbit + NotebookLM",
+    "skip_advice": "Skip single-purpose Scite, premium before free tiers, generic ChatGPT for citations",
+    "pricing_asof": "as of July 2026, starts-at, confirm official page"
+  },
+  "hermes_score": 92
+}
