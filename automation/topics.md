@@ -21,7 +21,7 @@ with recurring (monthly) affiliate commissions.
 - [x] calendly alternatives without branding
 - [x] mailchimp alternatives for small business
 - [x] loom alternatives free
-- [ ] airtable alternatives for solo founders
+- [x] airtable alternatives for solo founders
 - [ ] typeform alternatives cheaper
 
 ### X vs Y cluster

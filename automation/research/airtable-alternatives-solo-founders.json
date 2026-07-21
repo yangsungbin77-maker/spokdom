@@ -1,0 +1,37 @@
+{
+  "type": "comparison",
+  "serp": [
+    { "url": "https://zapier.com/blog/airtable-alternatives/", "opened": true, "note": "Zapier — 6 alternatives(Stackby·Zapier Tables·Google Sheets·Smartsheet·ClickUp·Coda). Free tiers/prices: Stackby 1,500 rows/$10, Zapier Tables 2,500 records/$19.99, ClickUp $10, Coda $12/doc-maker. Strong structure but team-generic, not solo-specific" },
+    { "url": "https://www.softr.io/blog/airtable-alternatives", "opened": true, "note": "Softr — Baserow $10/self-host, NocoDB $12 connect-existing-DB, SmartSuite $15, Notion $10, Supabase/Xano dev-heavy. Best-for column. Team/dev framing" },
+    { "url": "https://airtable.com/pricing", "opened": true, "note": "1차 출처 — Airtable Team $20/seat/mo(annual), Business $45/seat, per-seat charged for editors only(read-only/forms free). Free plan for individuals(record limit not in excerpt→cross-checked 1,000 elsewhere)" },
+    { "url": "https://fromscratch.dev/alternatives/airtable", "opened": true, "note": "핵심 갭 소스 — Airtable free 1,000 records 'hostile to small builders', 4 posts/week fills 1,000 in <5 months. Free row limits: Airtable 1,000/Baserow 3,000/SeaTable 10,000/NocoDB·Teable unlimited self-host/Sheets ~10M cells/Rows 1,000. 우리 solo-founder 각도의 근거" },
+    { "url": "https://www.zite.com/blog/airtable-alternatives", "opened": true, "note": "Zite — NocoDB self-host free/$12, Retool 5 users free, Google Sheets $7 Workspace, Notion $10, ClickUp $7, Monday $12. Prices cross-check(약간의 출처 편차→본문 'starts at ~$X' 헤지)" },
+    { "url": "https://lovable.dev/guides/airtable-alternatives-custom-apps", "opened": true, "note": "Lovable — Notion Plus $12, Baserow cloud $5/user(출처 편차: softr는 $10→본문 '$5~10' 헤지로 수정), NocoDB free 1,000 records+unlimited-seat 모델, ClickUp $7, Stackby $5-9. 가격 교차·헤지 근거" },
+    { "url": "https://www.adalo.com/posts/airtable-pricing/", "opened": true, "note": "Adalo — Airtable free 1,000 records+2GB+5 editors 확정, Team $24/seat·Business $54/seat(월납 기준, 공식 annual $20/$45와 청구주기 차이). 본문은 annual $20/$45 + 'billed annually' 헤지로 일관" },
+    { "url": "https://productive.io/blog/airtable-alternatives/", "opened": true, "note": "Productive — SeaTable·NocoDB·Baserow·Notion·Stackby 등 free 옵션 확인, G2/Capterra pros/cons 구조. free-tier 존재 교차확인" },
+    { "url": "https://www.smartsuite.com/blog/airtable-alternatives", "opened": false, "note": "SmartSuite 자사 홍보 목록 — 편향, 미열람" },
+    { "url": "https://comparetiers.com/tools/airtable", "opened": false, "note": "Airtable 티어 비교 — 미열람" }
+  ],
+  "serp_summary": {
+    "intent": "recommendation list / comparison — buy-intent(alternatives)",
+    "common_must": ["list of alternatives with free tier + price", "best-for each tool", "comparison table", "Airtable pricing context"],
+    "gap": "거의 모든 상위글이 팀/per-seat 관점으로 랭크. solo founder는 seat 수 무의미하고 free-tier row limit이 진짜 페인 — 이 각도로 재정렬한 글이 드묾(fromscratch만 row-limit 강조). self-host vs cloud 결정경로·'Sheets면 충분' 판단·'skip' 섹션이 차별점",
+    "our_angle": "solo founder 렌즈로 free-tier row limit 비교표 우선 + Sheets 판단 + self-host(NocoDB/Teable) + skip(team per-seat/free trial) + 4단계 결정경로"
+  },
+  "factcheck": [
+    { "claim": "Airtable free plan = 1,000 records per base, up to 5 editors, 2GB attachments (as of 2026)", "sources": ["https://fromscratch.dev/alternatives/airtable", "airtable.com/pricing (per-seat editor model 확인) + 검색 요약 교차"] },
+    { "claim": "Airtable paid: Team $20/seat/mo, Business $45/seat/mo (annual), per-seat charged for editors only", "sources": ["https://airtable.com/pricing", "https://www.adalo.com/posts/airtable-pricing (검색 요약 교차)"] },
+    { "claim": "Free-tier row limits: Baserow cloud ~3,000, SeaTable ~10,000, NocoDB/Teable unlimited self-host, Google Sheets ~10M cells, Zapier Tables ~2,500 records", "sources": ["https://fromscratch.dev/alternatives/airtable", "zapier.com/blog/airtable-alternatives (Zapier Tables 2,500 records 확인)"] },
+    { "claim": "Paid starting prices ~ Baserow $10/user, NocoDB cloud $12/user, Notion Plus ~$10/user, ClickUp ~$7-10/user (as of 2026, varies by source→본문 'starts at ~$X' 헤지)", "sources": ["https://www.softr.io/blog/airtable-alternatives", "https://www.zite.com/blog/airtable-alternatives"] },
+    { "claim": "NocoDB can put an Airtable-style UI on an existing SQL(Postgres/MySQL) database; Teable is performance-oriented for large datasets", "sources": ["https://www.softr.io/blog/airtable-alternatives", "https://fromscratch.dev/alternatives/airtable"] }
+  ],
+  "variables": {
+    "keyword": "airtable alternatives for solo founders",
+    "cluster": ["airtable free tier", "baserow", "seatable", "nocodb", "teable", "notion vs airtable", "google sheets database", "no-code database", "airtable pricing", "best airtable alternative"],
+    "headline_finding": "For solo founders the real decision is free-tier row limit, not per-seat price — Airtable 1,000 vs SeaTable 10,000 vs self-host unlimited",
+    "decision_tools": "free-tier row-limit table + 4-step decision path + 'what to skip' section",
+    "first_person_hook": "Dom compared on public pricing as of July 2026, honest no-lab-test disclosure, 'here's the one I'd skip'",
+    "primary_source": "airtable.com/pricing official + fromscratch row-limit analysis, prices hedged 'starts at ~$X, confirm official page'"
+  },
+  "hermes_score": 93
+}
