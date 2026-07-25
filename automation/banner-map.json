@@ -1,0 +1,7 @@
+[
+  { "pattern": "alternatives|vs|versus|comparison|cheaper|pricing", "file": "banner-04-comparison.png" },
+  { "pattern": "automation|zapier|workflow|integrat", "file": "banner-03-automation.png" },
+  { "pattern": "\\bAI\\b|ai tools|chatgpt|claude|llm", "file": "banner-02-ai-network.png" },
+  { "pattern": "dashboard|analytics|data|report", "file": "banner-01-dashboard.png" },
+  { "pattern": "workspace|notion|productivity|note", "file": "banner-05-workspace.png" }
+]
