@@ -22,7 +22,7 @@ with recurring (monthly) affiliate commissions.
 - [x] mailchimp alternatives for small business
 - [x] loom alternatives free
 - [x] airtable alternatives for solo founders
-- [ ] typeform alternatives cheaper
+- [x] typeform alternatives cheaper
 
 ### X vs Y cluster
 - [ ] notion vs obsidian for note taking
