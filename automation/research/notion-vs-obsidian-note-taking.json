@@ -1,0 +1,54 @@
+{
+  "type": "comparison",
+  "keyword": "notion vs obsidian for note taking",
+  "note": "2026-08-21 작성. 첫 keyword_filter 게이트 적용 글.",
+  "keyword_filter": {
+    "keyword": "notion vs obsidian for note taking",
+    "competition": {
+      "method": "serp-scan",
+      "evidence": "1페이지 구성 확인 — zapier(대형) 외에 personal blog(hamy.xyz), Medium 개인글, Substack 개인글, 소규모 니치 블로그(effortlessacademic.com)가 1페이지에 공존. 개인 블로그 진입 가능 신호. 대형 벤더 글은 자사 홍보 편향이라 정직 비교 각도로 이길 틈 있음.",
+      "pass": true
+    },
+    "demand": {
+      "method": "autocomplete",
+      "evidence": "구글 자동완성(en) 'notion vs obsidian' 입력 시 'for note taking'이 정확히 노출 + 위성 10개(second brain/studying/students/personal use/project management/journaling/2026/onenote/evernote/claude) 확인 (suggestqueries API 실측 2026-08-21).",
+      "pass": true
+    },
+    "intent": {
+      "method": "serp-scan",
+      "evidence": "상위 10개 전부 블로그·정보성 비교글(벤더 블로그 5, 개인 블로그·뉴스레터 4, 테크 미디어 1). 쇼핑탭·제품카드·지도팩 없음 — 블로그 적합 정보성 키워드.",
+      "pass": true
+    }
+  },
+  "serp": [
+    { "url": "https://productive.io/blog/notion-vs-obsidian/", "opened": true, "note": "~3,500단어, 자사(Productive) 홍보로 결론 흐림, 가격표 없음, 2025-12 업데이트" },
+    { "url": "https://slite.com/learn/obsidian-vs-notion/", "opened": true, "note": "~3,500단어, 가격 2026-02 시점 명시(우리와 교차검증), Slite 홍보 편향" },
+    { "url": "https://zapier.com/blog/obsidian-vs-notion/", "opened": true, "note": "~2,500단어, 가격 시점 미표기, 팀=Notion·개인=Obsidian 결론" },
+    { "url": "https://medium.com/obsidian-observer/notion-vs-obsidian-how-i-organise-my-business-and-content-ideas-385b1e035bcf", "opened": false, "note": "2회 시도 모두 소켓 오류로 열람 실패" },
+    { "url": "https://effortlessacademic.com/notion-vs-obsidian-whats-the-best-note-taking-tool-for-research/", "opened": true, "note": "~4,500단어 연구자 특화, Obsidian 편향 자인, 모바일·협업 누락" },
+    { "url": "https://plaky.com/blog/obsidian-vs-notion/", "opened": true, "note": "~4,500단어, 2025-09 갱신, 가격 상세(교차검증 소스), Plaky 벤더 글" },
+    { "url": "https://hamy.xyz/blog/2025-09_notion-to-obsidian-for-notes/", "opened": true, "note": "개인 이주기 ~1,250단어. 마이그레이션 비용·가격 비교 누락 — 우리 차별화 포인트로 채택" },
+    { "url": "https://johnnypark.substack.com/p/building-your-second-brain-notion", "opened": true, "note": "~800단어 얕음, 가격 구식(Notion $4), 2024-02 작성" },
+    { "url": "https://tech.yahoo.com/apps/articles/obsidian-vs-notion-note-taking-173014441.html", "opened": true, "note": "~2,000단어, 6개 축 비교, 저자는 둘 다 병용 — '병용 패턴' 각도 확인" },
+    { "url": "https://www.notion.com/pricing", "opened": true, "note": "공식 요금(팩트체크 겸): Free/Plus $10/Business $20, 5MB·게스트10·7일 히스토리·AI 트라이얼" }
+  ],
+  "factcheck": [
+    { "claim": "Notion 요금: Free / Plus $10/user/mo / Business $20/user/mo / Enterprise 커스텀, 연간 결제 시 최대 20% 할인 (2026-08 기준)", "sources": ["https://www.notion.com/pricing", "https://slite.com/learn/obsidian-vs-notion/", "https://plaky.com/blog/obsidian-vs-notion/"] },
+    { "claim": "Notion Free 한도: 파일 업로드 5MB, 게스트 10명, 페이지 히스토리 7일, AI는 제한 트라이얼, 솔로는 블록 무제한·2인 이상부터 제한", "sources": ["https://www.notion.com/pricing", "https://zapier.com/blog/obsidian-vs-notion/"] },
+    { "claim": "Obsidian: 개인 무료·기능 제한 없음, Sync $4/mo(연간)~$5(월간), Publish $8~10/mo, 상업 라이선스 $50/user/yr는 선택사항(의무 아님), 학생·비영리 40% 할인", "sources": ["https://obsidian.md/pricing", "https://plaky.com/blog/obsidian-vs-notion/", "https://slite.com/learn/obsidian-vs-notion/"] },
+    { "claim": "Obsidian은 실시간 협업 기능이 내장돼 있지 않음(공유 드라이브·Git 우회만 가능), Notion은 실시간 공동편집·댓글·멘션 내장", "sources": ["https://zapier.com/blog/obsidian-vs-notion/", "https://plaky.com/blog/obsidian-vs-notion/", "https://tech.yahoo.com/apps/articles/obsidian-vs-notion-note-taking-173014441.html"] },
+    { "claim": "Notion은 Markdown·CSV 내보내기를 지원하나 데이터베이스 관계·중첩 구조는 이전 시 깨짐(소프트 락인), Obsidian은 원본이 Markdown이라 이탈 비용 0", "sources": ["https://hamy.xyz/blog/2025-09_notion-to-obsidian-for-notes/", "https://effortlessacademic.com/notion-vs-obsidian-whats-the-best-note-taking-tool-for-research/"] }
+  ],
+  "variables": {
+    "keyword": "notion vs obsidian for note taking",
+    "headline_finding": "앱 비교가 아니라 사용자 3질문(공유 여부/파일 소유/무료 한계선)으로 2분 내 결정되는 구조 — 상위 글 중 이 프레임 없음",
+    "decision_tree": "3질문 결정 트리 + 전용 다이어그램 이미지(코드로 자체 제작)",
+    "true_cost_table": "1인 1기기/1인 2기기/2인 팀 3시나리오 연간 실비용 표 — 경쟁글 전부 누락한 각도",
+    "paywall_map": "무료 티어가 실제로 과금되는 지점 명시(Notion=2인째 멤버·5MB·게스트10, Obsidian=2기기째 Sync $4-5)",
+    "exit_cost": "마이그레이션 비대칭(Notion→탈출 시 구조 깨짐 vs Obsidian=Markdown 원본) — hamy.xyz도 누락한 정보 게인",
+    "license_correction": "Obsidian 상업 라이선스가 2025년부터 선택사항이 된 최신 정보 — 구식 비교글 다수가 틀리게 기술"
+  },
+  "hermes_score": 91,
+  "score_history": [91],
+  "judge": "헤르메스 91/100 1라운드 통과(2026-08-21). 지적된 값싼 개선 4건 반영 — 결제주기 라벨 2곳 수정, 해시태그 재탕 3개 교체, 1인칭 15→12회로 삭감, 기존 글(best-notion-alternatives-small-teams) 낡은 상업 라이선스 문장 갱신."
+}

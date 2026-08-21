@@ -68,7 +68,7 @@ Its pricing model is unusually small-team-friendly: you only pay for "Doc Makers
 
 Obsidian takes the opposite philosophy from Notion: your notes are plain files stored locally on your own machine, not in someone else's cloud. For teams that care about privacy, ownership, or working offline, that's a major draw, and the core app is free for personal use.
 
-It shines for deep, interconnected knowledge work thanks to its linking and graph features. The caveats for teams: real-time collaboration isn't its strength (you'll lean on paid Sync or a shared repo), and commercial use needs the appropriate license. It's the pick for a small team of writers, researchers, or engineers who value control over convenience.
+It shines for deep, interconnected knowledge work thanks to its linking and graph features. The caveats for teams: real-time collaboration isn't its strength (you'll lean on paid Sync or a shared repo), and while a commercial license ($50/user/year) has been optional since 2025, teams are encouraged to buy one. It's the pick for a small team of writers, researchers, or engineers who value control over convenience.
 
 ## Microsoft Loop — best for Microsoft 365 teams
 

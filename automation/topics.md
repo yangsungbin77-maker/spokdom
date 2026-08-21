@@ -25,7 +25,7 @@ with recurring (monthly) affiliate commissions.
 - [x] typeform alternatives cheaper
 
 ### X vs Y cluster
-- [ ] notion vs obsidian for note taking
+- [x] notion vs obsidian for note taking
 - [ ] zapier vs make which is better
 - [ ] clickup vs asana for small teams
 - [ ] beehiiv vs substack for newsletters
