@@ -1,0 +1,64 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<Layout
+	title="Who Runs Spokdom"
+	description={`Meet the person behind ${SITE_TITLE} and the editorial rules every review follows.`}
+	pubDate={new Date('August 25 2026')}
+>
+	<h2>Hi, I'm Sungbin</h2>
+	<p>
+		I build and run <strong>{SITE_TITLE}</strong> on my own. I'm not an analyst at a research
+		firm — I'm a solo builder based in Ho Chi Minh City, Vietnam, who ships web projects and
+		pays for a lot of software out of my own pocket.
+	</p>
+
+	<p>
+		That's exactly why this site exists. Every "best tools" list I found was either an
+		affiliate dump or a feature table copied from the vendor's own marketing page. What I
+		actually wanted to know was simpler: <em
+			>does this thing hold up after a week of real use, and what breaks when it doesn't?</em
+		>
+	</p>
+
+	<h2>How reviews here work</h2>
+	<ul>
+		<li>
+			<strong>Hands-on first.</strong> When I've used a tool myself, I say so. When a piece
+			is built from documentation, pricing pages, and other users' reports, I say that too —
+			I never dress up research as personal experience.
+		</li>
+		<li>
+			<strong>Downsides go up top.</strong> If a tool is wrong for you, you should know
+			within the first screen, not after 2,000 words.
+		</li>
+		<li>
+			<strong>Pricing is dated.</strong> SaaS pricing changes constantly, so every price
+			states when it was checked.
+		</li>
+		<li>
+			<strong>Corrections are fast.</strong> Tell me something is wrong and I verify it and
+			fix the article — vendors included.
+		</li>
+	</ul>
+
+	<h2>How this site makes money</h2>
+	<p>
+		Some links are affiliate links. If you sign up through one, I may earn a commission at no
+		extra cost to you. <strong>It never changes a verdict.</strong> No vendor gets to review,
+		approve, or influence a piece before it goes live. Details on advertising and cookies are
+		in the <a href="/privacy">privacy policy</a>.
+	</p>
+
+	<h2>Get in touch</h2>
+	<p>
+		Corrections, tools you want covered, and partnership questions are all welcome.<br />
+		📧 <a href="mailto:yangsungbin77@gmail.com">yangsungbin77@gmail.com</a>
+	</p>
+	<p>
+		I usually reply within 2–3 days. The same address is on the <a href="/contact">contact</a>
+		page.
+	</p>
+</Layout>

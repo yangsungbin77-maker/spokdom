@@ -9,10 +9,21 @@ const today = new Date();
 			<a href="/">Home</a>
 			<a href="/blog">Reviews</a>
 			<a href="/about">About</a>
+			<a href="/author">Who Runs This</a>
 			<a href="/privacy">Privacy Policy</a>
+			<a href="/contact">Contact</a>
 			<a href="/rss.xml">RSS</a>
 		</nav>
 		<span class="copy">&copy; {today.getFullYear()} Spokdom</span>
+	</div>
+	<div class="meta">
+		<p class="desc">
+			Hands-on reviews and comparisons of AI tools and SaaS apps, written to help you pick the right software faster.
+		</p>
+		<p class="who">
+			Run by <strong>Sungbin</strong> · Contact
+			<a href="mailto:yangsungbin77@gmail.com">yangsungbin77@gmail.com</a>
+		</p>
 	</div>
 </footer>
 <style>
@@ -46,4 +57,20 @@ const today = new Date();
 	}
 	.links a:hover { color: var(--accent); }
 	.copy { color: var(--text-dim); font-size: 0.85rem; }
+	.meta {
+		width: var(--maxw);
+		max-width: calc(100% - 2.5em);
+		margin: -1rem auto 0;
+		padding: 1.2rem 0 2.5rem;
+		border-top: 1px solid var(--border, rgba(128, 128, 128, 0.25));
+	}
+	.meta p {
+		margin: 0 0 0.4rem;
+		color: var(--text-dim);
+		font-size: 0.85rem;
+		line-height: 1.6;
+	}
+	.meta .who strong { color: var(--text-muted); }
+	.meta a { color: var(--text-muted); font-weight: 600; }
+	.meta a:hover { color: var(--accent); }
 </style>

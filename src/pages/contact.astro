@@ -1,0 +1,34 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<Layout
+	title="Contact"
+	description={`Get in touch with ${SITE_TITLE} — corrections, review requests, and partnership questions.`}
+	pubDate={new Date('August 25 2026')}
+>
+	<p>
+		Got a question, a correction, or a tool you'd like reviewed? Email is the fastest way to
+		reach {SITE_TITLE}.
+	</p>
+
+	<h2>Email</h2>
+	<p>
+		📧 <a href="mailto:yangsungbin77@gmail.com">yangsungbin77@gmail.com</a>
+	</p>
+	<p>Every message is read, and I usually reply within 2–3 days.</p>
+
+	<h2>What to send</h2>
+	<ul>
+		<li>Corrections — if a review says something inaccurate, I verify it and fix the article</li>
+		<li>Tool or comparison requests</li>
+		<li>Vendor outreach: send access or docs, but note that coverage is never guaranteed or paid</li>
+		<li>Partnership and advertising questions</li>
+	</ul>
+
+	<p>
+		You can read about who writes here on the <a href="/author">who runs this</a> page, and
+		about advertising and cookies in the <a href="/privacy">privacy policy</a>.
+	</p>
+</Layout>
