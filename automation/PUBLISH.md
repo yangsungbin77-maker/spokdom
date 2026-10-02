@@ -2,7 +2,7 @@
 
 A scheduled routine follows this procedure **once every two days**. The goal is not just to publish,
 but to ship **one post that is more thorough and better-optimized for Google than the current top
-results** for the target keyword. Each post includes 1 external link, 1 internal link, and 2 images,
+results** for the target keyword. Each post includes 1 external link, 1 internal link, and 2–4 images,
 and **must be fact-checked on the web before publishing**.
 
 **Output language: English.** This is an English-market site. All post content, titles, and
@@ -71,7 +71,8 @@ and pushes. If it fails, fix per the message and re-run.
   least one `##` H2, and naturally through the body. No keyword stuffing — use synonyms and related terms.
 - **Structure:** scannable `##`/`###` hierarchy. Put the core answer near the top (fast intent match).
 - **1 internal link:** `[natural anchor](internalLink.url)`. **1 external link:** `[natural anchor](externalLink.url)`.
-- **2 images (required):** ① hero — frontmatter `heroImage` (layout auto-handles alt=title + OG).
+- **Structure / gaps / image count (gate added 2026-10-02):** research.json must include `"structure"` — one of 결론먼저·궁금증추적·문제해결·비교선택·장면출발·오해바로잡기·과정따라가기·핵심발견확장·질문연결·관점제시 (conclusion-first, curiosity-trail, problem-solving, comparison, scene-opening, myth-busting, step-by-step, key-finding, question-chain, viewpoint), **different from the previous 2 posts** — and `"gaps"`: 3+ things the top results all missed, each `{"gap":"15+ chars, concrete","covered_in":"the exact H2 text in our post that fills it"}`. Use **2–4 images incl. hero**; finalize blocks a 3rd post in a row with the same image count, so vary it and mix body ratios (16:9 · 4:3 · 1:1).
+- **2–4 images (required, vary the count):** ① hero — frontmatter `heroImage` (layout auto-handles alt=title + OG).
   ② one in-body image — placed at `src/assets/posts/<keyword-slug>.png`, inserted around the 1/3–1/2
   mark as `![alt with target keyword](../../assets/posts/<keyword-slug>.png)`. **Filename and alt must
   contain the target keyword** (no empty alt, no "image1"). Put it in `posts/`, not the rotating
