@@ -3,7 +3,7 @@
 
 export const SITE_TITLE = 'Spokdom';
 export const SITE_DESCRIPTION =
-	'Honest, hands-on reviews and comparisons of AI tools and SaaS apps — pick the right software faster.';
+	'Honest reviews and comparisons of AI tools and SaaS apps, built on dated pricing and plan limits — pick the right software faster.';
 
 // Paste only the `content` value from Google Search Console's "HTML tag" verification.
 // Leave empty to omit the meta tag.
