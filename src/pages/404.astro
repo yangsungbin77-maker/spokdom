@@ -1,0 +1,54 @@
+---
+// 없는 주소로 들어온 방문자를 리뷰 목록·주요 페이지로 안내하는 404 오류 페이지(광고·색인 제외)
+import { getCollection } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+
+const latest = (await getCollection('blog'))
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+	.slice(0, 5);
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead
+			title={`Page not found · ${SITE_TITLE}`}
+			description="The page you requested doesn't exist or has moved."
+			noAds
+			noindex
+		/>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="nf">
+				<h1>Page not found</h1>
+				<p>The address may have changed or the page was removed. Try one of these instead.</p>
+				<ul>
+					{
+						latest.map((post) => (
+							<li>
+								<a href={`/${post.id}/`}>{post.data.title}</a>
+							</li>
+						))
+					}
+					<li><a href="/blog">All reviews</a></li>
+					<li><a href="/">Home</a></li>
+				</ul>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	.nf { max-width: 640px; margin: 2rem auto; }
+	.nf h1 { font-size: clamp(1.5rem, 4vw, 2rem); margin-bottom: 0.5rem; }
+	.nf p { color: var(--text-muted); }
+	.nf ul { padding-left: 1.2em; }
+	.nf li { margin: 0.3em 0; }
+	.nf a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; }
+</style>
