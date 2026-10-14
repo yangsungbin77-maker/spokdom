@@ -1,0 +1,230 @@
+{
+  "type": "comparison",
+  "keyword": "ai transcription for qualitative research",
+  "note": "2026-10-14 draft. Cluster: best ai transcription for qualitative research / best ai transcription for research (interviews) / best transcription software for interviews / best free transcription software for interviews / transcribing research interviews / otter ai for research / speaker identification / IRB transcription / offline (Whisper-based) transcription / NVivo, ATLAS.ti import. Images: original matplotlib graphics (AI image API out of credit). Judge/factcheck.py/finalize not run (per instruction).",
+  "keyword_filter": {
+    "keyword": "ai transcription for qualitative research",
+    "competition": {
+      "method": "serp-scan",
+      "evidence": "Page 1 for 'best ai transcription for qualitative research' is almost entirely ONE vendor (sonix.ai, same article in ~10 languages); other results are small vendor blogs (koji.so, cleverx, brasstranscripts, yaps.ai, affine.pro, happyscribe) plus a university center page (Bentley UXC). No wiki/major media — independent reviewer can enter.",
+      "pass": true
+    },
+    "demand": {
+      "method": "autocomplete",
+      "evidence": "Google suggestqueries (2026-10-14): typing 'ai transcription for qualitative research' returns it exactly + 'best ai transcription for qualitative research'; 'best ai transcription for research' also suggests the qualitative variant; 'best transcription software for interviews' suggests 'best free transcription software for interviews'; 'transcription for research interviews' suggests 'transcribing research interviews'.",
+      "pass": true
+    },
+    "intent": {
+      "method": "serp-scan",
+      "evidence": "Top results are all informational blog roundups/guides (vendor 'best tools' lists, IRB/GDPR guides, university UX center review). No shopping tab, product cards or local pack — informational recommendation intent suitable for a blog post.",
+      "pass": true
+    }
+  },
+  "serp": [
+    {
+      "url": "https://sonix.ai/resources/transcription-tools-for-qualitative-research/",
+      "opened": true,
+      "note": "~4,000 words, 7 tools, Sonix ranks itself #1. Lists Otter 300 min/30-min cap, Sonix 30 free min, NoScribe offline. No step-by-step IRB checklist, no training-policy comparison."
+    },
+    {
+      "url": "https://www.koji.so/blog/best-user-interview-transcription-software-2026",
+      "opened": true,
+      "note": "~2,000 words, UX-research angle, Koji ranks itself #1, unsourced 92-96% accuracy, no privacy detail, no offline tools."
+    },
+    {
+      "url": "https://cleverx.com/blog/best-ai-transcription-tools-for-research-in-2026-8-platforms-ranked-for-ux-researchers",
+      "opened": false,
+      "note": "Content did not load via WebFetch (empty body)."
+    },
+    {
+      "url": "https://cleverx.com/blog/ai-transcription-tools-for-research-the-best-options-in-2026/",
+      "opened": false,
+      "note": "Content did not load via WebFetch (empty body)."
+    },
+    {
+      "url": "https://www.bentley.edu/centers/user-experience-center/transcription-tools-qualitative-data-uxr",
+      "opened": true,
+      "note": "~1,150 words, Otter-only review by university UX center; transcripts reliable for checking data but not shareable unreviewed. No privacy analysis."
+    },
+    {
+      "url": "https://brasstranscripts.com/blog/qualitative-research-transcription-gdpr-irb-nvivo-guide",
+      "opened": true,
+      "note": "~2,800 words, GDPR/IRB/NVivo formats; vendor self-validating, no training-policy comparison, no free-tier math."
+    },
+    {
+      "url": "https://www.yaps.ai/blog/offline-transcription-qualitative-research",
+      "opened": true,
+      "note": "~4,500 words, offline angle (Yaps, MacWhisper, noScribe, aTrain, Buzz), Common Rule discussion; heavy self-promotion, unsourced speed numbers, ignores Word Transcribe."
+    },
+    {
+      "url": "https://affine.pro/blog/ai-scribe-for-user-research-interviews",
+      "opened": true,
+      "note": "~1,700 words, UX 'AI scribe' angle, no pricing figures, shallow GDPR mention."
+    },
+    {
+      "url": "https://sonix.ai/resources/transcription-tools-academic-research/",
+      "opened": true,
+      "note": "~2,400 words, 8 tools, only Sonix priced, inconsistent language counts, no drawbacks listed."
+    },
+    {
+      "url": "https://www.happyscribe.com/blog/best-transcription-software-for-qualitative-research",
+      "opened": true,
+      "note": "~3,500 words, HappyScribe #1; Rev free 45 min, Trint no AI training on files, NVivo add-on pricing. No offline/local option at all."
+    },
+    {
+      "url": "https://blog.uxtweak.com/transcription-software-for-qualitative-research/",
+      "opened": false,
+      "note": "Empty body via WebFetch."
+    }
+  ],
+  "serp_summary": {
+    "intent": "informational recommendation list (best tools for qualitative interview transcription)",
+    "common_must_haves": "tool list with free tier/pricing, speaker identification, accuracy caveats, IRB/HIPAA/GDPR mention, NVivo/ATLAS.ti export, FAQ",
+    "avg_length": "~2,500-3,500 words (vendor long-form)",
+    "serp_features": "PAA-style FAQ in most results; no shopping/local pack"
+  },
+  "factcheck": [
+    {
+      "claim": "Otter.ai Basic (free): 300 monthly transcription minutes, 30-minute cap per conversation, 3 lifetime file imports; a longer import is not stopped but only the first 30 minutes of transcript are accessible until upgrade (as of Oct 2026)",
+      "sources": [
+        "https://otter.ai/pricing",
+        "https://help.otter.ai/hc/en-us/articles/360047538094-Conversation-import-and-app-limits-on-the-Basic-free-plan",
+        "https://convertaudiototext.com/blog/otter-ai-free-plan-limits",
+        "https://sonix.ai/resources/transcription-tools-for-qualitative-research/"
+      ]
+    },
+    {
+      "claim": "Rev free plan: 45 AI transcription minutes/month; human transcription $1.99/min",
+      "sources": [
+        "https://www.rev.com/pricing",
+        "https://www.happyscribe.com/blog/best-transcription-software-for-qualitative-research"
+      ]
+    },
+    {
+      "claim": "Sonix: 30 free minutes for new accounts (no card), pay-as-you-go $10/hour; SOC 2 Type II listed",
+      "sources": [
+        "https://sonix.ai/pricing",
+        "https://sonix.ai/resources/transcription-tools-for-qualitative-research/",
+        "https://sonix.ai/resources/transcription-tools-academic-research/"
+      ]
+    },
+    {
+      "claim": "Word Transcribe: Microsoft 365 subscribers get 300 minutes/month of uploaded audio; speakers labelled Speaker 1, Speaker 2 and renameable; desktop version requires optional connected experiences, which admins can disable by policy, so availability depends on license and admin settings",
+      "sources": [
+        "https://support.microsoft.com/en-us/office/transcribe-your-recordings-7fc2efec-245e-45f0-b053-2a97531ecf57",
+        "https://learn.microsoft.com/en-us/microsoft-365-apps/privacy/manage-privacy-controls",
+        "https://subanana.com/en/blog/how-to-transcribe-microsoft-word"
+      ]
+    },
+    {
+      "claim": "noScribe is free/open source (GPL-3.0), runs completely locally, uses Whisper/faster-whisper and pyannote speaker detection, Windows/macOS/Linux",
+      "sources": [
+        "https://github.com/kaixxx/noScribe",
+        "https://sonix.ai/resources/transcription-tools-for-qualitative-research/",
+        "https://www.yaps.ai/blog/offline-transcription-qualitative-research"
+      ]
+    },
+    {
+      "claim": "Otter's privacy policy states it trains its proprietary AI on de-identified audio recordings and on transcriptions that may contain personal information",
+      "sources": [
+        "https://otter.ai/privacy-policy",
+        "https://blog.buildbetter.ai/do-they-own-your-data-otter-ai-privacy-policy-reviewed/"
+      ]
+    },
+    {
+      "claim": "Trint: never listens to recordings to train algorithms; ISO 27001 certified",
+      "sources": [
+        "https://www.trint.com/security",
+        "https://www.happyscribe.com/blog/best-transcription-software-for-qualitative-research"
+      ]
+    },
+    {
+      "claim": "MacWhisper transcribes on-device by default; Pro speaker recognition works on local WhisperKit models (built for Apple Silicon) or cloud providers ElevenLabs/Deepgram; optional cloud transcription and ChatGPT (OpenAI API key) features send data off-device; mixed-language audio can produce garbled output",
+      "sources": [
+        "https://docs.macwhisper.com/article/32-automatic-speaker-recognition-in-macwhisper",
+        "https://docs.macwhisper.com/article/7-how-to-use-chatgpt-in-macwhisper",
+        "https://docs.macwhisper.com/article/22-assistant",
+        "https://heise.de/-10322414",
+        "https://www.yaps.ai/blog/offline-transcription-qualitative-research"
+      ]
+    },
+    {
+      "claim": "UMBC: many transcription services retain access to recordings; outside transcriptionists must sign a confidentiality agreement before transcribing, kept in the investigator's protocol file. UF ECE: Otter free plan not approved, Business/Pro with UF email only, no sensitive research data",
+      "sources": [
+        "https://research.umbc.edu/using-transcriptionists-for-recorded-interviews/",
+        "https://www.ece.ufl.edu/resources/it/otter-ai-approved-use"
+      ]
+    },
+    {
+      "claim": "Bentley UXC kept its own notes and used Otter transcripts to fill gaps in them via timestamps; transcripts were not a final record and not accurate enough to share with a client unreviewed",
+      "sources": [
+        "https://www.bentley.edu/centers/user-experience-center/transcription-tools-qualitative-data-uxr",
+        "https://sonix.ai/resources/transcription-tools-for-qualitative-research/"
+      ]
+    },
+    {
+      "claim": "NVivo Transcription is an online (cloud) service: audio is uploaded to the vendor's online platform; University of York approves it only for anonymised data",
+      "sources": [
+        "https://techcenter.qsrinternational.com/Content/cloud/NVivo_Transcription.htm",
+        "https://www.york.ac.uk/it-services/tools/nvivo/",
+        "https://research.mcmaster.ca/home/support-for-researchers/research-resources/askresearch/nvivo/"
+      ]
+    },
+    {
+      "claim": "Otter Pro (as of Oct 2026): $16.99/month monthly or $8.33/month billed annually, 90-minute cap per conversation, 10 imports/month; 20% student/teacher discount for .edu emails",
+      "sources": [
+        "https://otter.ai/pricing",
+        "https://convertaudiototext.com/blog/otter-ai-free-plan-limits"
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "text": "It runs completely locally on your computer, protecting the confidentiality of your interviews.",
+      "source": "https://github.com/kaixxx/noScribe (README, verified via raw README)"
+    },
+    {
+      "text": "Many, if not most, retain access to recorded information.",
+      "source": "https://research.umbc.edu/using-transcriptionists-for-recorded-interviews/ (verified via curl)"
+    }
+  ],
+  "variables": {
+    "keyword": "ai transcription for qualitative research",
+    "headline_finding": "Otter's '300 free minutes' covers at most 3 uploaded interviews ever (3 lifetime imports + 30-min cap per conversation); Rev free (45 min) covers less than one 1-hour interview",
+    "free_tier_math": "One-hour interviews covered per month: Word Transcribe ~5 (300 min, M365), Otter Basic ≤3 lifetime imports, Rev 0 full, Sonix 30 min once, noScribe unlimited (local)",
+    "training_policy_matrix": "Per-vendor statement on training with user content: Otter trains on de-identified audio+transcripts; Trint says never listens to recordings for training; Sonix pricing page silent; local tools upload nothing",
+    "institutional_rules": "UF ECE bars Otter free plan; UMBC requires signed confidentiality agreements and warns most services retain access",
+    "decision_flow": "Original decision graphic: sensitive data → local tool; non-sensitive + university-approved cloud → Word Transcribe; otherwise IRB sign-off before Otter/Rev/Sonix/Trint"
+  },
+  "structure": "결론먼저",
+  "gaps": [
+    {
+      "gap": "No top-10 result converts free tiers into number of one-hour interviews actually covered (Otter's 3 lifetime imports and 30-min cap are listed but never applied to interviews)",
+      "covered_in": "How many interviews does each free tier actually cover?"
+    },
+    {
+      "gap": "None compares vendors side by side on whether they train AI on uploaded interview content, citing the vendors' own policy wording",
+      "covered_in": "Which tools train on your interview audio?"
+    },
+    {
+      "gap": "No competitor cites actual university IRB/department rules (UMBC confidentiality agreement, UF free-plan ban); all paraphrase generic 'check with your IRB'",
+      "covered_in": "What does your IRB actually expect from a transcription tool?"
+    },
+    {
+      "gap": "Microsoft Word Transcribe (300 min/month free with university M365) is missing from every top result despite being the institution-approved default for many students",
+      "covered_in": "Why local first? The comparison table behind the recommendation"
+    }
+  ],
+  "images": [
+    "src/assets/posts/ai-transcription-for-qualitative-research.webp (hero 16:9, 1600x900)",
+    "src/assets/posts/ai-transcription-for-qualitative-research-free-minutes.webp (16:9 bar chart)",
+    "src/assets/posts/ai-transcription-for-qualitative-research-privacy-matrix.webp (1:1 matrix)",
+    "src/assets/posts/ai-transcription-for-qualitative-research-decision-flow.webp (4:3 decision flow)"
+  ],
+  "ai_smell_score": 4,
+  "hermes_score": 94,
+  "score_history": [
+    85,
+    94
+  ]
+}

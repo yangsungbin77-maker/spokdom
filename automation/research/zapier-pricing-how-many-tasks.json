@@ -1,0 +1,226 @@
+{
+  "type": "review",
+  "keyword": "zapier pricing tasks",
+  "note": "2026-10-14 draft by subagent. 'zapier pricing' head term rejected (official page + big vendors); narrowed to 'zapier pricing tasks' (exact Google autocomplete). Images = original matplotlib data graphics (AI image API out of credit), script automation/_gen_imgs_zapier-pricing-how-many-tasks.py.",
+  "cluster": [
+    "how many tasks zapier",
+    "zapier tasks per month",
+    "what counts as a task in zapier",
+    "zapier free how many tasks",
+    "zapier tasks explained",
+    "zapier task limits",
+    "zapier task usage",
+    "zapier 100 tasks per month",
+    "zapier plan tasks",
+    "zapier multi-step zap tasks",
+    "zapier pay-per-task",
+    "zapier professional vs team"
+  ],
+  "keyword_filter": {
+    "keyword": "zapier pricing tasks",
+    "competition": {
+      "method": "serp-scan",
+      "evidence": "Head term 'zapier pricing' is dominated by zapier.com and large vendors, so rejected. For the tasks long tail, page 1 includes small/niche sites: superdupr.com, markaicode.com, nocode.mba, jetadmin.io, latenode.com, activepieces.com, eesel.ai — all vendor blogs with conflicts of interest, several with arithmetic errors (nocode.mba 5-step/150-run = 750 tasks contradicts trigger rule). Bing intitle query returned mixed loose results incl. personal Naver blogs. Entry possible.",
+      "pass": true
+    },
+    "demand": {
+      "method": "autocomplete",
+      "evidence": "Google suggestqueries (en, 2026-10-14): 'zapier pricing tasks' exact suggestion; 'zapier tasks' → 'zapier tasks per month', 'zapier tasks explained', 'zapier tasks pricing', 'zapier tasks limit', 'zapier 100 tasks per month', 'zapier plan tasks'; 'how many zapier tasks' → 'how many tasks zapier', 'zapier free how many tasks', 'what counts as a task in zapier'; 'zapier task' → 'zapier task usage', 'zapier task limits'.",
+      "pass": true
+    },
+    "intent": {
+      "method": "serp-scan",
+      "evidence": "Top results for the tasks query are informational explainer blog posts (pricing breakdowns with worked examples and FAQ) plus Zapier Help Center docs and a Zapier Community Q&A thread. No shopping/product cards or local pack. Searcher wants to understand task counting before buying — a blog can satisfy it.",
+      "pass": true
+    }
+  },
+  "serp": [
+    {
+      "url": "https://zapier.com/pricing",
+      "opened": true,
+      "note": "Official. Free 100 tasks/two-step/15-min polling; Pro $19.99 annual/$29.99 monthly 750 tasks; Team $69/$103.50 2,000 tasks, 25 users; full tier ladder; FAQ on tasks, free built-in tools, PPT, MCP=2 tasks, prorated upgrades. Quote source."
+    },
+    {
+      "url": "https://help.zapier.com/hc/en-us/articles/8496196837261-Tasks-in-Zapier",
+      "opened": true,
+      "note": "Official help: 'A task is any successful action that runs in Zapier.' Filter/Paths/triggers/errored steps free; Formatter, Delay, Looping, Storage free; replays re-bill; AI by model tier; Code runtime. Dropbox+Slack example = 2 tasks/run."
+    },
+    {
+      "url": "https://help.zapier.com/hc/en-us/articles/15279018245901",
+      "opened": true,
+      "note": "Official PPT: rate depends on plan & billing cycle (Billing settings); max = 3x plan task limit; Pro 750 → 2,250; not on Free; toggle off in Billing settings."
+    },
+    {
+      "url": "https://superdupr.com/blog/how-much-does-zapier-cost",
+      "opened": true,
+      "note": "~2,000 words, Sep 30 2026 updated Oct 12. Full ladder, AI tiers 1/3/5, 1.25x overage is author's inference. 300-lead AI example. No step-vs-task naive comparison."
+    },
+    {
+      "url": "https://www.jetadmin.io/blog/zapier-pricing/amp/",
+      "opened": true,
+      "note": "~2,000 words, Sep 26 2026. Formula billable steps x runs; 2 examples (1,200 / 10,000 tasks). Vendor promo. No filter-savings numbers."
+    },
+    {
+      "url": "https://activepieces.com/blog/zapier-pricing",
+      "opened": true,
+      "note": "~2,000 words, competitor. States 3-step automation = 3 tasks (overcounts trigger). No worked calculation, no filter info."
+    },
+    {
+      "url": "https://eesel.ai/blog/zapier-subscription",
+      "opened": true,
+      "note": "~4,000 words, Jun 2026. Cost-by-volume table conflicts with official ladder (10,000 = ~$300 vs official $129). 5-step x 100/day = 15,000 counts every step. Competitor."
+    },
+    {
+      "url": "https://www.nocode.mba/articles/zapier-pricing-2026",
+      "opened": true,
+      "note": "~1,500 words, Oct 7 2026. Correct free-step list but 5-step/150-run = 750 example contradicts its own trigger rule. No tier prices above base."
+    },
+    {
+      "url": "https://latenode.com/blog/zapier-pricing",
+      "opened": true,
+      "note": "~4,000 words, Oct 6 2026. Full ladder matches official; PPT break-even math; competitor disclosure. Free plan two-step implication for filters not discussed."
+    },
+    {
+      "url": "https://markaicode.com/pricing/zapier-pricing/",
+      "opened": true,
+      "note": "~2,500 words, Sep 4 2026. 4 actions x 150 = 600 example (correct). Overage rate 'Depends'. No naive-vs-billed comparison."
+    },
+    {
+      "url": "https://community.zapier.com/how-do-i-3/what-is-considered-a-task-41174",
+      "opened": true,
+      "note": "User confusion: assumed rows = tasks, 1,000+ contacts vs 750 limit; answer just links docs and Zap history. Confirms demand for plain explanation."
+    },
+    {
+      "url": "https://www.capterra.com/p/130182/Zapier/pricing/",
+      "opened": false,
+      "note": "403 Forbidden"
+    },
+    {
+      "url": "https://relay.app/blog/zapier-pricing",
+      "opened": false,
+      "note": "404 Not Found"
+    },
+    {
+      "url": "https://zapier.com/blog/what-is-a-task-in-zapier/",
+      "opened": true,
+      "note": "Zapier official blog (2026-10-14 check): 'For annual plans, extra tasks are billed at 1.25x your plan's normal task cost.' Monthly = 2.5x. PPT capped at 3x plan task limit."
+    }
+  ],
+  "factcheck": [
+    {
+      "claim": "Plans as of Oct 2026: Free 100 tasks/mo two-step Zaps; Professional from $19.99/mo annual ($29.99 monthly) for 750 tasks; Team from $69/mo annual ($103.50 monthly) for 2,000 tasks; Enterprise custom",
+      "sources": [
+        "https://zapier.com/pricing",
+        "https://superdupr.com/blog/how-much-does-zapier-cost",
+        "https://latenode.com/blog/zapier-pricing",
+        "https://www.jetadmin.io/blog/zapier-pricing/amp/"
+      ]
+    },
+    {
+      "claim": "Professional annual tiers: 1,500=$39, 2,000=$49, 5,000=$89, 10,000=$129; Team annual 5,000=$119, 10,000=$169; Pro monthly 1,500=$58.50, 2,000=$73.50, 5,000=$133.50, 10,000=$193.50",
+      "sources": [
+        "https://zapier.com/pricing",
+        "https://latenode.com/blog/zapier-pricing",
+        "https://superdupr.com/blog/how-much-does-zapier-cost"
+      ]
+    },
+    {
+      "claim": "Each successful action counts as a task; triggers and polling are free; failed/halted actions are free",
+      "sources": [
+        "https://zapier.com/pricing",
+        "https://help.zapier.com/hc/en-us/articles/8496196837261-Tasks-in-Zapier",
+        "https://www.nocode.mba/articles/zapier-pricing-2026"
+      ]
+    },
+    {
+      "claim": "Built-in tools that do not count as tasks: Tables, Forms, Filter, Formatter, Paths, Delay, Looping, Sub-Zap, Digest, Zapier Manager, Storage",
+      "sources": [
+        "https://zapier.com/pricing",
+        "https://help.zapier.com/hc/en-us/articles/8496196837261-Tasks-in-Zapier",
+        "https://eesel.ai/blog/zapier-subscription"
+      ]
+    },
+    {
+      "claim": "Pay-per-task: billed at higher per-task rate, capped at 3x plan task limit (Pro 750 → 2,250), not available on Free; exact rate shown in Billing settings",
+      "sources": [
+        "https://help.zapier.com/hc/en-us/articles/15279018245901",
+        "https://zapier.com/pricing",
+        "https://www.nocode.mba/articles/zapier-pricing-2026",
+        "https://superdupr.com/blog/how-much-does-zapier-cost"
+      ]
+    },
+    {
+      "claim": "One Zapier MCP tool call uses two tasks; AI by Zapier usage depends on model tier",
+      "sources": [
+        "https://zapier.com/pricing",
+        "https://help.zapier.com/hc/en-us/articles/8496196837261-Tasks-in-Zapier",
+        "https://markaicode.com/pricing/zapier-pricing/"
+      ]
+    },
+    {
+      "claim": "Polling time Free 15 min / Professional 2 min / Team 1 min; Team 25 users, shared Zaps and app connections; upgrades immediate and prorated",
+      "sources": [
+        "https://zapier.com/pricing",
+        "https://superdupr.com/blog/how-much-does-zapier-cost",
+        "https://latenode.com/blog/zapier-pricing"
+      ]
+    },
+    {
+      "claim": "Pay-per-task overage rate: 1.25x normal per-task cost on annual plans, 2.5x on monthly plans (Zapier's own blog); exact rate in Billing settings",
+      "sources": [
+        "https://zapier.com/blog/what-is-a-task-in-zapier/",
+        "https://help.zapier.com/hc/en-us/articles/15279018245901",
+        "https://superdupr.com/blog/how-much-does-zapier-cost"
+      ]
+    },
+    {
+      "claim": "Help Center article title is 'How is task usage measured in Zapier?' and defines a task as 'any successful action that runs in Zapier'; pay-per-task article title is 'How pay-per-task billing works in Zapier'",
+      "sources": [
+        "https://help.zapier.com/hc/en-us/articles/8496196837261-How-is-task-usage-measured-in-Zapier",
+        "https://help.zapier.com/hc/en-us/articles/15279018245901",
+        "https://zapier.com/blog/what-is-a-task-in-zapier/"
+      ]
+    }
+  ],
+  "variables": {
+    "keyword": "zapier pricing tasks",
+    "headline_finding": "Naive step count (2,130) overestimates billed tasks (820) by 2.6x for three typical solo Zaps — the gap between the $89 (5,000) and $39 (1,500) Professional annual tier",
+    "worked_example": "A lead form 5 steps x 300 runs (200 pass Filter) = 400 tasks; B Stripe 3 steps x 150 = 300; C invoice email 3 steps x 60 = 120; total 820",
+    "filter_savings": "Filter right after trigger drops 100 junk runs in workflow A → 200 fewer billed tasks than with no filter (600 → 400)",
+    "cost_per_task": "Professional annual: 2.7c at 750, 2.6c at 1,500, 2.5c at 2,000, 1.8c at 5,000, 1.3c at 10,000 (computed from official list prices)",
+    "free_plan_structure": "Free = two-step only, so free Filter/Formatter steps cannot be used to save tasks there — every fired trigger becomes a billed task",
+    "competitor_errors": "nocode.mba 5-step x 150 = 750 and activepieces '3-step = 3 tasks' both count the trigger; eesel 10,000 tasks ~$300 vs official $129"
+  },
+  "structure": "핵심발견확장",
+  "gaps": [
+    {
+      "gap": "No top-10 result compares a naive every-step count against the billed task count for the same set of Zaps and shows the tier/price difference",
+      "covered_in": "The surprising part: your step count is not your task count"
+    },
+    {
+      "gap": "No result gives a multi-workflow solo-founder worksheet (steps, runs, filter pass-rate, billed tasks) that totals to a tier choice",
+      "covered_in": "How many tasks do I need? A worked example for three solo workflows"
+    },
+    {
+      "gap": "None quantifies how a Filter placed right after the trigger reduces monthly billed tasks, or lists Digest/Formatter swaps as task savers",
+      "covered_in": "How to cut your Zapier task usage without deleting Zaps"
+    },
+    {
+      "gap": "None explains that the Free plan's two-step limit blocks the free Filter/Formatter steps, so every free-plan trigger becomes a billed task",
+      "covered_in": "Is the Zapier free plan's 100 tasks per month enough?"
+    }
+  ],
+  "quote": {
+    "text": "Each successful action in a Zap counts as a separate task.",
+    "source": "https://zapier.com/pricing (FAQ)"
+  },
+  "images": [
+    "src/assets/posts/zapier-pricing-how-many-tasks.webp (hero 1600x900)",
+    "src/assets/posts/zapier-pricing-tasks-by-workflow.webp (4:3 1200x900)",
+    "src/assets/posts/zapier-pricing-task-tiers.webp (1:1 1080x1080)"
+  ],
+  "hermes_score": 91,
+  "score_history": [
+    91
+  ]
+}

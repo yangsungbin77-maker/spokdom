@@ -1,0 +1,204 @@
+{
+  "type": "comparison",
+  "keyword": "descript vs capcut",
+  "note": "2026-10-14 초안(서브에이전트). humanize 대상 아님(영어). 심판·factcheck.py·finalize는 상위 에이전트가 진행.",
+  "cluster": [
+    "descript vs capcut",
+    "capcut vs descript",
+    "descript vs capcut pro",
+    "descript pricing",
+    "capcut pro pricing",
+    "descript free plan",
+    "text-based video editing",
+    "descript vs capcut for youtube",
+    "descript vs capcut for podcasts",
+    "capcut terms of service",
+    "is capcut safe",
+    "capcut watermark free plan"
+  ],
+  "keyword_filter": {
+    "keyword": "descript vs capcut",
+    "competition": {
+      "method": "serp-scan",
+      "evidence": "1페이지가 공식기관·위키·대형언론이 아니라 소형 벤더 블로그·니치 사이트로 구성 — descript.com 자사 비교페이지 외 opus.pro, talks.co, swellai, clipspeed.ai, genesysgrowth, blitzcutai, saturaai, vmaker. 대부분 제3 툴 홍보 글이고 가격 미기재·워터마크 정보 상충 → 정직 비교로 진입 가능.",
+      "pass": true
+    },
+    "demand": {
+      "method": "autocomplete",
+      "evidence": "구글 자동완성(suggestqueries, 2026-10-14 실측) 'descript vs capcut' 정확 노출 + 'descript vs capcut pro', 'descript vs capcut reddit', 'descript ai vs capcut'; 역순 'capcut vs descript', 'capcut vs descript reddit', 'capcut pro vs descript', 'opus clip vs capcut vs descript'도 노출.",
+      "pass": true
+    },
+    "intent": {
+      "method": "serp-scan",
+      "evidence": "상위 10개 전부 정보성 비교 블로그글(벤더 블로그 8, 자사 비교 랜딩 1, 데이터 비교 1). 쇼핑탭·제품카드·지도팩 없음 — X vs Y 비교 정보 의도로 블로그 적합.",
+      "pass": true
+    }
+  },
+  "serp": [
+    {
+      "url": "https://www.descript.com/compare/descript-vs-capcut",
+      "opened": true,
+      "note": "Descript 자사 랜딩 ~900단어, 가격 없음, 'CapCut has text-based editing, but good luck finding it' 인용 출처, 편향 강함"
+    },
+    {
+      "url": "https://ramp.com/vendors/capcut/alternatives/capcut-vs-descript",
+      "opened": false,
+      "note": "HTTP 404 — 열람 실패"
+    },
+    {
+      "url": "https://www.opus.pro/blog/descript-vs-capcut",
+      "opened": true,
+      "note": "~2,300단어, OpusClip 홍보, Descript 가격 구식($12/$24), ToS·지역·워터마크 누락"
+    },
+    {
+      "url": "https://talks.co/p/descript-vs-capcut",
+      "opened": true,
+      "note": "~2,700단어, 비교표 열이 Riverside로 잘못 표기, CapCut Pro $19.99/$179.99, ToS 주장 출처 없음"
+    },
+    {
+      "url": "https://www.swellai.com/blog/capcut-vs-descript",
+      "opened": true,
+      "note": "~2,000단어, 가격 0, 날짜 없음, 일반론"
+    },
+    {
+      "url": "https://www.clipspeed.ai/compare/descript-vs-capcut.html",
+      "opened": true,
+      "note": "~1,000단어, 2026-04, 가격 수치 없음, 자사 클리핑 툴 홍보"
+    },
+    {
+      "url": "https://genesysgrowth.com/blog/descript-vs-capcut-vs-clipchamp",
+      "opened": true,
+      "note": "~4,500단어, Descript 연간가 정확(16/24/50), CapCut Standard $9.99 모바일 전용·Pro $19.99, 근거 없는 속도테스트"
+    },
+    {
+      "url": "https://www.byteplus.com/en/topic/62174",
+      "opened": false,
+      "note": "301 → Seedance 제품 페이지로 리다이렉트, 글 사라짐"
+    },
+    {
+      "url": "https://blitzcutai.com/blog/descript-vs-capcut-2026",
+      "opened": true,
+      "note": "~2,000단어, Descript Creator $33·Business $55로 공식과 불일치, CapCut 무료 워터마크 없음 주장, 자사 홍보 프롬프트 삽입"
+    },
+    {
+      "url": "https://saturaai.com/descript-vs-capcut",
+      "opened": true,
+      "note": "~2,700단어, Descript 무료를 '720p watermark-free'로 기술 — 공식(워터마크 있음)과 상충, CapCut 가격 없음"
+    },
+    {
+      "url": "https://www.vmaker.com/blog/?p=17990",
+      "opened": true,
+      "note": "~2,000단어 실사용기(1편 영상), 가격 0, CapCut 모바일만 테스트해 불균형"
+    },
+    {
+      "url": "https://www.veed.io/learn/capcut-review",
+      "opened": true,
+      "note": "CapCut 리뷰(보조) — US 상태가 2025-01 기준으로 낡음, Pro 가격 $20.84/$79.99로 타 출처와 불일치"
+    }
+  ],
+  "factcheck": [
+    {
+      "claim": "Descript 요금(2026-10): Free 1 media hr/mo·720p·워터마크·AI 100크레딧 1회 / Hobbyist $24 월·$16 연 10hr 1080p / Creator $35·$24 30hr 4K / Business $65·$50 40hr 4K, 연간 최대 35% 할인",
+      "sources": [
+        "https://www.descript.com/pricing",
+        "https://genesysgrowth.com/blog/descript-vs-capcut-vs-clipchamp",
+        "https://saturaai.com/descript-vs-capcut"
+      ]
+    },
+    {
+      "claim": "CapCut 요금(2026-10-14 article.capcut.com/pricing 미국 표시가 직접 확인): Free $0 / Pro $19.99/월 / Ultra $79/월 / Teams $12.49/좌석/월, '표시가는 참고용, 로그인 후 최종가'. Pro 연간 $179.99는 가격페이지 월간 화면엔 없고 costbench(10/10)·pixflow 기준. 이전 Standard(~$9.99)는 2026년 초 판매됐으나 현 가격페이지에 없음 → 본문은 '단종(일부 앱스토어엔 남을 수 있음)'으로만 언급, 1년 비용표 Standard 행 삭제",
+      "sources": [
+        "https://article.capcut.com/pricing",
+        "https://costbench.com/software/video-editing/capcut/",
+        "https://pixflow.net/blog/capcut-pro-price/"
+      ]
+    },
+    {
+      "claim": "CapCut 무료 내보내기 워터마크는 사용 기능에 따라 다름 — 일부 고급 템플릿·효과·스톡 요소가 무료판에서 워터마크 추가, 엔딩 클립 제거 가능",
+      "sources": [
+        "https://www.capcut.com/help/video-without-watermark",
+        "https://www.capcut.com/help/how-to-export-video-without-watermark"
+      ]
+    },
+    {
+      "claim": "CapCut 약관 페이지(capcut.com/clause/terms-of-service, 2026-10-14 확인)는 접속 지역별로 다른 판을 보여줌: 비미국 접속 시 'General Terms – All Users'(Last updated April 15, 2026)에 'a non-exclusive, royalty-free, transferable, sub-licensable, perpetual and worldwide license to use your User Content' 원문, 미국 접속(Jina) 시 'General Terms – All United States Users'(같은 April 15, 2026)에 TikTok USDS Joint Venture 대상 'unconditional, non-exclusive, royalty-free, fully transferable, sub-licensable, perpetual and worldwide license'. 즉 4/15 날짜는 두 판 모두에 표시. 2025-06 개정 논란",
+      "sources": [
+        "https://www.capcut.com/clause/terms-of-service",
+        "https://r.jina.ai/https://www.capcut.com/clause/terms-of-service",
+        "https://larryjordan.com/articles/caution-capcut-changed-their-license-and-may-own-your-content/",
+        "https://www.techloy.com/capcuts-latest-terms-of-service-raises-big-questions-about-content-ownership/"
+      ]
+    },
+    {
+      "claim": "CapCut은 2025-01 미국 앱스토어에서 내려갔다가 복구, 2026-01-23 TikTok USDS 합작법인 발표에서 안전장치가 CapCut·Lemon8에도 적용된다고 명시",
+      "sources": [
+        "https://newsroom.tiktok.com/announcement-from-the-new-tiktok-usds-joint-venture-llc?lang=en",
+        "https://www.hooked.so/guides/is-capcut-getting-banned"
+      ]
+    },
+    {
+      "claim": "Descript는 macOS 14+·Windows 11+ 데스크톱 앱과 웹판으로 편집, 웹은 크로미움 계열 권장(Chrome·Edge·Opera 공식 지원, Safari는 문제 가능, Firefox·IE 미지원). 모바일 브라우저·태블릿은 공식 미지원(재생 미리보기 정도만), 모바일 편집 앱 없음",
+      "sources": [
+        "https://help.descript.com/getting-started/descript-system-requirements",
+        "https://help.descript.com/getting-started/descript-for-web",
+        "https://blitzcutai.com/blog/does-descript-have-mobile-app"
+      ]
+    },
+    {
+      "claim": "CapCut 자동 자막이 유료(Pro) 쪽으로 이동 — CapCut 공식 Standard vs Pro 도움말이 auto captions를 Pro의 AI 도구로 표기, Descript 블로그는 무료 플랜에서 빠졌다고 보도. 일부 리뷰는 무료에 제한량 남아있다고 기술(계정별 상이)",
+      "sources": [
+        "https://www.capcut.com/help/capcut-standard-vs-pro",
+        "https://descript.com/blog/article/capcut-captions-arent-free-anymore-heres-a-better-option",
+        "https://forum.aejuice.com/t/aejuice-auto-captions-vs-capcut-auto-captions-2026/2173",
+        "https://vidpros.com/capcut-pro-vs-free/"
+      ]
+    },
+    {
+      "claim": "기존 연간 구독자 갱신가 인상: Pro 연간 약 $77 → $179.99, 2026-02-20부터 갱신 시 적용 가능(Newsweek 2026-02-17, Sonary 인용). 지시서의 $89.99는 기사에 없음 → 기사 수치($77) 사용",
+      "sources": [
+        "https://newsweek.com/app-used-millions-nearly-doubles-subscription-price-overnight-11535999",
+        "https://eesel.ai/blog/capcut-pricing"
+      ]
+    },
+    {
+      "claim": "1년 비용표: CapCut Standard 행 삭제(현 가격페이지에 없음). CapCut Pro 월결제 12개월 $239.88(12×$19.99)·연간 $179.99, Descript Hobbyist+CapCut Pro 연간 $371.99",
+      "sources": [
+        "https://article.capcut.com/pricing",
+        "https://costbench.com/software/video-editing/capcut/"
+      ]
+    }
+  ],
+  "variables": {
+    "keyword": "descript vs capcut",
+    "headline_finding": "핵심 결정변수는 기능이 아니라 포맷 — 말 중심 장편이면 Descript, 세로 숏폼·폰 편집이면 CapCut",
+    "first_year_cost": "1년 실비용: Descript Hobbyist $288(월)/$192(연), Creator $420/$288, CapCut Pro $239.88/$179.99, 둘 다 $527.88/$371.99 (CapCut Standard는 단종으로 제외)",
+    "annual_discount_gap": "Descript 연간 할인(최대 35%)이 CapCut(~25%)보다 커서 Descript는 연간결제 효과가 더 큼",
+    "free_tier_paywall": "Descript 무료=720p+워터마크+1 media hr(업로드 전부 차감) vs CapCut 무료=템플릿·Pro 에셋 사용 시만 워터마크",
+    "license_quote": "CapCut 약관(2026-04-15) 글로벌판·미국판 라이선스 원문 각각 인용 + 2026-01 USDS 합작법인 적용 범위",
+    "serp_contradiction": "상위 글끼리 Descript 무료 워터마크 여부·Descript 가격이 서로 다름 — 공식 페이지로 정리"
+  },
+  "structure": "비교선택",
+  "gaps": [
+    {
+      "gap": "상위 10개 중 월결제 vs 연결제 1년 실비용과 두 툴 병행 비용을 계산한 글이 없음",
+      "covered_in": "What does a year of each actually cost?"
+    },
+    {
+      "gap": "CapCut 현행 약관 라이선스 원문과 2026-01 USDS 합작법인 이후 미국 상태를 출처와 함께 다룬 글이 없음(대부분 2025-01 기준 또는 출처 없는 주장)",
+      "covered_in": "Is CapCut safe to use for client work in 2026?"
+    },
+    {
+      "gap": "무료 플랜 워터마크·해상도·media hours 차감 방식을 공식 출처로 정리한 글이 없고 상위 글끼리 서로 모순됨",
+      "covered_in": "Where does each free plan stop being free?"
+    }
+  ],
+  "images": [
+    "src/assets/posts/descript-vs-capcut.webp (hero 1600x900)",
+    "src/assets/posts/descript-vs-capcut-pricing-by-plan.webp (body 1200x900, 4:3)"
+  ],
+  "hermes_score": 96,
+  "score_history": [
+    88,
+    96
+  ]
+}
