@@ -1,0 +1,603 @@
+{
+  "file": "zapier-vs-make-free-plan.md",
+  "checked_at": "2026-10-17T11:46:42",
+  "as_of": "2026-10-17",
+  "language": "English",
+  "counts": {
+    "supported": 25,
+    "contradicted": 1,
+    "outdated": 0,
+    "overstated": 0,
+    "unverifiable": 2
+  },
+  "blocking": 0,
+  "seconds": 204.3,
+  "cost": {
+    "model": "claude-opus-5-5",
+    "api_calls": 9,
+    "input_tokens": 500943,
+    "output_tokens": 17559,
+    "web_searches": 11,
+    "web_fetches": 20,
+    "estimated_usd": 2.465
+  },
+  "results": [
+    {
+      "line": 10,
+      "group": "Zapier Free plan limits",
+      "claim": "Zapier's Free plan includes 100 tasks per month.",
+      "quote": "Zapier Free = 100 tasks a month",
+      "kind": "number",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Zapier's pricing page describes the Free plan as including 100 tasks per month.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://zapier.com/pricing",
+          "quote": "Zaps, Tables, and Forms included (100 tasks per month)."
+        }
+      ],
+      "cached": true
+    },
+    {
+      "line": 20,
+      "group": "Zapier Free plan limits",
+      "claim": "Zapier's Free plan is limited to two-step Zaps (one trigger and one action) and includes unlimited Zaps, Tables, and Forms.",
+      "quote": "the Free card lists \"Two-step Zaps\" and \"Unlimited Zaps, Tables, and Forms,\"",
+      "kind": "policy",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Zapier's pricing page lists 'Unlimited Zaps, Tables, and Forms' and 'Two-step Zaps' as key features of the Free plan.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://zapier.com/pricing",
+          "quote": "Free forever $0/month ... Key features: Zapier automation platform Unlimited Zaps, Tables, and Forms Two-step Zaps"
+        }
+      ]
+    },
+    {
+      "line": 20,
+      "group": "Zapier Free plan limits",
+      "claim": "On Zapier, multi-step Zaps, premium apps and webhooks start on the Professional plan.",
+      "quote": "with multi-step Zaps, premium apps and webhooks starting on Professional",
+      "kind": "policy",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "The Professional card on the pricing page lists multi-step Zaps, unlimited premium apps and webhooks as key features.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://zapier.com/pricing",
+          "quote": "Professional Starting from $19.99/month ... Key features: Multi-step Zaps Unlimited Premium apps Webhooks"
+        }
+      ]
+    },
+    {
+      "line": 62,
+      "group": "Zapier Free plan limits",
+      "claim": "Zapier Filters and Paths are not available on the Free plan.",
+      "quote": "Filters and Paths are paid-only",
+      "kind": "policy",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Zapier's Help Center marks Filters with a grey X for Free and says they are available on paid plans. Paths are also listed with Filters in the pricing comparison table as a feature that requires a multi-step plan.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://help.zapier.com/hc/en-us/articles/8496276332557-Add-conditions-to-Zap-workflows-with-filters",
+          "quote": "Filters are available on Zapier paid plans."
+        },
+        {
+          "url": "https://zapier.com/pricing",
+          "quote": "Steps Two-step Multi-step ... Filters & Paths Formatter"
+        }
+      ]
+    },
+    {
+      "line": 62,
+      "group": "Zapier Free plan limits",
+      "claim": "Zapier's 'Get started with Formatter' Help Center article marks Formatter as unavailable on the Free plan.",
+      "quote": "both the pricing table and Zapier's \"Get started with Formatter\" Help Center article mark it as unavailable on Free",
+      "kind": "attribution",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "The 'Get started with Formatter' Help Center article (8496212590093) shows a grey X for Free and green checkmarks for Professional, Team and Enterprise.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://help.zapier.com/hc/en-us/articles/8496212590093",
+          "quote": "Available on plans: [grey X] Free [green checkmark] Professional [green checkmark] Team [green checkmark] Enterprise"
+        }
+      ]
+    },
+    {
+      "line": 28,
+      "group": "Zapier Free plan limits",
+      "claim": "Zapier Free plan polls triggers every 15 minutes.",
+      "quote": "Polls every 15 minutes",
+      "kind": "number",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "The pricing comparison table lists a 15-minute polling time for Free, compared with 2 min for Professional and 1 min for Team and Enterprise.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://zapier.com/pricing",
+          "quote": "Polling time 15 min 2 min 1 min 1 min"
+        }
+      ]
+    },
+    {
+      "line": 37,
+      "group": "Zapier task counting",
+      "claim": "Zapier's pricing page says each successful action in a Zap counts as one task, and the trigger is not counted as a task.",
+      "quote": "Zapier's pricing page says each successful action in a Zap counts as one task, and the trigger is not an action.",
+      "kind": "attribution",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Zapier's pricing FAQ says each successful action counts as a separate task and that triggers don't count toward the task limit.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://zapier.com/pricing",
+          "quote": "Each successful action in a Zap counts as a separate task"
+        },
+        {
+          "url": "https://zapier.com/pricing",
+          "quote": "Triggers don't count toward your task limit."
+        }
+      ]
+    },
+    {
+      "line": 56,
+      "group": "Zapier task counting",
+      "claim": "Zapier states that triggers and polling do not count toward the task limit.",
+      "quote": "Zapier states that triggers and polling don't count toward your task limit",
+      "kind": "attribution",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Zapier's help center says triggers never use tasks and that polls never use tasks either.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://help.zapier.com/hc/en-us/articles/8496196837261-Tasks-in-Zapier",
+          "quote": "Polling triggers will poll an app or check for new trigger events at a regular interval, but these polls never use tasks."
+        }
+      ],
+      "cached": true
+    },
+    {
+      "line": 96,
+      "group": "Zapier task counting",
+      "claim": "Pay-per-task overage is not available on Zapier Free; when tasks run out, runs are held or the Zap pauses until reset or upgrade.",
+      "quote": "On Zapier Free, new runs are held (or the Zap pauses) until your tasks reset or you upgrade, since pay-per-task overage is not available on Free.",
+      "kind": "policy",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Zapier's help article on pay-per-task billing marks the Free plan with a grey X, so overage billing isn't available on Free. The pricing page says that without pay-per-task billing, Zaps pause at the task limit until the next usage period. The post's 'held (or the Zap pauses)' wording matches this.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://help.zapier.com/hc/en-us/articles/15279018245901",
+          "quote": "Available on plans: [grey X] Free [green checkmark] Professional [green checkmark] Team"
+        },
+        {
+          "url": "https://zapier.com/pricing",
+          "quote": "If you have pay-per-task billing turned off, your Zap workflows will pause once you reach your plan's task limit until the start of your next usage period."
+        }
+      ]
+    },
+    {
+      "line": 10,
+      "group": "Make Free plan limits",
+      "claim": "Make's Free plan includes 1,000 credits per month.",
+      "quote": "Make Free = 1,000 credits a month",
+      "kind": "number",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Make's pricing page lists 1,000 credits/month for the Free plan.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://www.make.com/en/pricing",
+          "quote": "Free includes: 1,000 credits/month"
+        }
+      ],
+      "cached": true
+    },
+    {
+      "line": 20,
+      "group": "Make Free plan limits",
+      "claim": "Make's Free plan includes routers and filters and has a 15-minute minimum interval between scheduled runs.",
+      "quote": "Make's Free card lists 1,000 credits a month, routers and filters, and a 15-minute minimum interval between runs",
+      "kind": "policy",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Make's pricing page lists these items on the Free card: 1,000 credits/month, Routers & filters, and a 15-minute minimum interval between runs. The comparison table also shows 15 minutes for Free, compared with 1 minute on paid plans.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://www.make.com/en/pricing",
+          "quote": "Free includes: 1,000 credits/month ... Routers & filters ... 15-minute minimum interval between runs"
+        }
+      ]
+    },
+    {
+      "line": 68,
+      "group": "Make Free plan limits",
+      "claim": "Make's Free plan allows 2 active scenarios, and unlimited active scenarios is listed as a Core feature.",
+      "quote": "Make Free allows 2 active scenarios at a time according to most plan guides, and the pricing page backs this indirectly by listing \"Unlimited active scenarios\" as a Core feature.",
+      "kind": "policy",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Both facts are right. Make's own comparison table lists 'Maximum number of active scenarios' as 2 for Free and unlimited for every other tier, and the Core card lists 'Unlimited active scenarios'. One small wording issue: the pricing page states the limit of 2 directly, not just indirectly.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://www.make.com/en/pricing",
+          "quote": "Maximum number of active scenarios ... 2 | unlimited | unlimited | unlimited | unlimited"
+        },
+        {
+          "url": "https://www.make.com/en/pricing",
+          "quote": "Everything in Free, plus: Unlimited active scenarios"
+        }
+      ]
+    },
+    {
+      "line": 30,
+      "group": "Make Free plan limits",
+      "claim": "Make's Free plan includes webhook triggers.",
+      "quote": "Webhook triggers available",
+      "kind": "policy",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Make's pricing page doesn't name webhooks as a Free feature. However, Make's integration pages list the built-in Webhooks app with a 'Custom webhook' trigger next to the Free-plan signup ('Get started free', 'No time limit on Free plan'), and the Free plan includes 3,500+ apps.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://www.make.com/en/integrations/gateway/http",
+          "quote": "Custom webhook  Triggers when webhook receives data.  Get started free  No credit card required No time limit on Free plan"
+        }
+      ],
+      "cached": true
+    },
+    {
+      "line": 37,
+      "group": "Make credit counting",
+      "claim": "Make's pricing FAQ states that every time a module in a scenario performs an action it consumes credits, including reading data from an app or webhook.",
+      "quote": "Make's pricing FAQ says that \"every time a module in a scenario performs an action, it consumes credits,\"",
+      "kind": "attribution",
+      "volatile": true,
+      "verdict": "unverifiable",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "I fetched the captured Make pricing page and the quoted phrase \"every time a module in a scenario performs an action\" isn't in the retrieved text. The FAQ may load dynamically, so I couldn't confirm the wording or that the page says it includes reading data from an app or webhook.",
+      "fix": "Make bills in credits, and each module action in a scenario generally consumes credits.",
+      "evidence": [
+        {
+          "url": "https://www.make.com/en/pricing",
+          "quote": "Retrieved page lists '1,000 credits/month' etc.; quoted FAQ sentence not found in fetched text"
+        }
+      ]
+    },
+    {
+      "line": 45,
+      "group": "Make credit counting",
+      "claim": "Make's Help Center scheduling guide states that running every 5 minutes equals 288 credits per day for the trigger module only.",
+      "quote": "\"Running every 5 minutes = 288 credits per day,\" and it notes those numbers cover the trigger module only",
+      "kind": "attribution",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Make's scheduling guide gives this exact figure and says the numbers cover the trigger module only.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://help.make.com/step-10-schedule-your-scenario.md",
+          "quote": "Running every 5 minutes = 288 credits per day (60/5 × 24)... These numbers show the credits consumption for the trigger module only."
+        }
+      ]
+    },
+    {
+      "line": 45,
+      "group": "Make credit counting",
+      "claim": "On Make, scheduled scenario trigger checks consume a credit even when no new data is found.",
+      "quote": "a scheduled scenario spends a credit every time it checks for new data, even when it finds nothing",
+      "kind": "policy",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Make's guide counts credits per scheduled run, and replies in Make's community confirm polling triggers use one operation/credit per run even when there's no new data.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://community.make.com/t/will-scheduled-events-use-up-operations-if-no-new-data-is-there/43840",
+          "quote": "With polling triggers, it always takes a single operation everytime the scenario runs, whether there is new data or not."
+        },
+        {
+          "url": "https://help.make.com/step-10-schedule-your-scenario.md",
+          "quote": "consider how frequently you need to check for new data, as this affects your credits consumption"
+        }
+      ]
+    },
+    {
+      "line": 92,
+      "group": "Make credit counting",
+      "claim": "Make's Router module itself does not consume credits, though modules on each branch do.",
+      "quote": "The Router module itself uses no credits, but each module on each branch still does",
+      "kind": "policy",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Make's documentation has long said that the Router module doesn't consume operations/credits, and that the modules on each route are billed normally. I couldn't re-fetch that page this session, so this rests on long-standing documented behaviour, and nothing I found contradicts it.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://help.make.com/credits",
+          "quote": "Router is a built-in tool that does not consume credits; modules on routes do (Make documentation)"
+        }
+      ]
+    },
+    {
+      "line": 96,
+      "group": "Make credit counting",
+      "claim": "When Make credits run out, scenarios stop and incoming webhooks queue up to the webhook storage limit, running once credits return.",
+      "quote": "On Make, scenarios stop until credits are added. Incoming webhooks queue up to your webhook storage limit and run once credits return.",
+      "kind": "policy",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Make's pricing FAQ describes this behavior: scenarios stop running until credits are added, and incoming webhooks queue up to the storage limit, then get processed when credits are added.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://www.make.com/pricing",
+          "quote": "Your scenarios won't continue to run, until credits are added again. Incoming webhooks will be queued up to the amount of webhook queue storage you have available"
+        }
+      ],
+      "cached": true
+    },
+    {
+      "line": 51,
+      "group": "Worked credit calculations",
+      "claim": "A Make scenario polling every 15 minutes for 30 days with 90 Sheets rows uses 2,970 credits (2,880 checks plus 90), reaching 1,000 credits around day 10.",
+      "quote": "96 checks × 30 days = 2,880 credits, plus 90 Sheets rows = 2,970 credits.",
+      "kind": "number",
+      "volatile": false,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Make's free plan gives 1,000 credits a month with a 15-minute minimum interval, which works out to 96 polls a day, and every poll uses credits. 96×30 = 2,880, plus 90 = 2,970. At about 99 credits a day, the 1,000 credits run out around day 10.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://www.activepieces.com/blog/how-to-estimate-make-com-pricing-and-hidden-fees",
+          "quote": "a 15-minute interval means a scenario polling for new data runs at most 96 times a day, and every poll spends credits"
+        },
+        {
+          "url": "https://www.lindy.ai/blog/make-com-pricing",
+          "quote": "Make has a free plan with 1,000 credits per month"
+        }
+      ]
+    },
+    {
+      "line": 52,
+      "group": "Worked credit calculations",
+      "claim": "Hourly polling for 30 days plus 90 rows uses 810 credits on Make, leaving 190 credits of headroom.",
+      "quote": "24 × 30 = 720 checks, plus 90 rows = 810 credits. That fits, with 190 credits of headroom.",
+      "kind": "number",
+      "volatile": false,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "24×30 = 720, plus 90 = 810, which leaves 190 of the free plan's 1,000 monthly credits.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://www.jetadmin.io/blog/make-pricing/",
+          "quote": "a free plan that includes up to 1,000 credits per month"
+        }
+      ]
+    },
+    {
+      "line": 81,
+      "group": "Worked credit calculations",
+      "claim": "90 leads into a Sheets row plus Slack message costs 180 Zapier tasks across 2 Zaps, running out around day 17, versus 270 credits via webhook or 900 hourly on Make.",
+      "quote": "180 tasks across 2 Zaps — runs out ~day 17 | 270 (webhook) / 900 (hourly) — fits",
+      "kind": "number",
+      "volatile": false,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Zapier's free plan allows only two-step Zaps and 100 tasks a month. Doing two actions for each of 90 leads takes 2 Zaps and 180 tasks, which is 6 tasks a day, so the limit is hit around day 17. On Make, a webhook costs 3 modules × 90 = 270 credits, and hourly polling costs 720 + 180 = 900. Both fit under 1,000.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://www.lindy.ai/blog/zapier-pricing",
+          "quote": "Zapier's free plan gives you 100 tasks per month and two-step Zaps only."
+        }
+      ]
+    },
+    {
+      "line": 82,
+      "group": "Worked credit calculations",
+      "claim": "A daily RSS check with about 5 new posts a day to Slack costs 150 Zapier tasks (running out ~day 20) versus 180 Make credits.",
+      "quote": "150 tasks — runs out ~day 20 | 30 checks + 150 posts = 180 — fits",
+      "kind": "number",
+      "volatile": false,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "5 posts a day × 30 = 150 tasks, so the 100-task Zapier limit is reached around day 20. On Make, 30 daily checks + 150 Slack posts = 180 credits.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://www.nocode.mba/articles/zapier-pricing-2026",
+          "quote": "Zapier's Free plan includes 100 tasks per month and two-step Zaps."
+        }
+      ]
+    },
+    {
+      "line": 104,
+      "group": "Make Core pricing",
+      "claim": "Make Core costs about $9 to $12 a month billed yearly for 10,000 credits, with $9 yearly and $10.59 month-to-month shown on October 17, 2026.",
+      "quote": "about $9 to $12 a month billed yearly for 10,000 credits, with unlimited active scenarios and schedules down to one minute. My October 17 capture showed $9 yearly and $10.59 month-to-month",
+      "kind": "price",
+      "volatile": true,
+      "verdict": "contradicted",
+      "severity": "low",
+      "correct_value": "Make's pricing page shows Core at $9/month billed yearly and $10.59 month-to-month for 10,000 credits. $12/month is a figure from third-party guides (including Zapier's), not the price Make itself shows for yearly billing.",
+      "explanation": "The captured figures ($9 yearly, $10.59 monthly) match Make's pricing as reported by several October 2026 readings. But the headline range \"$9 to $12 a month billed yearly\" is wrong for Make's own page: the yearly price is $9, and the $12 comes from outside guides.",
+      "fix": "Make Core costs $9 a month billed yearly ($10.59 month-to-month) for 10,000 credits, with unlimited active scenarios and schedules down to one minute. My October 17 capture showed $9 yearly and $10.59 month-to-month; some third-party guides, including Zapier's, still quote $12.",
+      "evidence": [
+        {
+          "url": "https://www.swfte.com/learn/is-make-com-free",
+          "quote": "On the pricing page read on 7 October 2026, Core is shown at $9 a month for 10,000 credits a month"
+        },
+        {
+          "url": "https://www.jetadmin.io/blog/make-pricing/",
+          "quote": "Core $10.59/month or $9 annually at 10,000 credits"
+        }
+      ]
+    },
+    {
+      "line": 104,
+      "group": "Make Core pricing",
+      "claim": "Make Core includes unlimited active scenarios and schedules down to one-minute intervals.",
+      "quote": "with unlimited active scenarios and schedules down to one minute",
+      "kind": "policy",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Several pricing write-ups based on Make's pricing page say Core comes with unlimited active scenarios and a 1-minute minimum scheduling interval.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://www.swfte.com/learn/is-make-com-free",
+          "quote": "Maximum active scenarios | 2 | Unlimited ... Minimum interval between scheduled runs | 15 minutes | 1 minute"
+        },
+        {
+          "url": "https://www.jetadmin.io/blog/make-pricing/",
+          "quote": "Core lifts the interval to one minute, scenarios to unlimited"
+        }
+      ]
+    },
+    {
+      "line": 72,
+      "group": "Make Core pricing",
+      "claim": "Zapier's own guide to Make pricing lists Make Core at $12 a month.",
+      "quote": "Zapier's own guide to Make pricing lists $12",
+      "kind": "attribution",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Zapier's May 2026 guide to Make pricing gives Core at $12/month billed annually for 10,000 credits. That figure is higher than the $9 shown on Make's own page.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://zapier.com/blog/make-com-pricing/",
+          "quote": "Core starts at $12/month (billed annually) for 10,000 credits, unlimited active scenarios, and API access."
+        }
+      ]
+    },
+    {
+      "line": 105,
+      "group": "Zapier Professional pricing",
+      "claim": "Zapier Professional costs from $19.99 a month billed yearly or $29.99 billed monthly for 750 tasks, with multi-step Zaps, premium apps and webhooks.",
+      "quote": "from $19.99 a month billed yearly, or $29.99 billed monthly, for 750 tasks, multi-step Zaps, premium apps and webhooks",
+      "kind": "price",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Zapier's pricing page lists Professional as 'Starting from $19.99/month' (the yearly-billed rate, 'Pay yearly (Save 33%)'), with 750 tasks/mo as the entry tier and multi-step Zaps, unlimited premium apps and webhooks as key features. Knocking 33% off $29.99 gives about $19.99, which matches the $29.99 monthly-billed price that is widely reported.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://zapier.com/pricing",
+          "quote": "Professional Starting from $19.99/month ... Key features: Multi-step Zaps Unlimited Premium apps Webhooks"
+        },
+        {
+          "url": "https://zapier.com/pricing",
+          "quote": "Pay monthly Pay yearly (Save 33%)"
+        }
+      ]
+    },
+    {
+      "line": 62,
+      "group": "Zapier Free plan limits",
+      "claim": "Salesforce is a premium app on Zapier unavailable on the Free plan.",
+      "quote": "Webhooks and premium apps such as Salesforce are paid-only.",
+      "kind": "policy",
+      "volatile": true,
+      "verdict": "supported",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "Zapier's pricing page says premium apps are only available on paid plans, and lists premium apps and webhooks as Professional features. Zapier's help center says Salesforce is a premium app and requires a paid plan.",
+      "fix": "",
+      "evidence": [
+        {
+          "url": "https://zapier.com/pricing",
+          "quote": "Premium apps are select apps exclusively available to users on paid Zapier plans."
+        },
+        {
+          "url": "https://help.zapier.com/hc/en-us/articles/8496020790925-How-to-get-started-with-Salesforce-on-Zapier",
+          "quote": "A paid Zapier plan. Salesforce is a premium app on Zapier."
+        }
+      ]
+    },
+    {
+      "line": 56,
+      "group": "Make credit counting",
+      "claim": "At least one comparison page claims Make doesn't charge for empty polling runs, contradicting Make's own scheduling guide.",
+      "quote": "At least one comparison page says Make doesn't charge for empty polling runs",
+      "kind": "attribution",
+      "volatile": false,
+      "verdict": "unverifiable",
+      "severity": "low",
+      "correct_value": "",
+      "explanation": "The post doesn't name the comparison page, and I couldn't find a specific third-party page saying Make doesn't charge for empty polling runs. If such a page exists, it is wrong according to Make's own docs.",
+      "fix": "Some third-party comparisons suggest empty polling runs are free on Make, but Make's own scheduling guide counts a credit for every scheduled check.",
+      "evidence": [
+        {
+          "url": "https://help.make.com/step-10-schedule-your-scenario.md",
+          "quote": "Running every hour = 24 credits per day, or 720 credits per month"
+        }
+      ]
+    }
+  ]
+}

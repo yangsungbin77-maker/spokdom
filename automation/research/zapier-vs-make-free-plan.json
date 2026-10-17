@@ -1,0 +1,204 @@
+{
+  "type": "comparison",
+  "keyword_filter": {
+    "keyword": "zapier vs make free plan",
+    "competition": {
+      "method": "allintitle/serp-scan",
+      "evidence": "allintitle \"zapier vs make\" free plan returns mostly small vendor/consultancy blogs (pluga, growwstacks, xray.tech, nocode.mba, savemyleads, softr, unito); no Wikipedia or big media on page 1",
+      "pass": true
+    },
+    "demand": {
+      "method": "autocomplete",
+      "evidence": "Google autocomplete (en/US) for 'zapier vs make' suggests 'zapier vs make free plan', 'zapier vs make free', 'zapier vs. make (free tier)'; 'make vs zapier free plan' also suggested",
+      "pass": true
+    },
+    "intent": {
+      "method": "serp-scan",
+      "evidence": "Top 10 are informational comparison blog posts with tables and FAQs, no shopping or local pack; vendor pages are not the top results for the free-plan query",
+      "pass": true
+    }
+  },
+  "serp": [
+    {
+      "url": "https://www.softr.io/blog/make-vs-zapier",
+      "opened": true,
+      "note": "~3,500 words; says 5-min polling = 288 ops/day; inconsistent Make units/prices; no active scenario or two-step limits; Softr promo"
+    },
+    {
+      "url": "https://unito.io/blog/make-vs-zapier/",
+      "opened": true,
+      "note": "~1,500 words; free = 1,000 ops vs 100 tasks; never defines task; no polling, scenario or Filter limits; integration counts conflict"
+    },
+    {
+      "url": "https://pluga.co/en/zapier-vs-make/",
+      "opened": true,
+      "note": "~900 words; mentions Zapier free 2 steps; claims Make does NOT charge empty polling runs (contradicts Make Help Center)"
+    },
+    {
+      "url": "https://savemyleads.com/blog/other/zapier-vs-make-pricing",
+      "opened": true,
+      "note": "~1,150 words; free plan comparison section; never defines task/operation; missing prices; promo"
+    },
+    {
+      "url": "https://www.xray.tech/post/zapier-vs-make-2025",
+      "opened": true,
+      "note": "~2,500 words; strongest: says Make polling costs credits + 2 active scenarios; undated pricing; no worked free-plan math"
+    },
+    {
+      "url": "https://growwstacks.com/blog/zapier-vs-make-comparison-2025/",
+      "opened": true,
+      "note": "~1,300 words; claims task = each step (wrong); no polling or plan limits"
+    },
+    {
+      "url": "https://www.nocode.mba/articles/zapier-vs-make",
+      "opened": true,
+      "note": "~2,000 words, Sept 2024; says Zapier task = full run (wrong); no free-plan limits"
+    },
+    {
+      "url": "https://www.costbench.com/software/ai-automation/make/free-plan/",
+      "opened": true,
+      "note": "Make free only: 1,000 credits, 2 active scenarios (user reports), 15-min interval; date inconsistencies; no Zapier"
+    },
+    {
+      "url": "https://use-apify.com/blog/make-com-free-plan-limits",
+      "opened": true,
+      "note": "~700 words; Make free 1,000 credits, 2 active scenarios, 15-min; notes 96 runs/day but not that checks cost credits; no Zapier"
+    },
+    {
+      "url": "https://www.jetadmin.io/blog/make-pricing/",
+      "opened": true,
+      "note": "~1,900 words; Make free 2 scenarios, 15-min, 5MB file, 7-day logs; Core $9 annual / $10.59 monthly for 10k credits; no Zapier"
+    },
+    {
+      "url": "https://ddiy.co/make-vs-zapier/",
+      "opened": false,
+      "note": "HTTP 403 to fetcher"
+    }
+  ],
+  "factcheck": [
+    {
+      "claim": "Zapier Free: 100 tasks/month, two-step Zaps, unlimited Zaps within task limit, 15-min polling; Professional from $19.99/mo yearly or $29.99 monthly for 750 tasks",
+      "sources": [
+        "https://zapier.com/pricing (captured Oct 17, 2026)",
+        "https://latenode.com/blog/zapier-free-plan",
+        "https://www.xray.tech/post/zapier-vs-make-2025"
+      ]
+    },
+    {
+      "claim": "Zapier Free excludes Filters, Paths, Formatter, webhooks and premium apps (Help Center Formatter article: grey X for Free)",
+      "sources": [
+        "https://zapier.com/pricing",
+        "https://latenode.com/blog/zapier-free-plan",
+        "https://help.zapier.com/hc/en-us/articles/8496212590093"
+      ]
+    },
+    {
+      "claim": "Zapier triggers and polling do not count toward the task limit; a task = a successful action",
+      "sources": [
+        "https://zapier.com/pricing",
+        "https://help.zapier.com/hc/en-us/articles/8496196837261-Tasks-in-Zapier",
+        "https://www.softr.io/blog/make-vs-zapier"
+      ]
+    },
+    {
+      "claim": "Make Free: 1,000 credits/month, routers & filters, 15-minute minimum interval; Core adds unlimited active scenarios and schedules down to the minute",
+      "sources": [
+        "https://www.make.com/en/pricing (captured Oct 17, 2026)",
+        "https://www.jetadmin.io/blog/make-pricing/",
+        "https://use-apify.com/blog/make-com-free-plan-limits"
+      ]
+    },
+    {
+      "claim": "Make Free allows 2 active scenarios (not printed on Make's pricing page; Core lists Unlimited active scenarios)",
+      "sources": [
+        "https://www.jetadmin.io/blog/make-pricing/",
+        "https://use-apify.com/blog/make-com-free-plan-limits",
+        "https://www.xray.tech/post/zapier-vs-make-2025"
+      ]
+    },
+    {
+      "claim": "A Make scheduled trigger check costs 1 credit even with no new data; 'Running every 5 minutes = 288 credits per day' covers the trigger module only",
+      "sources": [
+        "https://help.make.com/step-10-schedule-your-scenario.md",
+        "https://community.make.com/t/will-scheduled-events-use-up-operations-if-no-new-data-is-there/43840",
+        "https://help.make.com/operations"
+      ]
+    },
+    {
+      "claim": "Make Router and error-handler modules use no credits; reading data from an app or webhook counts as a credit",
+      "sources": [
+        "https://www.make.com/en/pricing",
+        "https://help.make.com/credits",
+        "https://use-apify.com/blog/make-com-free-plan-limits"
+      ]
+    },
+    {
+      "claim": "Out of quota: Make scenarios stop and webhooks queue; Zapier holds runs (or pauses) and pay-per-task is not available on Free",
+      "sources": [
+        "https://www.make.com/en/pricing",
+        "https://help.zapier.com/hc/en-us/articles/15279018245901",
+        "https://editor.vercel.zapier.com/blog/updates/1478/new-dont-lose-any-data-new-held-tasks"
+      ]
+    },
+    {
+      "claim": "Make Core 10,000 credits: sources disagree ($9 annual/$10.59 monthly in our Oct 17 capture and Jet Admin; $12 annual per Zapier blog/usecarly) — post states a $9–$12 range",
+      "sources": [
+        "https://www.make.com/en/pricing (captured Oct 17, 2026)",
+        "https://www.jetadmin.io/blog/make-pricing/",
+        "https://zapier.com/blog/make-com-pricing/"
+      ]
+    }
+  ],
+  "variables": {
+    "keyword": "zapier vs make free plan",
+    "headline_finding": "One Make scenario polling every 15 min burns 2,970 credits/month and stops around day 10; same job on Zapier Free = 90 of 100 tasks",
+    "checked_date": "Oct 17, 2026 (both pricing pages captured)",
+    "workflow_a": "90 leads to Sheets: Zapier 90 tasks; Make 180 webhook / 810 hourly / 2,970 15-min",
+    "workflow_b": "90 leads to Sheets + Slack: Zapier 180 tasks across 2 Zaps (~day 17); Make 270 webhook / 900 hourly",
+    "workflow_c": "Daily RSS, 5 posts/day to Slack: Zapier 150 tasks (~day 20); Make 180 credits",
+    "first_paid": "Make Core ~$9-12/mo yearly 10k credits vs Zapier Pro $19.99/mo yearly 750 tasks"
+  },
+  "structure": "오해바로잡기",
+  "gaps": [
+    {
+      "gap": "None of the top 10 prices a real workflow on both free plans with polling math showing Make Free runs out around day 10",
+      "covered_in": "Myth 2: Do Make trigger checks cost credits even when nothing happens?"
+    },
+    {
+      "gap": "Most top results say filters/formatters are free on Zapier without noting the Free plan excludes Filter, Formatter, Paths and webhooks",
+      "covered_in": "Myth 3: \"Unlimited Zaps means you can build anything on Zapier Free\""
+    },
+    {
+      "gap": "No top result checks both free tiers against dated captures of the live pricing pages or flags that the 2-scenario limit is not on Make's page",
+      "covered_in": "Zapier vs Make free plan: what each one includes in October 2026"
+    },
+    {
+      "gap": "No top result compares several workflow shapes (2-step, 3-step, daily digest) side by side to show when each free plan wins",
+      "covered_in": "Three real workflows priced on both free plans"
+    }
+  ],
+  "own_evidence": [
+    {
+      "type": "screenshot",
+      "desc": "Captured Zapier and Make official pricing pages on Oct 17, 2026 (Playwright + Chrome; Make captured on both annual and monthly toggles) and cropped Free vs first paid tier",
+      "proof": "../../assets/posts/zapier-vs-make-free-plan-pricing-pages.webp"
+    },
+    {
+      "type": "calc",
+      "desc": "Calculated monthly Make credit burn for one lead-to-Sheets scenario under four trigger schedules and charted it",
+      "proof": "96 checks × 30 days = 2,880 credits, plus 90 Sheets rows = 2,970 credits"
+    },
+    {
+      "type": "table",
+      "desc": "Priced three common solo-founder workflows on both free plans with each vendor's counting rules",
+      "proof": "180 tasks across 2 Zaps — runs out ~day 17"
+    }
+  ],
+  "overlap_ok": "Head-to-head free-tier deep dive with polling math; free-zapier-alternatives is a multi-tool roundup and zapier-pricing covers paid Zapier tiers only",
+  "hermes_score": 97,
+  "score_history": [
+    92,
+    98,
+    97
+  ]
+}
