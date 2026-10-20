@@ -16,3 +16,7 @@ export const NAVER_VERIFICATION = '55febe818c1178cf6959718aae0968ef070d09bf';
 // Google AdSense publisher id (e.g. 'ca-pub-XXXXXXXXXXXXXXXX').
 // Leave empty until THIS domain is approved — never reuse another site's id.
 export const ADSENSE_CLIENT = '';
+
+// 홈 화면 전용 제목·설명 (검색어가 앞에 오게, 2026-10-20 진단 반영)
+export const HOME_TITLE = 'Honest AI Tool Reviews for Solo Founders | Spokdom';
+export const HOME_DESCRIPTION = 'Hands-on reviews of AI tools and SaaS apps for solo founders — pricing, real alternatives and which one fits your use case, scored without the spin.';

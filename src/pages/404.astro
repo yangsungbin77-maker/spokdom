@@ -1,0 +1,21 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title="Page not found | Spokdom" description="The page you requested does not exist." />
+	</head>
+	<body>
+		<Header />
+		<main style="max-width: 720px; margin: 4rem auto; padding: 0 1rem; text-align: center;">
+			<h1>Page not found</h1>
+			<p>This address moved or never existed. Try the latest reviews instead.</p>
+			<p><a href="/">Home</a> · <a href="/blog/">All reviews</a></p>
+		</main>
+		<Footer />
+	</body>
+</html>
