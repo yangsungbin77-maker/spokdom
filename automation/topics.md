@@ -26,7 +26,7 @@ with recurring (monthly) affiliate commissions.
 
 ### X vs Y cluster
 - [x] notion vs obsidian for note taking
-- [ ] zapier vs make which is better
+- [x] zapier vs make which is better
 - [x] zapier vs make free plan
 - [ ] clickup vs asana for small teams
 - [ ] beehiiv vs substack for newsletters

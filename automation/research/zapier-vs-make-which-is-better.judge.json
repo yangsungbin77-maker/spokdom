@@ -1,0 +1,16 @@
+{
+  "score": 88,
+  "breakdown": {"intent": 22, "depth": 20, "structure": 18, "seo": 18, "gain": 10},
+  "fix_hints": [
+    "본문 2번째 문단의 'on October 24, 2026 I opened both official pricing pages, nine of the top ten search results'를 3인칭 리서치 서술로 바꿔라(예: 'This comparison was built on October 24, 2026 against both official pricing pages and nine of the top ten search results'). 1인칭 톤이 핸즈온 경험으로 오독될 여지를 아예 지운다.",
+    "'Workflow B' 섹션의 '~2.3 tasks/order on average' 수치의 근거를 한 줄 삽입해라. 현재 조건부 이메일 발사율이 명시되지 않아 임의 수치처럼 보인다. 예: 'assuming ~30% of orders clear the $200 filter, average billed actions land at ~2.3/order'로 가정을 밝혀라.",
+    "'Cost at scale' 섹션의 'Make Pro ~$16/mo adds priority execution, faster schedules below one minute' 문장에서 'faster schedules below one minute' 부분을 삭제하거나 하향 수정해라. 리서치 factcheck와 use-apify 소스는 Core도 1-min minimum을 지원한다고 명시하므로 Pro가 sub-minute을 추가 제공한다는 주장은 뒷받침되지 않는다. 'priority execution'만 남기는 쪽이 안전하다.",
+    "'Zapier vs Make pricing in October 2026' 아래 표의 'Entry paid'·'Mid' 행이 둘 다 'Professional'이라 혼동된다. 'Entry paid'를 'Professional (750 tasks)'로, 'Mid'를 'Professional (2,000 tasks)'로 라벨을 분리해 Zapier Pro 플랜이 task-tier 슬라이딩이라는 사실을 표에서 바로 읽히게 하라.",
+    "'The one line of fine print both tools share' 콜아웃 박스 안에 Make 공식 가격 페이지(https://www.make.com/en/pricing) 링크도 Zapier 가격 페이지 링크 옆에 추가해라. 현재 외부 링크가 Zapier 쪽에만 걸려 있어 균형이 어긋나 보이고, 'confirm the current numbers on Make's pricing page'라고 쓰면서 링크는 안 거는 모순이 있다.",
+    "'Feature matrix' 섹션은 표 아래 요약 2문단이 지나치게 짧다. 'App catalog breadth'와 'Data transforms and loops' 두 축이 왜 특정 팀 유형에게 가중치가 다른지(예: 'niche SaaS를 쓰는 솔로 창업자는 catalog breadth 가중치가 Transformer 깊이보다 크다') 한 문단을 더해 섹션당 최소 3문단 룰을 안정적으로 넘겨라.",
+    "'Cost at scale: when the task meter breaks' 섹션도 2문단이라 아슬아슬하다. Zapier Pro가 2,000 → 5,000 tasks 사이에서 어느 가격대로 뛰는지(공식 slider 기준) 한 문단을 더 넣어 '왜 10,000 events에서 Team까지 밀리는가'의 중간 단계를 보여줘라.",
+    "앱 카탈로그 수치 'Zapier ~8,000'은 리서치 안에서도 7,000(pxlpeak)/8,000/9,000(uibakery) 로 소스별 편차가 크다. 'Feature matrix' 설명 각주로 'app catalog figures range from ~7,000–9,000 depending on how each vendor counts official vs. community integrations'를 한 줄 추가해 변동 폭을 공개하라.",
+    "'Workflow B' 계산에서 Make 쪽 '4 modules per run × 500 runs = 2,000 ops'인데, Make에서 filter 모듈 자체는 op를 소비하지 않는다. Trigger(1) + Sheet(1) + Slack(1) + Email(0.3 if ~30% fire) ≈ 3.3 ops/run으로 다시 계산해 1,650 ops로 바꾸거나, 아니면 'counting the conditional email module as a full op regardless of filter outcome' 가정을 명시해라.",
+    "FAQ 끝 질문 'Should I switch from Zapier to Make to save money?' 답변이 메인 결론과 거의 동일하게 반복된다. 대신 '어떤 신호가 보일 때 스위치 비용(재구축 공수)보다 절감이 커지는가'를 구체 숫자로 바꿔라(예: '월 Zapier 지출이 $49을 넘고 트리거가 webhook 기반이면 재구축 2주 공수 회수 기간은 ~2개월')."
+  ]
+}

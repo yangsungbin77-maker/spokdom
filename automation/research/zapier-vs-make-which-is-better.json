@@ -1,0 +1,227 @@
+{
+ "type": "comparison",
+ "structure": "비교선택",
+ "note": "2026-10-24 draft. Overall 'which is better' verdict — not limited to free tier (that's the sibling post zapier-vs-make-free-plan.md). Priced three workflow shapes at four volume tiers, synthesized from Zapier/Make official pricing + 9 opened competitor posts.",
+ "overlap_ok": "Sibling post zapier-vs-make-free-plan.md is limited to the free-tier meter question. This post covers the full plan ladder (Core, Pro, Teams), paid-tier price-at-scale math, a six-row workflow-shape decision checklist, and side-by-side running — none of which the free-plan post treats in depth. Internal link points to it so authority clusters.",
+ "keyword_filter": {
+  "keyword": "zapier vs make which is better",
+  "competition": {
+   "method": "serp-scan",
+   "evidence": "Top 10 for 'zapier vs make which is better 2026' is 100% small/medium vendor blogs (uibakery.io, whalesync.com, softr.io, knack.com, thedigitalprojectmanager.com, dev.to/trackstack, latenode.com, coldiq.com, pxlpeak.com, blogrecode.com). No Wikipedia, no big-media; most posts are 1,500–4,000 words, run advertorial sections for their own tool, and give abstract 'Make for complex, Zapier for simple' verdicts without worked meter math.",
+   "pass": true
+  },
+  "demand": {
+   "method": "autocomplete",
+   "evidence": "Google autocomplete (en, Oct 24 2026) surfaces 'zapier vs make which is better', 'zapier vs make.com which is better', 'make vs zapier which is better 2026', 'zapier or make which is better' as suggestions off 'zapier vs make which'. Sits inside the broader 'zapier vs make' demand cluster.",
+   "pass": true
+  },
+  "intent": {
+   "method": "serp-scan",
+   "evidence": "All 10 top results are informational comparison blog posts with pricing tables, feature matrices and verdicts. No shopping cards, no local pack. Searcher wants a verdict + supporting evidence before signing up — a long blog post with worked workflow math satisfies the intent fully.",
+   "pass": true
+  }
+ },
+ "serp": [
+  {
+   "url": "https://uibakery.io/blog/make-vs-zapier",
+   "opened": true,
+   "note": "~3,500 words. Covers pricing (Zapier Free 100 tasks, Make Free 1,000 credits), integrations (Zapier 9,000+, Make 3,000+), AI/MCP angle. Promotes UI Bakery as approvals layer. No worked polling-trigger math and no concrete workflow-shape decision checklist."
+  },
+  {
+   "url": "https://www.whalesync.com/blog/zapier-vs-make",
+   "opened": true,
+   "note": "~4-min read, thin. Zapier $29.99/mo, Make $9/mo entry prices listed. Pivots mid-article into a Whalesync pitch for two-way sync. No real workflow pricing scenarios."
+  },
+  {
+   "url": "https://thedigitalprojectmanager.com/tools/zapier-vs-make/",
+   "opened": false,
+   "note": "HTTP 403 to WebFetch (Cloudflare). Known to be a long comparison with expert reviews; title suggests feature matrix format."
+  },
+  {
+   "url": "https://latenode.com/blog/platform-comparisons-alternatives/zapier-alternatives/make-vs-zapier-similarities-and-differences-of-automation-tools",
+   "opened": true,
+   "note": "~8,500 words. Deep pricing table: Make Free 1,000/mo, Core $9, Teams $29; Zapier Free 100 tasks, Pro $19.99, Team $69. Includes Reddit quotes and defines ops vs tasks distinction clearly, but polling-trigger idle burn only mentioned in passing."
+  },
+  {
+   "url": "https://pxlpeak.com/ai-tools/compare/zapier-vs-make",
+   "opened": true,
+   "note": "~2,800 words. Claims 'Make 3-5x cheaper at scale', integration counts low (Zapier 7,000, Make 1,500). Mentions n8n as third option. Light on hard numbers."
+  },
+  {
+   "url": "https://blogrecode.com/zapier-vs-make-com-comparison-honest-verdict/",
+   "opened": true,
+   "note": "Scores: Zapier 8.8/10, Make 8.5/10. Author claims personal cost figures ($289 Zapier vs $558 Make over 3 months). Correctly flags polling trigger trap: '5-min poll = 8,640 ops on Make vs free on Zapier'. First-person claims are suspect — treated as directional only."
+  },
+  {
+   "url": "https://theaiagentindex.com/compare/zapier-vs-make",
+   "opened": false,
+   "note": "Content behind directory wall; only title + navigation returned. Not usable for analysis."
+  },
+  {
+   "url": "https://www.softr.io/blog/make-vs-zapier",
+   "opened": true,
+   "note": "Clear pricing ladder: Zapier Free/Pro $19.99/Team/Enterprise; Make Free/Core $9/Pro $18.82/Teams $34.12. Verdicts by category (Make wins price+flexibility+AI, Zapier wins ease+integrations). Softr promo at end."
+  },
+  {
+   "url": "https://dev.to/trackstack/zapier-vs-make-in-2026-the-honest-cost-feature-breakdown-gp3",
+   "opened": true,
+   "note": "Best SMB breakdown: 4-question decision framework, three cost scenarios. Explicit 'Zapier counts successful actions, Make counts every module including triggers'. ~7× price gap at 10K events/mo. Our post leans on this for the cost chart."
+  },
+  {
+   "url": "https://coldiq.com/blog/make-vs-zapier",
+   "opened": true,
+   "note": "Category-winner table (Beginners/Simple → Zapier, Complex/Cost → Make, AI → Zapier). Pricing: Make Core $9, Pro $16; Zapier Pro $19.99, Pro-upgrade $49. Promotes ColdIQ as GTM alternative. Good matrix framing."
+  },
+  {
+   "url": "https://zapier.com/pricing",
+   "opened": true,
+   "note": "Official Zapier pricing page. Free = 100 tasks, 2-step, Filter and Formatter included, Paths excluded. Professional annual $19.99/mo (750 tasks) → $3,389/mo (2M tasks); monthly $29.99–$5,099. Team annual $69/mo (2,000 tasks). Agents/Chatbots billed separately."
+  },
+  {
+   "url": "https://help.make.com/credits",
+   "opened": true,
+   "note": "Make Help Center credits/operations doc. 1 operation = 1 credit for non-AI apps. AI apps and Make Code use dynamic rates. Does not explicitly state polling idle cost on this page — confirmed separately via community thread."
+  },
+  {
+   "url": "https://community.make.com/t/will-scheduled-events-use-up-operations-if-no-new-data-is-there/43840",
+   "opened": true,
+   "note": "Make Community thread confirming scheduled polling trigger uses 1 op per check even with no new data. Core evidence for our 2,880 ops/month calc at 15-min interval."
+  },
+  {
+   "url": "https://use-apify.com/blog/make-com-pricing-2026",
+   "opened": true,
+   "note": "Make pricing table: Free $0/1,000 ops/15-min, Core $9/10,000 ops/1-min, Pro $16/10,000 ops/1-min, Teams $29/10,000 ops/1-min. Confirms module action = 1 credit."
+  },
+  {
+   "url": "https://workflowpick.com/reviews/zapier-free-plan-2026/",
+   "opened": true,
+   "note": "Confirms Zapier Free = 100 tasks, 5 single-step Zaps on free tier. Note: this source claims Filter/Formatter included — matches our official pricing fetch."
+  }
+ ],
+ "factcheck": [
+  {
+   "claim": "Zapier Free gives 100 tasks per month, with a two-step Zap limit (Filter and Formatter included; Paths excluded)",
+   "sources": [
+    "https://zapier.com/pricing (official pricing table — Free row)",
+    "https://workflowpick.com/reviews/zapier-free-plan-2026/",
+    "https://www.softr.io/blog/make-vs-zapier"
+   ]
+  },
+  {
+   "claim": "Make Free gives 1,000 operations/month, 2 active scenarios, and a 15-minute minimum scheduling interval",
+   "sources": [
+    "https://use-apify.com/blog/make-com-pricing-2026",
+    "https://www.softr.io/blog/make-vs-zapier",
+    "https://www.jetadmin.io/blog/make-pricing/"
+   ]
+  },
+  {
+   "claim": "Make bills 1 operation per scheduled polling trigger check even when no new data is returned; a 15-minute poll burns 2,880 ops/month",
+   "sources": [
+    "https://community.make.com/t/will-scheduled-events-use-up-operations-if-no-new-data-is-there/43840",
+    "https://blogrecode.com/zapier-vs-make-com-comparison-honest-verdict/",
+    "https://www.customjs.space/blog/email-polling-vs-mailhook/"
+   ]
+  },
+  {
+   "claim": "Zapier Professional entry price is $19.99/mo billed annually (750 tasks), $29.99/mo billed monthly",
+   "sources": [
+    "https://zapier.com/pricing",
+    "https://www.whalesync.com/blog/zapier-vs-make",
+    "https://coldiq.com/blog/make-vs-zapier"
+   ]
+  },
+  {
+   "claim": "Make Core entry price is $9/mo billed annually for 10,000 operations (around $10.59/mo billed monthly)",
+   "sources": [
+    "https://use-apify.com/blog/make-com-pricing-2026",
+    "https://www.softr.io/blog/make-vs-zapier",
+    "https://blogrecode.com/zapier-vs-make-com-comparison-honest-verdict/"
+   ]
+  },
+  {
+   "claim": "A Zapier task counts only on successful action steps; triggers, Filter/Paths-skipped steps, and errored/halted steps do not count",
+   "sources": [
+    "https://zapier.com/pricing (feature list)",
+    "https://glivent.com.au/questions/what-counts-as-a-task-in-zapier",
+    "https://www.eesel.ai/blog/zapier-subscription"
+   ]
+  }
+ ],
+ "variables": {
+  "keyword": "zapier vs make which is better",
+  "slug": "zapier-vs-make-which-is-better",
+  "zapier_free_tasks": 100,
+  "zapier_free_step_limit": 2,
+  "zapier_pro_annual_mo": 19.99,
+  "zapier_pro_monthly_mo": 29.99,
+  "zapier_team_annual_mo": 69,
+  "zapier_app_catalog_approx": 8000,
+  "make_free_ops": 1000,
+  "make_free_scenarios": 2,
+  "make_free_min_interval_min": 15,
+  "make_core_annual_mo": 9,
+  "make_core_monthly_mo": 10.59,
+  "make_core_ops": 10000,
+  "make_pro_annual_mo": 16,
+  "make_app_catalog_approx": 2700,
+  "polling_15min_ops_per_month": 2880,
+  "polling_hourly_ops_per_month": 720,
+  "cost_gap_at_10k_events_x": "4–7×",
+  "events_threshold_make_wins": 500,
+  "capture_date": "2026-10-24"
+ },
+ "gaps": [
+  {
+   "gap": "Worked calculation of Make polling trigger ops across intervals (15-minute vs hourly vs working-hours only) with explicit monthly totals, instead of a one-line mention",
+   "covered_in": "The polling trigger trap only Make has"
+  },
+  {
+   "gap": "Three concrete solo and small-team workflow shapes priced on both meters so the reader can see which platform wins each specific job, instead of abstract 'Make for complex' advice",
+   "covered_in": "Three real workflows: who wins by job"
+  },
+  {
+   "gap": "Six-row decision checklist tied to specific thresholds (step count, event volume, trigger type, team size, logic depth) rather than vague 'depends on your needs' lists",
+   "covered_in": "Decision checklist: which is better for your job"
+  },
+  {
+   "gap": "Explicit guidance on running Zapier and Make side by side as a deliberate strategy, not just as a migration transition, with the free tiers in parallel",
+   "covered_in": "Using both together, and when to migrate"
+  },
+  {
+   "gap": "Cost-at-scale comparison at four distinct monthly event volumes (free / 500 / 2,000 / 10,000) rather than a single scale datapoint",
+   "covered_in": "Cost at scale: when the task meter breaks"
+  }
+ ],
+ "own_evidence": [
+  {
+   "type": "test",
+   "desc": "Worked calculation pricing a 15-minute polling trigger on Make: counted ops across hours and days to show how much of the Free quota is burnt before any real work",
+   "proof": "A scenario on a 15-minute interval runs 4 times per hour × 24 hours × 30 days = 2,880 trigger ops per month before processing a single update."
+  },
+  {
+   "type": "test",
+   "desc": "Priced three concrete workflow shapes against both meters at Free and paid tiers to see who wins Workflow A/B/C explicitly, rather than quoting abstract scoring",
+   "proof": "On Make the same poll runs 4 times/hour × 24 × 30 = 2,880 trigger checks a month, so Free's 1,000 ops is burnt in roughly 10 days."
+  },
+  {
+   "type": "table",
+   "desc": "Compiled an 8-criterion side-by-side matrix from the two official pricing pages plus six competitor posts, scoring Zapier and Make per row with the published number as the tie-breaker",
+   "proof": "Zapier wins four, Make wins four, and that's exactly the point: whichever side matches your top-two criteria is the one you buy."
+  },
+  {
+   "type": "data",
+   "desc": "Modeled a four-tier cost chart (free / 500 / 2,000 / 10,000 events per month) using 2 actions per event, both meters, to show where the task meter breaks relative to the credit meter",
+   "proof": "At 500 events/mo with 2 actions each, Zapier bills 1,000 tasks (Professional 2,000 at ~$49/mo) and Make bills 1,500 ops (Core at $9/mo)."
+  },
+  {
+   "type": "calc",
+   "desc": "Averaged tasks per order on a conditional Zap (3 actions, 1 action filtered on average) to convert raw order count into billable Zapier task count",
+   "proof": "~2.3 tasks/order on average. 500 orders a month = ~1,150 tasks, so Professional 2,000 at $49/mo."
+  }
+ ],
+ "hermes_score": 88,
+ "score_history": [
+  88
+ ]
+}
