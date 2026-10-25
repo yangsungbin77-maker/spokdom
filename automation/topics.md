@@ -28,7 +28,7 @@ with recurring (monthly) affiliate commissions.
 - [x] notion vs obsidian for note taking
 - [x] zapier vs make which is better
 - [x] zapier vs make free plan
-- [ ] clickup vs asana for small teams
+- [x] clickup vs asana for small teams
 - [ ] beehiiv vs substack for newsletters
 - [ ] framer vs webflow for landing pages
 - [ ] descript vs capcut for video editing

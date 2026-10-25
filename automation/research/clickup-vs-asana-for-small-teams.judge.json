@@ -1,0 +1,16 @@
+{
+  "score": 88,
+  "breakdown": {"intent": 23, "depth": 20, "structure": 18, "seo": 18, "gain": 9},
+  "fix_hints": [
+    "'Workflow B — 7-person marketing team' 문단의 'Advanced is $300/mo = $3,600/yr' 수치 오류 수정 — 10 billed seats × $24.99 = $249.90/mo = $2,998.80/yr로 교체(앞선 AI pricing 섹션 수치와 일치시킬 것).",
+    "'When to run both, and when to migrate' 섹션의 수식 '$5 × $10.99 + 6 × $9 = $108.95/mo'은 6-person 팀이 어떻게 Asana 5명 + ClickUp 6명(합 11 seat)이 되는지 설명이 없어 모순처럼 보임 — '5명은 Asana에 공유되고 ClickUp에는 전체 6명이 들어간다' 식으로 분할 가정을 한 문장 추가하거나, 아니면 Asana 2 seat × $10.99 + ClickUp 6 × $9 처럼 비겹치는 구성으로 다시 계산할 것.",
+    "두 번째 문단 'How this comparison was built: on October 26, 2026 I captured both official pricing pages, read eleven top-ranking comparisons, cross-checked... and priced four common small-team shapes' 1인칭을 전부 제거 — 'As of October 26, 2026 this comparison is built from both pricing pages captured that day, eleven top-ranking comparison posts, cross-checks against Asana's live pricing FAQ, and four priced small-team shapes.'로 수동태로 바꿀 것.",
+    "'Pricing for small teams: October 2026 captures' 바로 아래 cg-tip 박스의 'Monthly billing is 25–35% higher on both: ClickUp Core is $12/user/mo monthly vs $9 annual; Asana Starter is $13.49 monthly vs $10.99 annual' — ClickUp은 33%지만 Asana는 22.7%라 '25-35%' 범위에 Asana가 안 들어감. 'Monthly billing is 22–33% higher — ClickUp Core jumps about 33% ($9→$12) and Asana Starter about 23% ($10.99→$13.49)'로 숫자를 분리해 수정.",
+    "'The seat-band trap' 섹션 표 바로 위 문단에서 Quick take 박스와 'ClickUp vs Asana for small teams in one line' 섹션에 이미 나온 '7-person team pays for 10 / 11-person pays for 15'를 한 번 더 반복함 — 세 번째 등장은 표만 두고 중복 문장을 삭제하거나 '위 표는 다음을 수치화한 것이다'로 변주.",
+    "'Pricing for small teams: October 2026 captures' 표에서 'ClickUp Core $9/user/mo (list $12)'와 'Business $17/user/mo (list $25)'의 'list'가 월간가인지 할인 전 가격인지 모호함 — '$9 annual / $12 monthly', '$17 annual / $25 monthly'로 라벨을 바꿔 혼동 제거.",
+    "'Three real small-team workflows priced' Workflow C의 'Asana Personal: only 2 of the 3 fit; the third needs Starter at a 2-seat minimum' 계산은 Personal과 Starter를 섞을 수 있다는 비현실적 가정에 기대고 있음 — Asana에서 플랜은 워크스페이스 단위라는 사실을 한 문장 명시하고, 실제로는 3명 전원이 Starter로 가야 함(= $395.64/yr)을 메인 비교값으로 두고 Personal 혼합안은 각주로 뺄 것.",
+    "'The seat-band trap' 표 캡션 아래 'The jump between 5 and 7 users is where the seat-band premium starts biting. At 7 users, Asana costs about $47 more per month than ClickUp Core' — 표 수치 상 $109.90 − $63 = $46.90이라 $47 반올림은 OK지만, '$560 a year'는 실제 $562.80에 더 가까우니 반올림을 일관되게 '$563'으로 통일(이미 뒤 문단에서 $563로 씀).",
+    "H2 'When to run both, and when to migrate'의 마지막 문단 'migrate on principle' 뒤 결론부에서 메인 키워드 'ClickUp vs Asana for small teams'가 명시적으로 등장하지 않음 — 마지막 두 문장 안에 'The honest ClickUp vs Asana for small teams verdict is…' 식으로 결론부 키워드 1회 삽입(규칙: 제목·첫단·결론 각 1회).",
+    "FAQ 마지막 Q 'Should I switch from Asana to ClickUp to save money?' 답변이 너무 길고 메타적('The honest answer to ClickUp vs Asana for small teams in 2026 is…')으로 FAQ 특성(짧고 단일 답)을 벗어남 — 2문장으로 압축하고 'Switch if you sit at 6–9 or 11–14 users, or if you need native time tracking, Goals, or docs. Below 5 or exactly at 5/10/15 without those needs, migration cost usually wins.'처럼 결정 규칙만 남길 것."
+  ]
+}

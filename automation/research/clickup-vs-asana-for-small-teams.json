@@ -1,0 +1,229 @@
+{
+ "type": "comparison",
+ "structure": "결론먼저",
+ "note": "2026-10-26 draft. Verdict-first comparison for small teams. Flagged the Asana seat-band billing rule as the primary small-team differentiator and priced it at 3/5/7/11/16 users. Noted ClickUp's Unlimited→Core rename and the pricing-page discrepancy with 2026 competitor posts.",
+ "overlap_ok": "Different cluster from the Zapier/Make posts (project management vs automation) and from best-notion-alternatives-small-teams (docs vs project management). Internal link routes to notion-alternatives for a related small-team collaboration topic.",
+ "keyword_filter": {
+  "keyword": "clickup vs asana for small teams",
+  "competition": {
+   "method": "serp-scan",
+   "evidence": "Top 10 for 'clickup vs asana for small teams 2026' is dominated by small/medium vendor and consulting blogs (monday.com, clickup.com, gmelius, zenpilot, thebusinessdive, althunt, fitmysaas, taskrhino, workflowaces, workmanagementhub, leadadvisors). No Wikipedia, no Capterra top of page one, no G2 category hub at #1. Depth varies from 900 to 4,000 words with mostly feature-list verdicts and few concrete seat-band price examples.",
+   "pass": true
+  },
+  "demand": {
+   "method": "autocomplete",
+   "evidence": "Google autocomplete (en, Oct 26 2026) surfaces 'clickup vs asana for small teams', 'clickup vs asana for small business', 'clickup vs asana for startup', 'asana vs clickup small team' as suggestions off 'clickup vs asana for'. The 'for small teams' tail sits inside the broader 'clickup vs asana' and 'asana vs clickup' demand clusters.",
+   "pass": true
+  },
+  "intent": {
+   "method": "serp-scan",
+   "evidence": "All 10 top results are informational long-form comparison blog posts with pricing tables, feature matrices, and small-team verdicts. No shopping ads at the top for this specific phrase, no local pack. Searcher wants a verdict and the reasoning before signing up — a long comparison with worked seat-count math satisfies the intent fully.",
+   "pass": true
+  }
+ },
+ "serp": [
+  {
+   "url": "https://monday.com/blog/project-management/clickup-vs-asana-how-they-compare-and-which-to-choose/",
+   "opened": true,
+   "note": "~2,500 words. ClickUp Unlimited $7, Business $12; Asana Starter $10.99, Advanced $24.99. Says ClickUp Free is more generous for teams under 3 but gives no seat-band math. Monday-branded blog so lightly pivots to Monday as third option."
+  },
+  {
+   "url": "https://clickup.com/blog/asana-vs-clickup/",
+   "opened": true,
+   "note": "ClickUp's own blog. Still lists Unlimited $7 and Business $12 (older naming) alongside Brain AI $9 add-on. Advertises ClickUp strengths; useful for feature-list verification but biased on verdicts."
+  },
+  {
+   "url": "https://gmelius.com/blog/asana-vs-clickup",
+   "opened": true,
+   "note": "Short comparison. Confirms ClickUp Unlimited starts at $7, Asana Premium at $10.99, AI bundled on Asana vs $9 add-on on ClickUp. Learning curve: Asana shorter, ClickUp steeper."
+  },
+  {
+   "url": "https://www.zenpilot.com/blog/clickup-vs-asana/",
+   "opened": true,
+   "note": "Agency consultancy post. Recommends Asana for 5-person team running simple projects, ClickUp for ops-heavy agencies. Pricing matrix: ClickUp $7/$12, Asana $10.99/$24.99. Says Asana Free limited to 15 members (contradicts pricing-page capture of 2 members)."
+  },
+  {
+   "url": "https://thebusinessdive.com/asana-vs-clickup",
+   "opened": true,
+   "note": "'Save $300' angle. Confirms Asana sells seats with a minimum (defaults to 5 seats without clear notice), per the author. Cites Starter $10.99 2-seat minimum, Advanced $24.99."
+  },
+  {
+   "url": "https://althunt.io/blog/asana-vs-clickup",
+   "opened": true,
+   "note": "~2,500 words. Pricing table ClickUp Unlimited $7, Business $12 vs Asana Starter $10.99, Advanced $24.99. Does not surface seat-band billing specifics; feature matrix is useful."
+  },
+  {
+   "url": "https://fitmysaas.com/blog/asana-vs-monday-vs-clickup-small-teams",
+   "opened": true,
+   "note": "Strongest source for seat-band math. Explicitly says 'Asana steps of 1 up to 5, then steps of 5 up to 30. monday minimum 3 seats, then buckets of 5.' Priced 12-person team: Asana Starter $164.85/mo = $1,978/yr vs ClickUp Core $108/mo = $1,296/yr."
+  },
+  {
+   "url": "https://www.taskrhino.ca/blog/asana-vs-monday-vs-clickup/",
+   "opened": true,
+   "note": "Three-way comparison. Confirms Asana native time tracking requires Advanced $24.99, ClickUp Core includes it at $7. Recommends by priority: Asana for UX, ClickUp for value, monday for visuals."
+  },
+  {
+   "url": "https://workflowaces.com/clickup-vs-asana/",
+   "opened": true,
+   "note": "'$1,559 more per year' angle. Priced ClickUp Business ($12 × 10 users × 12 = $1,440/yr) vs Asana Advanced ($24.99 × 10 × 12 = $2,999/yr) = $1,559 gap. Also notes ClickUp Free includes 100 automations/mo. Recommends 2-week parallel pilot."
+  },
+  {
+   "url": "https://workmanagementhub.com/clickup-vs-asana-2026/",
+   "opened": true,
+   "note": "Flags the Unlimited→Core rename: 'ClickUp: $7 (classic Unlimited) or $9 (new Core).' Confirms Asana Personal 2 users, ClickUp Free 60MB, Brain AI $9 add-on as of Oct 22 2026. Most up-to-date source on the pricing transition."
+  },
+  {
+   "url": "https://leadadvisors.com/blog/clickup-vs-asana/",
+   "opened": true,
+   "note": "Confirms ClickUp Free: unlimited users + 100 automations/mo, 12+ views. Asana Free: up to 10 users (contradicts pricing-page capture of 2). Says ClickUp 'came out on top in testing with small teams and freelancers'."
+  },
+  {
+   "url": "https://clickup.com/pricing",
+   "opened": true,
+   "note": "Official ClickUp pricing page captured Oct 26 2026. Current paid tier names: Core $9 annual ($12 monthly), Business $17 annual ($25 monthly), Enterprise custom, MAX $100 annual. Brain AI $9/user/mo add-on. Free Forever: unlimited members, 60MB storage, 5 Spaces, 100 automation runs/mo, 5 active rules, 1 Form, 3 whiteboards."
+  },
+  {
+   "url": "https://asana.com/pricing",
+   "opened": true,
+   "note": "Official Asana pricing page captured Oct 26 2026. Personal (Free): 2 users max, unlimited tasks/projects, 100MB per file, 100+ integrations. Starter $10.99/user/mo annual ($13.49 monthly). Advanced $24.99/user/mo annual ($30.49 monthly). FAQ explicitly lists seat-purchase rules: 2–5 users increments of 1, up to 30 users increments of 5, up to 100 users increments of 10."
+  },
+  {
+   "url": "https://itsorted.online/guides/notion-vs-clickup-vs-asana",
+   "opened": false,
+   "note": "ECONNREFUSED from WebFetch on Oct 26 2026. Could not retrieve content."
+  },
+  {
+   "url": "https://www.g2.com/compare/clickup-vs-asana",
+   "opened": false,
+   "note": "HTTP 403 Forbidden to WebFetch. Known to host aggregated G2 user ratings (ease of use, ease of setup, likelihood to recommend) but gated."
+  }
+ ],
+ "factcheck": [
+  {
+   "claim": "Asana sells seats in increments of 5 above 5 total users (2–5 users: +1 at a time; up to 30 users: +5; up to 100 users: +10), as stated on asana.com/pricing FAQ Oct 26 2026",
+   "sources": [
+    "https://asana.com/pricing (FAQ seat-purchase rules, captured Oct 26 2026)",
+    "https://fitmysaas.com/blog/asana-vs-monday-vs-clickup-small-teams (restates the same rule and priced a 12-person team)",
+    "https://thebusinessdive.com/asana-vs-clickup (flags Asana's hidden minimum-seat default)"
+   ]
+  },
+  {
+   "claim": "Asana Personal (Free) plan is capped at 2 users on the current pricing page, with unlimited tasks/projects and 100MB per file",
+   "sources": [
+    "https://asana.com/pricing (Personal tier description, captured Oct 26 2026)",
+    "https://workmanagementhub.com/clickup-vs-asana-2026/ (confirms Asana Personal 2 users)",
+    "https://gmelius.com/blog/asana-vs-clickup (confirms Personal 2 seats + 100MB file limit)"
+   ]
+  },
+  {
+   "claim": "ClickUp Free Forever hosts unlimited members with 60MB storage, 5 Spaces, 100 automation runs/month, 5 active rules, 1 Form and 3 whiteboards",
+   "sources": [
+    "https://clickup.com/pricing (Free Forever card, captured Oct 26 2026)",
+    "https://workmanagementhub.com/clickup-vs-asana-2026/ (confirms 60MB storage and unlimited members)",
+    "https://leadadvisors.com/blog/clickup-vs-asana/ (confirms 100 automations/mo on Free)"
+   ]
+  },
+  {
+   "claim": "Asana Starter is $10.99/user/month billed annually ($13.49 monthly); Advanced is $24.99/user/month annually ($30.49 monthly) — AI included in paid plans with per-request limits",
+   "sources": [
+    "https://asana.com/pricing (captured Oct 26 2026)",
+    "https://monday.com/blog/project-management/clickup-vs-asana-how-they-compare-and-which-to-choose/",
+    "https://althunt.io/blog/asana-vs-clickup"
+   ]
+  },
+  {
+   "claim": "ClickUp's lower paid tier was renamed from Unlimited to Core during 2026 — current pricing page shows Core $9/user/mo annual ($12 monthly), while many 2026 competitor posts still cite the older Unlimited $7 number",
+   "sources": [
+    "https://clickup.com/pricing (Core card, captured Oct 26 2026)",
+    "https://workmanagementhub.com/clickup-vs-asana-2026/ (explicitly 'ClickUp: $7 classic Unlimited or $9 new Core')",
+    "https://clickup.com/blog/asana-vs-clickup/ (ClickUp's own blog still lists $7 Unlimited)"
+   ]
+  },
+  {
+   "claim": "ClickUp charges $9/user/month for Brain AI as an add-on on top of any paid plan — Asana bundles AI into all paid plans at no per-seat upcharge (per-request $0.50 packs or $0.60 pay-as-you-go)",
+   "sources": [
+    "https://clickup.com/pricing (Brain AI add-on)",
+    "https://asana.com/pricing (AI section, captured Oct 26 2026)",
+    "https://workmanagementhub.com/clickup-vs-asana-2026/"
+   ]
+  }
+ ],
+ "variables": {
+  "keyword": "clickup vs asana for small teams",
+  "slug": "clickup-vs-asana-for-small-teams",
+  "clickup_free_members": "unlimited",
+  "clickup_free_storage_mb": 60,
+  "clickup_free_automations_per_mo": 100,
+  "clickup_core_annual_mo": 9,
+  "clickup_core_monthly_mo": 12,
+  "clickup_business_annual_mo": 17,
+  "clickup_brain_ai_addon_mo": 9,
+  "asana_free_seats": 2,
+  "asana_starter_annual_mo": 10.99,
+  "asana_starter_monthly_mo": 13.49,
+  "asana_advanced_annual_mo": 24.99,
+  "asana_seat_band_above_5": 5,
+  "asana_seat_band_above_30": 10,
+  "team_7_clickup_year": 756,
+  "team_7_asana_year": 1318.8,
+  "team_7_cost_gap_year": 562.8,
+  "team_11_cost_gap_year": 790.2,
+  "team_7_asana_ghost_seats": 3,
+  "team_11_asana_ghost_seats": 4,
+  "capture_date": "2026-10-26",
+  "headline_finding": "Asana seat-bands turn a $2/user list-price gap into a $563/yr gap at 7 users and $790/yr at 11 users"
+ },
+ "gaps": [
+  {
+   "gap": "Worked seat-band cost math at 3/5/7/11/16 users showing exactly how many ghost seats each small team pays for on Asana, instead of a one-line mention",
+   "covered_in": "The seat-band trap that only Asana has for small teams"
+  },
+  {
+   "gap": "Honest flag that ClickUp renamed Unlimited to Core during 2026 and that 2026 top competitor posts still cite the older $7 Unlimited price, so the live Core number is $9",
+   "covered_in": "Pricing for small teams: October 2026 captures"
+  },
+  {
+   "gap": "Specific 'can a 5-person team actually evaluate on the free plan' comparison — Asana Personal caps at 2 while ClickUp Free hosts unlimited members, so only ClickUp Free works for a real team trial",
+   "covered_in": "Free plan for a 5-person trial: ClickUp wins"
+  },
+  {
+   "gap": "AI pricing math worked for a 7-person team showing that turning on ClickUp Brain AI flips the pricing lead from ClickUp to Asana by a few hundred dollars a year",
+   "covered_in": "AI pricing a 7-person team actually pays"
+  },
+  {
+   "gap": "Three concrete small-team workflow shapes (4-person agency, 7-person marketing team, 3-person solo founder + contractors) priced on both billing meters at exact per-user cost",
+   "covered_in": "Three real small-team workflows priced"
+  }
+ ],
+ "own_evidence": [
+  {
+   "type": "test",
+   "desc": "Modeled Asana seat-band cost at 3/5/7/11/16 users against ClickUp Core per-user billing to show the hidden ghost-seat tax across small-team sizes",
+   "proof": "The jump between 5 and 7 users is where the seat-band premium starts biting. At 7 users, Asana costs about $47 more per month than ClickUp Core, or roughly $560 a year."
+  },
+  {
+   "type": "screenshot",
+   "desc": "Captured the asana.com/pricing FAQ seat-purchase rules and the clickup.com/pricing Free + Core cards on Oct 26, 2026 and rendered them side by side with the live numbers at 7-person team cost",
+   "proof": "../../assets/posts/clickup-vs-asana-for-small-teams-hero.png"
+  },
+  {
+   "type": "table",
+   "desc": "Compiled a 10-criterion feature matrix from both pricing pages scoring who wins each small-team row (time tracking, Goals, Gantt, workload, automations, docs, learning curve, mobile, integrations, per-user billing)",
+   "proof": "ClickUp wins on raw feature count at the entry tier"
+  },
+  {
+   "type": "calc",
+   "desc": "Priced three concrete small-team workflow shapes (4-person agency, 7-person marketing team, 3-person solo founder + 2 contractors) on both billing meters including ghost-seat math",
+   "proof": "On ClickUp Core: 7 × $9 = $63/mo = $756/yr. On Asana Starter: 10 billed seats × $10.99 = $109.90/mo = $1,318.80/yr."
+  },
+  {
+   "type": "data",
+   "desc": "Modeled AI-pricing math across four scenarios (ClickUp without AI, ClickUp + Brain AI, Asana Starter with AI, Asana Advanced with AI) for a 7-person team to show how AI add-ons flip the price lead",
+   "proof": "Turn on Brain AI across the team and ClickUp becomes about $193 a year more expensive than Asana Starter, because the add-on is per seat and the Asana seat-band tax is capped."
+  }
+ ],
+ "hermes_score": 88,
+ "score_history": [
+  88
+ ]
+}
