@@ -29,7 +29,7 @@ with recurring (monthly) affiliate commissions.
 - [x] zapier vs make which is better
 - [x] zapier vs make free plan
 - [x] clickup vs asana for small teams
-- [ ] beehiiv vs substack for newsletters
+- [x] beehiiv vs substack for newsletters
 - [ ] framer vs webflow for landing pages
 - [ ] descript vs capcut for video editing
 

@@ -1,0 +1,235 @@
+{
+ "type": "comparison",
+ "structure": "오해바로잡기",
+ "note": "2026-10-28 draft. Myth-busting comparison frame — the dominant top-10 angle is a feature list with a one-line verdict. We lead with the five fee-math myths that cost paid writers thousands, worked across five MRR tiers using current Oct 1, 2026 beehiiv plan names (Launch→Free, Scale→Lite, Max→Pro) and the mid-2025 Stripe recurring-billing bump to 0.7%.",
+ "overlap_ok": "Different cluster from the Mailchimp/Zapier/ClickUp posts (newsletter publishing vs email marketing SaaS vs project management vs automation). Internal link routes to mailchimp-alternatives-small-business which covers the sibling billing-model trap for email marketing tools billed by contact count.",
+ "keyword_filter": {
+  "keyword": "beehiiv vs substack for newsletters",
+  "competition": {
+   "method": "serp-scan",
+   "evidence": "Top 10 for 'beehiiv vs substack for newsletters' and 'beehiiv vs substack 2026' is dominated by small/medium vendor and operator blogs (mailercloud, devopscube, influencerskit, unil.ink, painpointmap, carrieloranger, remogrid, grouglobal) plus review aggregators (checkthat.ai, emailsoftwareinsights). No G2 category hub at #1, no Wikipedia, no Capterra top of page one. Depth varies 900-3,000 words; most posts give one $10K/mo scenario and a one-line verdict without working the fee math at multiple MRR tiers.",
+   "pass": true
+  },
+  "demand": {
+   "method": "autocomplete",
+   "evidence": "Google autocomplete (en, Oct 28 2026) surfaces 'beehiiv vs substack', 'beehiiv vs substack 2026', 'beehiiv vs substack for newsletters', 'beehiiv vs substack reddit', 'substack vs beehiiv fees' off 'beehiiv vs substack'. The 'for newsletters' tail sits inside a broader paid-newsletter comparison cluster searched monthly across newsletter operator forums.",
+   "pass": true
+  },
+  "intent": {
+   "method": "serp-scan",
+   "evidence": "All 10 top results are informational long-form comparison blog posts with pricing tables, fee math, and verdict by creator type. No shopping ads at the top of page one for this phrase, no local pack, no video carousel dominating. Searcher wants a verdict, the fee crossover math, and an honest migration call — a long myth-busting comparison with worked MRR math satisfies the intent fully.",
+   "pass": true
+  }
+ },
+ "serp": [
+  {
+   "url": "https://www.mailercloud.com/blog/beehiiv-vs-substack",
+   "opened": true,
+   "note": "~2,500 words. Confirms beehiiv Launch free to 2,500 subs, Scale from $49/mo at 1K subs, 0% platform fee. Substack 10% + Stripe 2.9%+$0.30 + $50 custom domain. Breakeven at ~$490/mo paid MRR (1K subs). Verdict: 'beehiiv wins seven rounds to three.' EmailTooltester-cited deliverability ranking."
+  },
+  {
+   "url": "https://devopscube.com/beehiiv-vs-substack/",
+   "opened": true,
+   "note": "Operator post (19K+ subscribers, personally migrated Substack→beehiiv). beehiiv 0% platform fee vs Substack 10%; cites '$6.4 for a subscriber' through Beehiiv Boosts. Recommends beehiiv for business-focused creators, Substack for personal brand simplicity. Confirms CSV migration keeps subscribers intact."
+  },
+  {
+   "url": "https://www.influencerskit.com/blog/beehiiv-vs-substack-newsletter-platform-comparison-2026",
+   "opened": true,
+   "note": "Side-by-side fee math at $10K/mo (~$1,310 Substack vs ~$600 beehiiv) and $25K/mo (~$3,240 vs ~$1,725). Breakeven at $1,500-$2,000 monthly paid revenue (older $99 Scale baseline). Confirms Substack has no segmentation/A-B testing/ad network. Paid-sub migration retention: 60-80% without import tool, 80-90% with."
+  },
+  {
+   "url": "https://unil.ink/blog/beehiiv-vs-substack-2026",
+   "opened": true,
+   "note": "At $50K/mo paid MRR beehiiv saves ~$60K/yr vs Substack. Substack recommendations drive '~30-40% of new subs' on established pubs. beehiiv Boosts 'cost money' vs free recommendations. Verdict: beehiiv for 1,000+ paid, Substack for beginners."
+  },
+  {
+   "url": "https://www.painpointmap.com/blog/substack-vs-beehiiv",
+   "opened": true,
+   "note": "Breakeven cited at $390/mo (older $39 Scale baseline). Open-rate dip 10-20% initially, recovery 2-3 months on migration. 'Writer-first vs operator-first' philosophical frame. Substack recommendations 'the strongest built-in newsletter discovery mechanism available.'"
+  },
+  {
+   "url": "https://carrieloranger.com/blog/substack-vs-beehiiv-2026",
+   "opened": true,
+   "note": "Explicit $430/mo breakeven (older $43 Scale baseline). Three-stage recommendation: stay Substack <$430/mo, evaluate $430-$5K/mo, migrate >$5K/yr paid revenue. Author runs 10,000+ subs on Substack deliberately for discovery. Confirms Stripe 2.9%+$0.30+0.7% recurring."
+  },
+  {
+   "url": "https://www.remogrid.com/blog/reviews/beehiiv-vs-substack-for-newsletters-2026",
+   "opened": true,
+   "note": "At $10K/mo beehiiv saves 'over $10,000 per year compared to Substack.' Substack recommendation network '40-60% of new subscriber growth' on established pubs. Boosts marketplace '$1.50-$3.00 per subscriber'. Confirms Substack no segmentation/no multi-week sequences."
+  },
+  {
+   "url": "https://grouglobal.com/blog/beehiiv-vs-substack",
+   "opened": true,
+   "note": "B2B-focused. beehiiv native HubSpot/ActiveCampaign/Zapier (1000+); Substack 'limited API + no native B2B CRM integrations.' Scale $39/mo cited (pre-rename). Recommends beehiiv for 95% of B2B newsletters; Substack only for consumer-adjacent B2B."
+  },
+  {
+   "url": "https://www.beehiiv.com/pricing",
+   "opened": true,
+   "note": "Official beehiiv pricing page captured Oct 28, 2026. Current plan names: Free ($0, up to 2,500 subs), Lite (starting $49/mo annual at 1K subs, $59 monthly), Pro (starting $95/mo annual at 1K subs, $109 monthly), Enterprise custom. Lite caps at 100K subs; Pro extends to 250K ($999/mo monthly, $10,428/yr). '0% of paid subscription revenue' explicit; Stripe 2.9%+$0.30 pass-through."
+  },
+  {
+   "url": "https://www.beehiiv.com/blog/email-marketing-pricing",
+   "opened": true,
+   "note": "beehiiv's own 2026 plan guide. Confirms Oct 1, 2026 plan rename (Launch→Free, Scale→Lite, Max→Pro). Feature gates per tier: Free = templates+API, Lite = paid subs+ad network+automations+A/B+2 team seats+3 pubs, Pro = up to 10 team seats+10 pubs+unlimited guest authors+branding removal+webhooks+dynamic content."
+  },
+  {
+   "url": "https://www.ruzuku.com/learn/articles/substack-pricing",
+   "opened": true,
+   "note": "Substack fee breakdown explicit: 10% platform + Stripe 2.9%+$0.30 + 0.7% recurring (confirmed 0.7% universal since mid-2025, 0.5% legacy expired). $5/mo minimum, $30/yr minimum (US-dollar Stripe), $50 one-time custom domain. On $5/mo subscription creator keeps ~$4.26 (~85%)."
+  },
+  {
+   "url": "https://sparkleon.substack.com/p/substack-fees-explained-what-you-keep-when-you-go-paid-on-substack",
+   "opened": true,
+   "note": "Independent Substack creator fee analysis. Confirms 10% platform, Stripe 2.9%+$0.30, 0.7% recurring billing (updated June 30, 2025). On $8/mo subscription creator keeps ~$6.61 (83%). Apple IAP adds 15-30% on iOS. $50 custom domain. 'Substack is free to start and free to publish on, however many subscribers you have.'"
+  },
+  {
+   "url": "https://substack.com/",
+   "opened": true,
+   "note": "Substack homepage captured Oct 28, 2026. Confirms 'you always own your intellectual property, mailing list, and subscriber payments.' No pricing on homepage (that lives on support pages — the primary pricing docs require Zendesk auth and returned 403/404 to WebFetch; cross-sourced via ruzuku and sparkleon analyses)."
+  },
+  {
+   "url": "https://support.substack.com/hc/en-us/articles/360037474812-What-is-the-fee-structure-for-paid-newsletters",
+   "opened": false,
+   "note": "HTTP 403 Forbidden to WebFetch on Oct 28, 2026 (support Zendesk gated). Cross-sourced the same fee rules via ruzuku and sparkleon pages that quote this doc verbatim."
+  },
+  {
+   "url": "https://substack.com/pricing",
+   "opened": false,
+   "note": "HTTP 404 Not Found on Oct 28, 2026 — Substack no longer hosts a /pricing path; fee structure lives in support docs behind Zendesk. Content cross-sourced via ruzuku and sparkleon."
+  }
+ ],
+ "factcheck": [
+  {
+   "claim": "Substack takes 10% of each paid subscription payment plus Stripe 2.9% + $0.30 per transaction plus 0.7% recurring billing fee (0.7% rate universal since mid-2025 after the legacy 0.5% expired)",
+   "sources": [
+    "https://www.ruzuku.com/learn/articles/substack-pricing",
+    "https://sparkleon.substack.com/p/substack-fees-explained-what-you-keep-when-you-go-paid-on-substack",
+    "https://carrieloranger.com/blog/substack-vs-beehiiv-2026"
+   ]
+  },
+  {
+   "claim": "beehiiv Free hosts up to 2,500 subscribers at $0; Lite starts at $49/mo annual ($59 monthly) at 1,000 subs; Pro starts at $95/mo annual ($109 monthly) at 1,000 subs; 0% of paid subscription revenue on all tiers",
+   "sources": [
+    "https://www.beehiiv.com/pricing (official, captured Oct 28 2026)",
+    "https://www.beehiiv.com/blog/email-marketing-pricing",
+    "https://www.mailercloud.com/blog/beehiiv-vs-substack"
+   ]
+  },
+  {
+   "claim": "beehiiv renamed its paid plans on October 1, 2026: Launch → Free, Scale → Lite, Max → Pro — many 2026 competitor comparisons still cite the older Scale $39 or $43 pricing from before the rename",
+   "sources": [
+    "https://www.beehiiv.com/blog/email-marketing-pricing (official rename announcement)",
+    "https://grouglobal.com/blog/beehiiv-vs-substack (still cites 'Scale $39/mo')",
+    "https://carrieloranger.com/blog/substack-vs-beehiiv-2026 (still cites 'Scale $43/mo')"
+   ]
+  },
+  {
+   "claim": "The fee crossover between Substack and beehiiv sits near $490/mo in paid subscription revenue — at that MRR, Substack's 10% cut ($49) equals beehiiv Lite's $49/mo annual flat fee at the 1K-subscriber tier",
+   "sources": [
+    "https://www.mailercloud.com/blog/beehiiv-vs-substack ($490/mo breakeven on current Scale $49)",
+    "https://carrieloranger.com/blog/substack-vs-beehiiv-2026 ($430/mo on legacy $43 pricing)",
+    "https://www.painpointmap.com/blog/substack-vs-beehiiv ($390/mo on legacy $39 pricing)"
+   ]
+  },
+  {
+   "claim": "At $10,000/mo in paid subscription revenue, beehiiv saves roughly $10,000+/year vs Substack — Substack's 10% cut is ~$1,000/mo while beehiiv Lite at the 10K-sub tier is ~$99/mo",
+   "sources": [
+    "https://www.remogrid.com/blog/reviews/beehiiv-vs-substack-for-newsletters-2026 ('over $10,000 per year')",
+    "https://www.influencerskit.com/blog/beehiiv-vs-substack-newsletter-platform-comparison-2026 ($10K/mo scenario)",
+    "https://unil.ink/blog/beehiiv-vs-substack-2026 ($50K/mo = ~$60K/yr saved, same math scaled)"
+   ]
+  },
+  {
+   "claim": "Paid-subscriber migration retention is typically 60-80% without an import tool and 80-90% with beehiiv's one-click Substack import, with a 10-20% open-rate dip for the first few weeks before recovery in 2-3 months",
+   "sources": [
+    "https://www.influencerskit.com/blog/beehiiv-vs-substack-newsletter-platform-comparison-2026 (60-80% / 80-90% retention)",
+    "https://www.painpointmap.com/blog/substack-vs-beehiiv (10-20% open-rate dip, 2-3 month recovery)",
+    "https://devopscube.com/beehiiv-vs-substack/ (operator-reported migration dip)"
+   ]
+  }
+ ],
+ "variables": {
+  "keyword": "beehiiv vs substack for newsletters",
+  "slug": "beehiiv-vs-substack-for-newsletters",
+  "capture_date": "2026-10-28",
+  "substack_fee_pct": 10,
+  "stripe_fee_pct": 2.9,
+  "stripe_fee_fixed_usd": 0.3,
+  "stripe_recurring_pct": 0.7,
+  "substack_min_monthly_usd": 5,
+  "substack_min_annual_usd": 30,
+  "substack_custom_domain_usd": 50,
+  "beehiiv_free_subs_cap": 2500,
+  "beehiiv_lite_1k_annual_mo": 49,
+  "beehiiv_lite_1k_monthly_mo": 59,
+  "beehiiv_pro_1k_annual_mo": 95,
+  "beehiiv_pro_1k_monthly_mo": 109,
+  "beehiiv_lite_10k_mo": 99,
+  "beehiiv_pro_25k_mo": 179,
+  "beehiiv_pro_250k_annual_year": 10428,
+  "break_even_paid_mrr_usd": 490,
+  "mrr_10k_annual_gap_usd": 10812,
+  "mrr_25k_annual_gap_usd": 27852,
+  "take_home_substack_8usd": 6.61,
+  "take_home_beehiiv_8usd": 7.46,
+  "paid_sub_migration_retention_without_tool": "60-80%",
+  "paid_sub_migration_retention_with_tool": "80-90%",
+  "open_rate_dip_on_migration": "10-20%",
+  "boosts_cost_per_sub_usd": "1.50-3.00",
+  "substack_recommendations_share_of_new_subs": "30-60%",
+  "headline_finding": "Substack is a 10% permanent rent; the beehiiv flat fee becomes cheaper above ~$490/mo paid MRR and saves ~$10,800/yr at $10K/mo paid MRR"
+ },
+ "gaps": [
+  {
+   "gap": "Worked crossover math at five paid-MRR tiers ($200/$490/$2K/$10K/$25K) with the exact monthly and annual gap in dollars — most top posts cite one $10K scenario and quote outdated $390 or $430 crossovers from pre-rename beehiiv pricing",
+   "covered_in": "Myth 2: \"beehiiv's $49 is just a tax Substack avoids\""
+  },
+  {
+   "gap": "Three concrete, differentiated newsletter shapes (1.5K-sub personal brand with 60 paying, 10K-sub ops newsletter with 400 paying, 50K-sub free newsletter with sponsorships) priced on both meters with winners per shape",
+   "covered_in": "Three real newsletter shapes priced for 2026"
+  },
+  {
+   "gap": "Six-row decision checklist tied to today's newsletter stage (free, under $500 MRR, over $500 MRR, needs automations, runs sponsorships, writing-first) — most top posts collapse the recommendation to a two-line verdict without actionable rows",
+   "covered_in": "Decision checklist by newsletter stage"
+  },
+  {
+   "gap": "Explicit migration cost math — 60-80% paid-sub retention baseline, 80-90% with the import tool, 10-20% open-rate dip for 2-3 months, and the SEO/URL redirect burden on established archives — most posts hand-wave migration as 'possible via CSV'",
+   "covered_in": "Myth 5: \"Switching platforms means losing your subscribers\""
+  },
+  {
+   "gap": "Flagged the Oct 1, 2026 beehiiv plan rename (Launch→Free, Scale→Lite, Max→Pro) and the mid-2025 Stripe recurring-billing bump from legacy 0.5% to 0.7% so readers using the live pricing pages do not get tricked by stale competitor numbers",
+   "covered_in": "The one line of fine print both platforms share"
+  }
+ ],
+ "own_evidence": [
+  {
+   "type": "test",
+   "desc": "Modeled total platform cost at five paid-MRR tiers against beehiiv's current Lite and Pro tier pricing to prove the exact $490/mo crossover and the $10.8K/yr savings at $10K/mo paid MRR",
+   "proof": "At $490/mo in paid MRR, Substack takes $49 and beehiiv Lite still charges $49"
+  },
+  {
+   "type": "screenshot",
+   "desc": "Composed hero infographic from the Oct 28, 2026 captures of beehiiv.com/pricing and Substack creator fee docs showing the crossover and $10K-MRR annual gap side by side for the specific keyword",
+   "proof": "../../assets/posts/beehiiv-vs-substack-for-newsletters-hero.png"
+  },
+  {
+   "type": "table",
+   "desc": "Built a 10-row capability matrix comparing beehiiv vs Substack across fee model, revenue share, drip sequences, segmentation, A/B testing, ad network, discovery, custom domain, API, and mobile app distribution",
+   "proof": "| Capability | Substack | beehiiv (Lite/Pro) | Why it matters |"
+  },
+  {
+   "type": "calc",
+   "desc": "Priced three concrete newsletter shapes (1.5K-sub personal brand with 60 paying at $5/mo, 10K-sub ops newsletter with 400 paying at $8/mo, 50K-sub free newsletter with sponsorships) on both billing meters including winners per shape",
+   "proof": "On Substack: 10% × $3,200 = $320/mo = $3,840/yr. On beehiiv Lite at the 10K-sub tier: $99/mo annual = $1,188/yr"
+  },
+  {
+   "type": "data",
+   "desc": "Compiled a six-row decision checklist that routes a reader by current newsletter stage (free, under $500 MRR, over $500 MRR, needs automations, runs sponsorships, writing-first) to a specific platform pick",
+   "proof": "Pick the first row that matches your newsletter today, not the one that matches your 18-month plan"
+  }
+ ],
+ "hermes_score": 89,
+ "score_history": [
+  89
+ ]
+}
