@@ -30,7 +30,7 @@ with recurring (monthly) affiliate commissions.
 - [x] zapier vs make free plan
 - [x] clickup vs asana for small teams
 - [x] beehiiv vs substack for newsletters
-- [ ] framer vs webflow for landing pages
+- [x] framer vs webflow for landing pages
 - [ ] descript vs capcut for video editing
 
 ### Pricing / plans cluster

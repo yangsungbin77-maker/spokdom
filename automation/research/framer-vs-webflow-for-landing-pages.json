@@ -1,0 +1,193 @@
+{
+ "slug": "framer-vs-webflow-for-landing-pages",
+ "type": "review",
+ "structure": "비교선택",
+ "serp": [
+  {
+   "url": "https://veloxthemes.com/blog/framer-vs-webflow",
+   "opened": true,
+   "note": "~4,500 words, 15 H2s. Explicitly says Framer wins for standalone landing pages. Cites Framer Basic $10 vs Webflow Premium $25 and 'half a day in Framer' speed claim."
+  },
+  {
+   "url": "https://themefic.com/framer-vs-webflow/",
+   "opened": false,
+   "note": "HTTP 403 Forbidden — server blocked WebFetch. Title suggests broad 2026 comparison; could not inspect H2 structure."
+  },
+  {
+   "url": "https://www.magier.com/blog/webflow-vs-framer",
+   "opened": true,
+   "note": "~8,000 words, 18 H2s. Verdict: Framer for landing pages/portfolios, Webflow for CMS-heavy sites. Flags 'React tax' and semantic HTML in Webflow."
+  },
+  {
+   "url": "https://www.flowout.com/blog/webflow-vs-framer",
+   "opened": true,
+   "note": "Verdict: Framer for rapid landing pages, Webflow for scalable sites. Framer learning curve 'days' vs Webflow '2-4 weeks'. Pricing: Framer $10 vs Webflow $18."
+  },
+  {
+   "url": "https://www.layer3labs.io/comparisons/webflow-vs-framer",
+   "opened": true,
+   "note": "Verdict table: Webflow for CMS/ecommerce, Framer for animation + simpler content. Cites 10/20 starter price for Framer and 14/23 for Webflow — numbers slightly out of date vs 2026 merge."
+  },
+  {
+   "url": "https://waidastudio.com/learn/webflow-vs-framer",
+   "opened": true,
+   "note": "Explicitly: 'A designer with Figma experience can build a publishable Framer site within a weekend'. Confirms no clean migration between platforms. Pricing: Framer $10 vs Webflow $15 entry."
+  },
+  {
+   "url": "https://althunt.io/blog/framer-vs-webflow",
+   "opened": true,
+   "note": "22 H2 sections. Framer wins for 3-day turnaround on marketing pages. Flags Framer Pro=$30 and Webflow Business=$39 (older pricing — pre-May-2026 merge)."
+  },
+  {
+   "url": "https://frprotech.com/blog/webflow-vs-framer-for-a-startup-landing-page",
+   "opened": true,
+   "note": "Specifically about startup landing pages. Framer wins for speed ($10/mo, hours to day); Webflow for growth. Key quote: 'no automated migration path between Framer and Webflow'."
+  },
+  {
+   "url": "https://www.itsbuzzinteractive.com/blog/framer-vs-webflow-in-2026",
+   "opened": true,
+   "note": "Scored comparison (Framer 9.0 ease, Webflow 8.4 average). 2026 AI updates: Framer Wireframer/Workshop, Webflow native Claude + AEO. Pricing $10 vs $14/$25."
+  },
+  {
+   "url": "https://siter.io/framer-pricing",
+   "opened": true,
+   "note": "Framer-pricing specialist. Confirms per-site billing: 'each published site requires its own subscription'. Documents Oct 2025 plan collapse (5→3) and June 2026 editor-seat halving ($40→$20)."
+  },
+  {
+   "url": "https://goodspeed.studio/blog/framer-pricing-explained",
+   "opened": true,
+   "note": "Framer pricing deep dive. Confirms Basic $10, Pro $30, editor $20, content editor $10, +$20 per 100 pages, +$40 per 10 CMS collections, +$20 per locale, MCP server free in preview."
+  },
+  {
+   "url": "https://insidea.com/blog/seo/is-framer-good-for-seo-and-aeo",
+   "opened": true,
+   "note": "Confirms Framer SSR delivers full HTML to crawlers, cites 63% of Framer sites pass CWV. Flags that custom canonical links require Enterprise plan — key SEO limit for organic-first landing pages."
+  },
+  {
+   "url": "https://www.framer.com/pricing",
+   "opened": true,
+   "note": "Official. Free $0, Basic $10 yearly, Pro $30 yearly, Enterprise custom. Basic=30 pages/2 CMS/100GB bw, Pro=150 pages/10 CMS/+$40 per 100GB. AI credits 500 trial / 1,000 Basic / 3,000 Pro."
+  },
+  {
+   "url": "https://webflow.com/pricing",
+   "opened": true,
+   "note": "Official. Starter $0 (50 CMS, 1GB bw, 2 static pages), Basic $15 yearly (300 static pages, no CMS), Premium $25 yearly (20,000 CMS items, 2.5TB bw) — Premium is 'New' and merges former CMS+Business plans."
+  }
+ ],
+ "factcheck": [
+  {
+   "claim": "Framer Basic plan is $10/mo billed yearly in October 2026, charged per site.",
+   "sources": [
+    "https://www.framer.com/pricing",
+    "https://siter.io/framer-pricing",
+    "https://goodspeed.studio/blog/framer-pricing-explained"
+   ]
+  },
+  {
+   "claim": "Webflow merged the former CMS ($23/mo) and Business ($39/mo) Site plans into a single Premium Site plan at $25/mo billed yearly with 20,000 CMS items in May 2026.",
+   "sources": [
+    "https://webflow.com/pricing",
+    "https://www.vezadigital.com/post/webflow-pricing",
+    "https://www.joinamply.com/post/webflow-pricing"
+   ]
+  },
+  {
+   "claim": "There is no automated migration path between Framer and Webflow — switching requires rebuilding the site.",
+   "sources": [
+    "https://frprotech.com/blog/webflow-vs-framer-for-a-startup-landing-page",
+    "https://waidastudio.com/learn/webflow-vs-framer"
+   ]
+  },
+  {
+   "claim": "Framer server-renders HTML so Googlebot and AI crawlers get full pages without executing JavaScript; roughly 63% of Framer sites pass all three Core Web Vitals.",
+   "sources": [
+    "https://insidea.com/blog/seo/is-framer-good-for-seo-and-aeo",
+    "https://www.stackmatix.com/blog/framer-site-seo-startups"
+   ]
+  },
+  {
+   "claim": "Webflow sites pass Core Web Vitals at roughly 58%, well above the WordPress baseline of about 42%.",
+   "sources": [
+    "https://tech-insider.org/wordpress-vs-webflow-2026/",
+    "https://www.pravinkumar.co/blog/web-almanac-2026-findings-webflow-site-audits-2026"
+   ]
+  }
+ ],
+ "variables": {
+  "keyword": "framer vs webflow for landing pages",
+  "framer_basic_mo_yearly_usd": 10,
+  "framer_pro_mo_yearly_usd": 30,
+  "webflow_basic_mo_yearly_usd": 15,
+  "webflow_premium_mo_yearly_usd": 25,
+  "framer_basic_pages": 30,
+  "framer_pro_pages": 150,
+  "webflow_premium_cms_items": 20000,
+  "framer_editor_seat_mo_usd": 20,
+  "framer_cwv_green_pct": 63,
+  "webflow_cwv_green_pct": 58,
+  "framer_billing_unit": "per site",
+  "webflow_billing_unit": "per site plan, shared Workspace"
+ },
+ "keyword_filter": {
+  "keyword": "framer vs webflow for landing pages",
+  "competition": {
+   "method": "serp-scan",
+   "evidence": "Top-10 SERP is populated by small marketing-studio and affiliate blogs (veloxthemes, althunt, waidastudio, flowout, siter, frprotech, insidea, layer3labs, itsbuzzinteractive) rather than official docs, big media, or wikis — classic winnable long-tail profile for a new domain.",
+   "pass": true
+  },
+  "demand": {
+   "method": "autocomplete+serp-scan",
+   "evidence": "Nine top-10 results explicitly target 'framer vs webflow' with 2026 freshness, and sibling tails 'framer vs webflow for a startup landing page' and 'framer vs webflow 2026' show live search demand throughout October 2026.",
+   "pass": true
+  },
+  "intent": {
+   "method": "serp-scan",
+   "evidence": "Entire top 10 is blog/informational comparison posts with pricing tables and decision checklists — no official product pages, video-only results, or transactional pages. A long-form comparison blog post is exactly what the SERP rewards.",
+   "pass": true
+  }
+ },
+ "gaps": [
+  {
+   "gap": "Most top-10 posts quote Framer's '$10/mo Basic' sticker but never flag Framer's per-site billing rule, where 3+ landing pages = 3+ separate subscriptions — a key cost trap for agencies and multi-brand founders.",
+   "covered_in": "2026 pricing — the per-site trap most roundups miss"
+  },
+  {
+   "gap": "Half of the 2026 comparisons still cite Webflow's retired CMS ($23) and Business ($39) plans without noting the May 2026 merge into Premium ($25) with 20,000 CMS items — leading readers to compare the wrong Webflow number.",
+   "covered_in": "2026 pricing — the per-site trap most roundups miss"
+  },
+  {
+   "gap": "Top posts rarely price three concrete landing-page shapes (solo founder, 5-site agency, product company with a blog) side-by-side with real yearly totals — most jump straight to a feature table.",
+   "covered_in": "Three real landing page shapes priced for 2026"
+  },
+  {
+   "gap": "Few posts explicitly flag Framer's SEO limit that editable canonical URLs require the Enterprise plan — a real blocker for organic-first landing pages competing against established content sites.",
+   "covered_in": "Where Webflow still wins for landing pages (be honest)"
+  }
+ ],
+ "own_evidence": [
+  {
+   "type": "test",
+   "desc": "Directly verified both platforms' live pricing on October 30, 2026 via WebFetch to the official pricing pages and cross-checked against three independent 2026 breakdowns.",
+   "proof": "On the official Framer pricing page as of October 30, 2026, Basic is $10/mo billed yearly and Pro is $30/mo billed yearly"
+  },
+  {
+   "type": "calc",
+   "desc": "Modeled three real landing-page shapes (solo founder, 5-site agency, product company with a blog) against both platforms' 2026 list prices with explicit yearly totals.",
+   "proof": "Framer Basic × 5 sites: $50/mo = $600/yr, each site billed independently per the Siter and Goodspeed per-site rule. Webflow Basic × 5 site plans inside one Workspace: $75/mo = $900/yr in site plans."
+  },
+  {
+   "type": "table",
+   "desc": "Built an original 10-row feature matrix comparing Framer and Webflow for a single marketing landing page, including rows (editable canonicals, 301 manager, native ecommerce) most competitors skip.",
+   "proof": "Framer wins the top three rows that matter most for a single marketing page. Webflow wins the next three rows that matter if the landing page is really a chapter of a larger site."
+  },
+  {
+   "type": "data",
+   "desc": "Compiled a side-by-side 2026 pricing comparison with Framer per-site billing explicitly separated from Webflow's Workspace model.",
+   "proof": "Three landing pages on Framer Basic is $30/mo; three Webflow Basic sites inside one Workspace is $45/mo in site plans but may still be cheaper after seat and Workspace math"
+  }
+ ],
+ "hermes_score": 90,
+ "score_history": [
+  90
+ ]
+}
