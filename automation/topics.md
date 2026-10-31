@@ -31,7 +31,7 @@ with recurring (monthly) affiliate commissions.
 - [x] clickup vs asana for small teams
 - [x] beehiiv vs substack for newsletters
 - [x] framer vs webflow for landing pages
-- [ ] descript vs capcut for video editing
+- [x] descript vs capcut for video editing
 
 ### Pricing / plans cluster
 - [ ] notion pricing explained is it worth it

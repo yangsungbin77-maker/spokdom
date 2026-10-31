@@ -1,0 +1,14 @@
+{
+  "score": 90,
+  "breakdown": {"intent": 23, "depth": 21, "structure": 19, "seo": 18, "gain": 9},
+  "fix_hints": [
+    "'CapCut's content license' 섹션의 TOS 직접 인용('non-exclusive, royalty-free, transferable, sub-licensable, perpetual and worldwide license')은 research.serp/factcheck에 CapCut TOS URL이 없다 — genesysgrowth와 hyperautomationlabs가 요약한 범위를 그대로 쓰거나, factcheck에 CapCut TOS 원문 URL을 추가해 WebFetch로 재확인한 뒤 그대로 인용하는 쪽으로 바꿔라.",
+    "'Workflow time cost' 표 2행(90-min podcast → 60-min episode)의 '~45 min cut + auto chapters + filler removal' 및 '~2–3 hours timeline + manual chapter markers' 숫자는 research 어디에도 없는 외삽값이다 — '모델링한 추정'이라고 명시하거나, aihustleguy/storyflow 중 실제 보고된 숫자로 교체하라.",
+    "같은 섹션 끝의 'On a 25-minute final episode, saving half the editing time is two to three hours a week'는 베이스라인(한 편당 4~6시간)을 밝히지 않은 채 결론만 던진다 — '한 편당 CapCut 4~6시간 → Descript 2~3시간 기준' 식으로 수치 산출 로직을 한 줄 더 넣어라.",
+    "'Descript at $16/mo saves about $60/week ... pays the yearly cost in four weeks' 계산은 $15/hr × 4시간/주를 가정하는데, $15 기준(미국 다수 주 최저임금 참조)이라는 사실을 괄호로 명시해 '어디서 온 15인지'를 투명하게 밝혀라.",
+    "'How this comparison was built' 문단은 '2026 comparison posts'를 10개나 열거해 밀도가 과하다 — Descript 공식/CapCut 공식 help/Costbench 세 곳만 유지하고 나머지 블로그 이름은 섹션별 인용 지점에만 남겨 첫 500자의 가독성을 올려라.",
+    "'3-week vs 4-week payback' 처럼 다른 글과 연결되는 지점이 없다 — 내부링크는 beehiiv vs substack 하나뿐인데, Descript Hobbyist 추천이 반복 등장하는 만큼 /clickup-vs-asana-for-small-teams/ 같은 workflow-tool 비교 글로 추가 anchor를 넣을지 검토하라(현재는 PUBLISH.md 1 internal link 규칙 통과이므로 선택).",
+    "FAQ 5개 중 'Should I run both Descript and CapCut together?'와 결정표 6번 룰이 결론·수치($371.99/yr)까지 완전히 중복이다 — FAQ는 '언제 두 번째 툴을 끊어야 하는가'로 질문을 바꿔 중복을 줄이고 정보 이득을 추가하라.",
+    "Related keywords 줄의 #capcutprovsdescriptcreator처럼 길이 25자+짜리 복합 해시태그는 실제 검색어와 거리가 멀다 — #descriptfreetier #capcutproplan 같이 각 2~3단어 자연 검색어로 2~3개 교체해 밀도를 유지하되 자연스러움을 올려라."
+  ]
+}
