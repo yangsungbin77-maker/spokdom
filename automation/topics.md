@@ -34,7 +34,7 @@ with recurring (monthly) affiliate commissions.
 - [x] descript vs capcut for video editing
 
 ### Pricing / plans cluster
-- [ ] notion pricing explained is it worth it
+- [x] notion pricing explained is it worth it
 - [ ] zapier pricing how many tasks do you need
 - [ ] canva pro worth it pricing breakdown
 - [ ] is chatgpt plus worth it for work

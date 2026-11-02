@@ -1,0 +1,200 @@
+{
+ "slug": "notion-pricing-explained-is-it-worth-it",
+ "type": "review",
+ "structure": "결론먼저",
+ "serp": [
+  {
+   "url": "https://www.notion.com/pricing",
+   "opened": true,
+   "note": "Official. Free $0 (5 MB uploads, 7-day history, 10 guests, AI trial). Plus $10/member/mo yearly (5 GB uploads, 30-day history, AI trial). Business $20/member/mo yearly (5 GB uploads, 90-day history, unlimited guests, Full AI incl. Agents + Meeting Notes + Ask Notion). Enterprise custom with zero-retention AI option."
+  },
+  {
+   "url": "https://plaky.com/learn/plaky/notion-pricing/",
+   "opened": true,
+   "note": "SERP #1. Confirms Free/Plus($10)/Business($20)/Enterprise with 'Is it worth it' framing. Notes Plus has 30-day history, Business has SAML SSO + private teamspaces + 90-day history + full Notion AI (Agents, Meeting Notes, Ask Notion)."
+  },
+  {
+   "url": "https://www.eesel.ai/blog/notion-pricing",
+   "opened": true,
+   "note": "Confirms $10 Plus / $20 Business and 10-seat annuals ($1,200 vs $2,400). Flags Custom Agents at '$10 per 1,000 Notion credits' pooled across workspace. 50-user annuals: $6,000 Plus vs $12,000 Business."
+  },
+  {
+   "url": "https://tinycommand.com/blogs/notion-pricing-explained",
+   "opened": true,
+   "note": "Frames the Plus-to-Business decision as the hinge: Business adds Notion AI + SAML SSO + private teamspaces + 90-day history over Plus. Flags 'every editor is billed' and 20-person Business = $4,320/yr."
+  },
+  {
+   "url": "https://automationatlas.io/answers/notion-pricing-explained-2026/",
+   "opened": true,
+   "note": "Price table: Free $0, Plus $10 yearly/$12 monthly, Business $20 yearly/$24 monthly, Enterprise custom. Notes 20% premium on monthly billing. Flags Custom Agents '$10 per 1,000 credits' on top of seat fees."
+  },
+  {
+   "url": "https://get-alfred.ai/blog/notion-pricing",
+   "opened": true,
+   "note": "Confirms AI add-on retirement: 'full AI access (AI Agents, Ask Notion) now requires the Business plan at $20/user/month'. Teams previously paying $10 Plus + $10 AI now must upgrade to Business for same AI."
+  },
+  {
+   "url": "https://www.layer3labs.io/guides/notion-ai-pricing",
+   "opened": true,
+   "note": "Notion AI pricing deep dive. Confirms Free/Plus trial only; Business ($20) and Enterprise have full AI. Custom Agents on '$10 per 1,000 credits' separate pool. Verdict: worth it only when team uses AI weekly."
+  },
+  {
+   "url": "https://saascrmreview.com/notion-pricing/",
+   "opened": true,
+   "note": "True-cost table: 5 members ($600 Plus / $1,200 Business), 10 members ($1,200/$2,400), 20 members ($2,400/$4,800). Custom Agents = '$10 per 1,000 credits, workspace-wide, monthly reset, no rollover'."
+  },
+  {
+   "url": "https://www.usecarly.com/blog/notion-pricing/",
+   "opened": true,
+   "note": "'Costs nobody mentions' angle. Confirms May 2025 AI add-on retirement, 20% monthly premium, $8/mo per published custom domain. Old 1,000-block cap on 2+ member free workspaces is no longer on current pricing page."
+  },
+  {
+   "url": "https://digijaws.com/reviews/notion-pricing/",
+   "opened": true,
+   "note": "Confirms Plus $120/yr/user, Business $240/yr/user — $120/user/yr delta is the real decision. 4.5/5 rating. Notes 'May 2026 update introduced metered Custom Agents using Notion credits ($10 per 1,000 monthly credits)'."
+  },
+  {
+   "url": "https://www.nuclino.com/articles/notion-free-vs-paid",
+   "opened": true,
+   "note": "Competitor-authored (Nuclino) but still useful: confirms 5 MB upload cap on Free, 7-day history, 10 guests. Business has '1,500 Standard credits and 500 Select credits per member' monthly. Flags Plus-to-Business $10-to-$20 gap as 'steep'."
+  }
+ ],
+ "factcheck": [
+  {
+   "claim": "Notion's four 2026 tiers at list are Free $0, Plus $10/member/mo billed yearly ($12 monthly), Business $20/member/mo billed yearly ($24 monthly), and Enterprise on custom quote.",
+   "sources": [
+    "https://www.notion.com/pricing",
+    "https://plaky.com/learn/plaky/notion-pricing/",
+    "https://automationatlas.io/answers/notion-pricing-explained-2026/",
+    "https://digijaws.com/reviews/notion-pricing/"
+   ]
+  },
+  {
+   "claim": "Full Notion AI (Notion Agent, AI Meeting Notes, Ask Notion, Enterprise Search) is bundled only into Business and Enterprise as of 2026; Free and Plus get a limited trial.",
+   "sources": [
+    "https://www.notion.com/pricing",
+    "https://www.layer3labs.io/guides/notion-ai-pricing",
+    "https://get-alfred.ai/blog/notion-pricing",
+    "https://www.eesel.ai/blog/notion-pricing"
+   ]
+  },
+  {
+   "claim": "The standalone $8/member/month Notion AI add-on was retired in the May 2025 pricing restructure and folded into Business — Plus users can no longer add AI à la carte.",
+   "sources": [
+    "https://www.usecarly.com/blog/notion-pricing/",
+    "https://get-alfred.ai/blog/notion-pricing",
+    "https://saascrmreview.com/notion-pricing/"
+   ]
+  },
+  {
+   "claim": "Custom Agents inside Business run on a separate workspace credit pool priced at roughly $10 per 1,000 monthly Notion credits, with monthly reset and no rollover.",
+   "sources": [
+    "https://www.eesel.ai/blog/notion-pricing",
+    "https://saascrmreview.com/notion-pricing/",
+    "https://www.usecarly.com/blog/notion-pricing/",
+    "https://digijaws.com/reviews/notion-pricing/"
+   ]
+  },
+  {
+   "claim": "Notion Free offers 5 MB per-file upload cap, 7-day page history, 10 guests, and a limited Notion AI trial.",
+   "sources": [
+    "https://www.notion.com/pricing",
+    "https://www.nuclino.com/articles/notion-free-vs-paid",
+    "https://automationatlas.io/answers/notion-pricing-explained-2026/"
+   ]
+  }
+ ],
+ "variables": {
+  "keyword": "notion pricing explained is it worth it",
+  "notion_free_usd": 0,
+  "notion_plus_mo_yearly_usd": 10,
+  "notion_plus_monthly_usd": 12,
+  "notion_business_mo_yearly_usd": 20,
+  "notion_business_monthly_usd": 24,
+  "notion_enterprise_usd": "custom",
+  "notion_free_upload_mb": 5,
+  "notion_plus_upload_gb": 5,
+  "notion_business_upload_gb": 5,
+  "notion_free_history_days": 7,
+  "notion_plus_history_days": 30,
+  "notion_business_history_days": 90,
+  "notion_free_guests": 10,
+  "notion_business_guests": "unlimited",
+  "retired_ai_addon_usd_per_member_mo": 8,
+  "ai_addon_retirement_date": "May 2025",
+  "custom_agents_credit_pack_usd": 10,
+  "custom_agents_credit_pack_units": 1000,
+  "team_3_plus_annual_usd": 360,
+  "team_3_business_annual_usd": 720,
+  "team_10_plus_annual_usd": 1200,
+  "team_10_business_annual_usd": 2400,
+  "team_25_plus_annual_usd": 3000,
+  "team_25_business_annual_usd": 6000,
+  "team_50_plus_annual_usd": 6000,
+  "team_50_business_annual_usd": 12000,
+  "monthly_billing_premium_pct": 20
+ },
+ "keyword_filter": {
+  "keyword": "notion pricing explained is it worth it",
+  "competition": {
+   "method": "serp-scan",
+   "evidence": "Top-10 SERP is dominated by small/mid review sites (plaky, eesel, tinycommand, automationatlas, get-alfred, layer3labs, saascrmreview, aherisystems, usecarly, digijaws) rather than Wirecutter, CNET, or Notion's own docs. Classic winnable long-tail SERP for a new domain — no major-media moats on this exact query.",
+   "pass": true
+  },
+  "demand": {
+   "method": "serp-scan+autocomplete",
+   "evidence": "Nine of ten top results explicitly use the 'Notion pricing 2026' + 'is it worth it' phrasing with 2026 freshness. Sibling tails 'notion pricing explained', 'notion plus vs business', 'is notion worth it 2026' all surface active 2026-dated content, confirming ongoing demand.",
+   "pass": true
+  },
+  "intent": {
+   "method": "serp-scan",
+   "evidence": "Entire top 10 is informational pricing-explainer blog posts with tables, feature breakdowns, and recommendation verdicts — no official-page transactional results dominate, no video-only results, no product-download pages. A long-form pricing explainer is exactly what this SERP rewards.",
+   "pass": true
+  }
+ },
+ "gaps": [
+  {
+   "gap": "The May 2025 Notion AI add-on retirement is treated as a side note by most 2026 posts, even though it is the one change that forces AI-wanting teams from $10 Plus to $20 Business — a doubled seat cost that older $10+$8 math no longer buys.",
+   "covered_in": "The 2026 Notion AI change nobody frames clearly"
+  },
+  {
+   "gap": "Few 2026 pricing explainers give concrete annual team totals at the sizes buyers actually care about (3, 10, 25, 50 seats on both tiers side by side), leaving readers to multiply the per-seat price themselves.",
+   "covered_in": "Real 2026 team-cost math — 3-seat, 10-seat, 25-seat annuals"
+  },
+  {
+   "gap": "The Custom Agents credit meter ($10 per 1,000 Notion credits, non-rolling, workspace-pooled) is listed by most SERP posts but almost none give a monthly dollar range so readers know when it starts biting an invoice.",
+   "covered_in": "Hidden costs on top of the Notion sticker"
+  },
+  {
+   "gap": "The 'is it worth it' question is answered abstractly in most SERP posts; few lay out concrete per-role decision rules (solo note-taker vs 2–5 person team vs AI-first team vs 50+ seat org).",
+   "covered_in": "Who should actually pay for which Notion plan"
+  }
+ ],
+ "own_evidence": [
+  {
+   "type": "test",
+   "desc": "Directly verified every Notion plan's live price, upload cap, history retention, and AI gating on notion.com/pricing on November 3, 2026 via WebFetch, cross-checked against 10 third-party 2026 breakdowns.",
+   "proof": "On the official notion.com/pricing page as of November 3, 2026, full Notion AI — Notion Agent, AI Meeting Notes, Ask Notion, Enterprise Search — lives on Business and above"
+  },
+  {
+   "type": "table",
+   "desc": "Built an original team-cost scaling matrix for 3, 10, 25, and 50 seats showing both Plus and Business annual totals plus the Business − Plus delta, with a rendered bar-chart infographic that no top-10 SERP post includes.",
+   "proof": "A 10-person team upgrading from Plus to Business pays $1,200/year extra per workspace to get full AI on every seat"
+  },
+  {
+   "type": "calc",
+   "desc": "Modeled the historical $8 Notion AI add-on against the May 2025 Business bundle break-even — showing teams previously paying $10 Plus + $8 AI = $18/mo now pay $20/mo on Business, a $2/mo structural raise.",
+   "proof": "$8/member/month add-on you could bolt onto any paid plan — a Plus seat with AI cost $10 + $8 = $18/mo"
+  },
+  {
+   "type": "data",
+   "desc": "Compiled a side-by-side Plus-vs-Business 2026 feature matrix showing the six capabilities the $120/member/yr upgrade actually buys, with a concrete 'honest when ≥2 rows apply this quarter' decision rule.",
+   "proof": "The $120/member/year gap buys three things: full Notion AI, 90-day page history"
+  }
+ ],
+ "overlap_ok": "Different cluster angle from the existing /notion-vs-obsidian-note-taking/ post. That piece decides between two different note apps; this one is a pricing explainer across Notion's own four tiers with a 2026 AI-restructure focus and team-cost scaling math. Minimal title-token overlap (just 'notion').",
+ "hermes_score": 90,
+ "score_history": [
+  90
+ ]
+}
