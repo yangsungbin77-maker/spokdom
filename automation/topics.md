@@ -35,7 +35,7 @@ with recurring (monthly) affiliate commissions.
 
 ### Pricing / plans cluster
 - [x] notion pricing explained is it worth it
-- [ ] zapier pricing how many tasks do you need
+- [x] zapier pricing how many tasks do you need
 - [ ] canva pro worth it pricing breakdown
 - [ ] is chatgpt plus worth it for work
 
