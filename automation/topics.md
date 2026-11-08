@@ -37,7 +37,7 @@ with recurring (monthly) affiliate commissions.
 - [x] notion pricing explained is it worth it
 - [x] zapier pricing how many tasks do you need
 - [x] canva pro worth it pricing breakdown
-- [ ] is chatgpt plus worth it for work
+- [x] is chatgpt plus worth it for work
 
 ### Best-tool-for / solo cluster
 - [x] best ai tools for graduate students
