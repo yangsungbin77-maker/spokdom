@@ -1,0 +1,15 @@
+{
+  "score": 88,
+  "breakdown": {"intent": 22, "depth": 21, "structure": 18, "seo": 17, "gain": 10},
+  "fix_hints": [
+    "본문에 콜론으로 끝나는 문장 4개를 period로 바꿔라: '60-second shortlist' 섹션의 'If you only read one section:' → 'If you only read one section, the decision splits three ways by what you actually want the tool to do.' / 'price grid' 섹션의 'The other number:' → 'The other number worth flagging.' / 'ChatGPT Plus vs Claude Pro' 섹션의 'The ceiling to avoid:' → 'The ceiling to avoid is paying for both at $40/month.' / 'Where AI writing tools still fail' 섹션의 'Every 2026 review opened for this breakdown lands at the same warning:' → 콜론을 period로 끊고 뒷문장을 새 문장으로.",
+    "'KoalaWriter, Jasper, Writesonic' 섹션의 Writesonic GEO 묘사('mapping headings to question-shaped queries, injecting FAQ schema candidates, and biasing the body toward citation-worthy statistics and definitions that AI Overviews tend to lift')는 factcheck 근거가 없어 과단정이므로, 'Writesonic's 2026 marketing positions the GEO layer as structuring drafts for AI Overview visibility, though the specific mechanism is not transparently documented — the opened reviews flag that measurable traffic lift from a dedicated GEO tool is still unproven'로 바꿔 hedge하라.",
+    "'The 2026 price grid' 표에 Rytr가 포함돼 있는데 본문엔 분석이 없다. 'KoalaWriter, Jasper, Writesonic' 섹션 끝에 Rytr 한 문단 추가: Unlimited $9/mo($7.50 annual, $90/yr) + toolsandthrive가 명시한 10,000 free chars/month 상시 제공, 5개 리뷰가 '단문·캡션·소셜'용으로만 추천하고 long-form 블로그에는 KoalaWriter에 밀린다는 점을 2–3문장으로.",
+    "'The SEO stack' 섹션에 NeuronWriter 열이 표에 있지만 본문 설명이 한 줄뿐이다. Scalenut 문단 앞에 NeuronWriter 전용 2문장(연 ~$276 invoice·NLP 점수·7일 trial)과 Frase Starter와의 분기 기준(다국어·예산 vs SERP brief 깊이) 추가.",
+    "'The 3-tool AI writing stack' 섹션의 agency 수치($157 ÷ 30 ≈ $5.23/post)가 12-month invoice 기준으로 환산되면 KoalaWriter Starter $348/yr + Surfer Essential $948/yr + Jasper Creator $468/yr = $1,764/yr ÷ 360 posts = $4.90/post로 더 정확해지므로, monthly와 yearly 두 환산치를 병기해 break-even 논리를 보강하라.",
+    "'When the free tier is honestly enough' 섹션의 Claude 30–40/5h, ChatGPT ~10 GPT-5/5h quota는 본문 내 한 문장에서 재확인 날짜(2026-11-11)를 이미 명시했지만, 섹션 상단 bullet로 'Caps as of 2026-11-11 — reconfirm before planning'을 한 줄 눈에 띄게 올려 volatile data 가이드(PUBLISH.md fact-check rules)와 정합시켜라.",
+    "FAQ의 'Is Jasper worth $49/month over Claude Pro at $20/month' 답에서 '$29/month premium'은 오산이다 ($49 - $20 = $29 monthly, 하지만 Claude annual $17 vs Jasper annual $39이면 $22 premium). 'the $29/month premium (or $22/month on annual billing)'로 바꿔 숫자 정합성 확보.",
+    "'The SEO stack' 섹션의 Surfer SEO 가격 서술이 본문에서 '$79/month annual'과 '$99/month monthly'를 교차하는데, 가격 grid 표·shortlist·FAQ에서 표기가 들쭉날쭉하다('$79 annual' vs '$79/month on annual billing'). 모든 언급을 '$99/mo monthly ($79/mo on annual billing, $948/yr)' 통일 서식으로 정리해 신뢰도 확보.",
+    "'Where AI writing tools still fail' 섹션의 QC checklist 마지막 항목 'Add one first-hand observation or concrete scenario the AI could not have known'은 블로그 지침(가짜 1인칭 금지)과 긴장관계다. 'Add one specific, verifiable detail (a tool version number, a dated screenshot source, a cited benchmark) the AI could not have inserted on its own'로 바꿔 fabrication 유도 리스크 제거."
+  ]
+}
