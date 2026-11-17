@@ -43,7 +43,7 @@ with recurring (monthly) affiliate commissions.
 - [x] best ai tools for graduate students
 - [x] best ai writing tools for bloggers
 - [x] best ai tools for solo founders
-- [ ] best no code tools to build a saas
+- [x] best no code tools to build a saas
 - [ ] best ai meeting note takers
 - [ ] best project management tool for freelancers
 - [ ] best email marketing tool for small business

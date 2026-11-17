@@ -1,0 +1,16 @@
+{
+  "score": 88,
+  "breakdown": {"intent": 22, "depth": 22, "structure": 18, "seo": 17, "gain": 9},
+  "fix_hints": [
+    "'The 60-second shortlist' 섹션에서 'If you only read one section:'로 끝나는 콜론 종결 문장을 마침표로 바꿔라 — SEO 규칙상 콜론으로 끝나는 문장 금지. 예: 'If you only read one section, the right tool is the one that matches what you are actually shipping.'",
+    "'The 60-70% wall every no-code SaaS platform hits' 섹션의 'The honest implication:'로 끝나는 문장 종결 콜론을 마침표로 바꿔라. 'The honest implication is to pick tools that make the hard 30–40% less painful' 식으로 이어라.",
+    "'Three traps that waste $100–$400/month' 섹션 마지막 단락의 'The honest fix framing from the Emergent 2026 overview is:' 역시 콜론 종결 — 'is to pick one no-code tool per product shape' 처럼 콜론 없이 이어 문장을 완성해라.",
+    "'The 60-second shortlist' 표의 Booknetic SaaS 행이 2026 가격을 'custom'으로만 표기했는데 research에는 $499–$1,999/yr가 있다 — 표에 '$499–$1,999/yr (Booknetic 2026 roundup)'를 명시해 가격 비교의 완결성을 확보해라.",
+    "'Payments, auth, and multi-tenant data' 섹션 끝에 top-10에서 언급된 Memberstack과 Replit을 왜 7선에서 제외했는지 각 한 문장 각주로 추가해라 — Memberstack은 auth-only 레이어, Replit은 code-gen 중심이라 SaaS 풀 스택이 아니라는 식의 근거를 competitor 리뷰 인용과 함께 넣어 커버리지 완전성 보강.",
+    "'Bubble vs Lovable' 섹션의 'Lovable hits a working sign-up-plus-dashboard inside one prompt session' 문장 뒤에 'per the hostinger and groundworkblog 2026 walk-throughs' 식으로 출처 각주를 붙여라 — 현재는 1인칭 체험으로 오독될 여지가 있다.",
+    "'The 60-70% wall' 섹션은 getcreatr/Emergent 인용 비중이 커서 정보 이득이 약하다 — Bubble의 네이티브 role-field user table vs Softr의 per-portal user system vs Lovable의 Supabase RLS 간 구현 차이를 2–3문장으로 구체 비교해 차별화 요소를 추가해라.",
+    "'FlutterFlow vs Adalo' 표의 'App-store publishing on entry tier' 행에 Apple Developer Program $99/yr과 Google Play $25 일회성 수수료가 별도라는 1줄 각주를 추가해 '12-month invoice reality' 섹션의 연간 송장 수치와 일관성 있게 배포 비용 투명도를 높여라.",
+    "'The 60-70% wall' 섹션의 'a basic app costs around $1 in credits per the hostinger 2026 breakdown' 수치는 단일 출처라 단정이 강하다 — 'per hostinger's 2026 breakdown; crevio\\'s 2026 roundup similarly flags credit variance as Lovable\\'s unpredictability' 식으로 교차 출처를 붙이거나 '$1–$50+ per build cycle depending on complexity (hostinger 2026)' 범위 표기로 완화해라.",
+    "'The 12-month invoice reality' 표의 Glide Basic 'monthly-only / $300' 행에 '($25 × 12; annual plans listed as coming soon on glideapps.com/pricing Nov 17, 2026)' 각주를 더해 다른 행의 20–25% 할인과 직접 비교 가능하게 만들어라 — 현재는 왜 Glide만 할인률이 비었는지 설명이 표 밖에 묻혀 있다."
+  ]
+}
